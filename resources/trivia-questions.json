@@ -1,0 +1,866 @@
+[
+  {
+    "category": "Plants",
+    "question": "What part of the plant conducts photosynthesis?",
+    "options": ["Roots", "Stem", "Leaves", "Flowers"],
+    "answer": 3
+  },
+  {
+    "category": "Plants",
+    "question": "What gas do plants take in for photosynthesis?",
+    "options": ["Oxygen", "Carbon Dioxide", "Nitrogen", "Hydrogen"],
+    "answer": 2
+  },
+  {
+    "category": "Plants",
+    "question": "Which part of the plant anchors it to the ground?",
+    "options": ["Leaves", "Roots", "Stem", "Fruit"],
+    "answer": 2
+  },
+  {
+    "category": "Plants",
+    "question": "What do plants produce as a byproduct of photosynthesis?",
+    "options": ["Carbon Dioxide", "Oxygen", "Water", "Nitrogen"],
+    "answer": 2
+  },
+  {
+    "category": "Plants",
+    "question": "Which plant is known for its ability to survive in deserts?",
+    "options": ["Cactus", "Fern", "Oak", "Pine"],
+    "answer": 1
+  },
+  {
+    "category": "Plants",
+    "question": "What is the process by which plants lose water through their leaves?",
+    "options": ["Photosynthesis", "Transpiration", "Respiration", "Pollination"],
+    "answer": 2
+  },
+  {
+    "category": "Plants",
+    "question": "Which part of the plant carries water from roots to leaves?",
+    "options": ["Xylem", "Phloem", "Chlorophyll", "Stomata"],
+    "answer": 1
+  },
+  {
+    "category": "Plants",
+    "question": "What pigment gives plants their green color?",
+    "options": ["Chlorophyll", "Carotene", "Anthocyanin", "Xanthophyll"],
+    "answer": 1
+  },
+  {
+    "category": "Plants",
+    "question": "What do plants need to grow?",
+    "options": ["Sunlight, water, air, and soil", "Only water", "Only sunlight", "Only soil"],
+    "answer": 1
+  },
+  {
+    "category": "Plants",
+    "question": "What is the name of the tiny openings on leaves that allow gas exchange?",
+    "options": ["Stomata", "Chloroplasts", "Roots", "Petals"],
+    "answer": 1
+  },
+  {
+    "category": "Plants",
+    "question": "Which part of the plant becomes a fruit?",
+    "options": ["Roots", "Stem", "Flower", "Leaf"],
+    "answer": 3
+  },
+  {
+    "category": "Plants",
+    "question": "What is the seed’s protective outer layer called?",
+    "options": ["Seed coat", "Cotyledon", "Endosperm", "Embryo"],
+    "answer": 1
+  },
+  {
+    "category": "Plants",
+    "question": "Which plant is famous for its large, colorful flower called a 'sunflower'?",
+    "options": ["Rose", "Sunflower", "Tulip", "Daisy"],
+    "answer": 2
+  },
+  {
+    "category": "Plants",
+    "question": "What is the name of the process by which pollen is transferred from one flower to another?",
+    "options": ["Germination", "Pollination", "Fertilization", "Photosynthesis"],
+    "answer": 2
+  },
+  {
+    "category": "Plants",
+    "question": "Which part of the plant produces seeds?",
+    "options": ["Roots", "Stem", "Flower", "Leaves"],
+    "answer": 3
+  },
+  {
+    "category": "Plants",
+    "question": "What type of plant lives for more than two years?",
+    "options": ["Annual", "Biennial", "Perennial", "Deciduous"],
+    "answer": 3
+  },
+  {
+    "category": "Plants",
+    "question": "What is the name of the underground stem that stores food?",
+    "options": ["Root", "Rhizome", "Leaf", "Petiole"],
+    "answer": 2
+  },
+  {
+    "category": "Plants",
+    "question": "Which plant is known for its ability to close its leaves when touched?",
+    "options": ["Venus flytrap", "Cactus", "Rose", "Tulip"],
+    "answer": 1
+  },
+  {
+    "category": "Plants",
+    "question": "What is the name of the process where a seed starts to grow?",
+    "options": ["Germination", "Pollination", "Photosynthesis", "Transpiration"],
+    "answer": 1
+  },
+  {
+    "category": "Plants",
+    "question": "Which part of the plant carries food made in the leaves to other parts?",
+    "options": ["Xylem", "Phloem", "Roots", "Stem"],
+    "answer": 2
+  },
+  {
+    "category": "Plants",
+    "question": "Which of these plants is a tree?",
+    "options": ["Rose", "Oak", "Sunflower", "Grass"],
+    "answer": 2
+  },
+  {
+    "category": "Plants",
+    "question": "What type of plant loses its leaves every year?",
+    "options": ["Deciduous", "Evergreen", "Perennial", "Annual"],
+    "answer": 1
+  },
+  {
+    "category": "Plants",
+    "question": "What is the name of the flower part that attracts pollinators?",
+    "options": ["Petal", "Sepal", "Stigma", "Anther"],
+    "answer": 1
+  },
+  {
+    "category": "Plants",
+    "question": "Which part of the plant contains the male reproductive cells?",
+    "options": ["Stigma", "Anther", "Ovary", "Style"],
+    "answer": 2
+  },
+  {
+    "category": "Plants",
+    "question": "What is the name of the female part of the flower?",
+    "options": ["Stigma", "Anther", "Ovary", "Style"],
+    "answer": 3
+  },
+  {
+    "category": "Plants",
+    "question": "Which plant is known for its tall trunk and large leaves called fronds?",
+    "options": ["Fern", "Cactus", "Pine", "Oak"],
+    "answer": 1
+  },
+  {
+    "category": "Plants",
+    "question": "What do plants use to absorb water from the soil?",
+    "options": ["Leaves", "Roots", "Stem", "Flowers"],
+    "answer": 2
+  },
+  {
+    "category": "Plants",
+    "question": "Which plant is famous for its sweet fruit that grows on vines?",
+    "options": ["Apple", "Grape", "Banana", "Orange"],
+    "answer": 2
+  },
+  {
+    "category": "Plants",
+    "question": "What is the name of the green structures inside plant cells that do photosynthesis?",
+    "options": ["Chloroplasts", "Mitochondria", "Nucleus", "Ribosomes"],
+    "answer": 1
+  },
+  {
+    "category": "Plants",
+    "question": "Which plant is known for its strong smell and is used in cooking?",
+    "options": ["Basil", "Rose", "Sunflower", "Tulip"],
+    "answer": 1
+  },
+  {
+    "category": "Plants",
+    "question": "What is the name of the process plants use to make their own food?",
+    "options": ["Respiration", "Photosynthesis", "Germination", "Pollination"],
+    "answer": 2
+  },
+  {
+    "category": "Plants",
+    "question": "Which of these plants is a type of grass used to make bread?",
+    "options": ["Wheat", "Rose", "Oak", "Fern"],
+    "answer": 1
+  },
+  {
+    "category": "Plants",
+    "question": "What do you call a plant that lives only one year?",
+    "options": ["Perennial", "Annual", "Biennial", "Deciduous"],
+    "answer": 2
+  },
+  {
+    "category": "Plants",
+    "question": "Which plant produces cones instead of flowers?",
+    "options": ["Pine", "Rose", "Sunflower", "Fern"],
+    "answer": 1
+  },
+  {
+    "category": "Plants",
+    "question": "What is the name of the waxy layer on leaves that helps reduce water loss?",
+    "options": ["Cuticle", "Stomata", "Chlorophyll", "Petal"],
+    "answer": 1
+  },
+  {
+    "category": "Plants",
+    "question": "Which part of the plant protects the flower before it blooms?",
+    "options": ["Petal", "Sepal", "Stem", "Leaf"],
+    "answer": 2
+  },
+  {
+    "category": "Plants",
+    "question": "What do bees collect from flowers that helps plants reproduce?",
+    "options": ["Nectar", "Pollen", "Water", "Leaves"],
+    "answer": 2
+  },
+  {
+    "category": "Plants",
+    "question": "Which plant is known for its ability to trap insects?",
+    "options": ["Venus flytrap", "Cactus", "Sunflower", "Fern"],
+    "answer": 1
+  },
+  {
+    "category": "Plants",
+    "question": "What is the name of the soft tissue inside a seed that provides food to the growing plant?",
+    "options": ["Endosperm", "Seed coat", "Cotyledon", "Embryo"],
+    "answer": 1
+  },
+  {
+    "category": "Plants",
+    "question": "Which plant is famous for its fragrant flowers used in perfumes?",
+    "options": ["Rose", "Cactus", "Fern", "Oak"],
+    "answer": 1
+  },
+  {
+    "category": "Plants",
+    "question": "What is the name of the tiny hair-like structures on roots that help absorb water?",
+    "options": ["Root hairs", "Stomata", "Fronds", "Petals"],
+    "answer": 1
+  },
+  {
+    "category": "Plants",
+    "question": "Which plant is known for its bright orange flowers and is often used in gardens?",
+    "options": ["Marigold", "Tulip", "Oak", "Pine"],
+    "answer": 1
+  },
+  {
+    "category": "Plants",
+    "question": "What is the name of the plant tissue that transports sugars?",
+    "options": ["Xylem", "Phloem", "Chloroplast", "Stomata"],
+    "answer": 2
+  },
+  {
+    "category": "Plants",
+    "question": "Which plant is known as the tallest tree species?",
+    "options": ["Redwood", "Pine", "Oak", "Maple"],
+    "answer": 1
+  },
+  {
+    "category": "Plants",
+    "question": "Which plant is commonly used to make paper?",
+    "options": ["Bamboo", "Oak", "Maple", "Fern"],
+    "answer": 1
+  },
+  {
+    "category": "Plants",
+    "question": "What is the name of the process where plants release water vapor into the air?",
+    "options": ["Transpiration", "Photosynthesis", "Respiration", "Pollination"],
+    "answer": 1
+  },
+  {
+    "category": "Plants",
+    "question": "Which plant is known for its long, thin leaves and is often used as a houseplant?",
+    "options": ["Spider plant", "Cactus", "Fern", "Rose"],
+    "answer": 1
+  },
+  {
+    "category": "Plants",
+    "question": "What is the name of the part of the plant that holds the seeds?",
+    "options": ["Fruit", "Flower", "Leaf", "Stem"],
+    "answer": 1
+  },
+  {
+    "category": "Plants",
+    "question": "Which flower is known as the symbol of love?",
+    "options": ["Rose", "Sunflower", "Tulip", "Daisy"],
+    "answer": 1
+  },
+  {
+    "category": "Books",
+    "question": "Who is the author of 'The Very Hungry Caterpillar'?",
+    "options": ["Eric Carle", "Dr. Seuss", "Julia Donaldson", "Roald Dahl"],
+    "answer": 1
+  },
+  {
+    "category": "Books",
+    "question": "What animal is Paddington?",
+    "options": ["Cat", "Dog", "Bear", "Rabbit"],
+    "answer": 3
+  },
+  {
+    "category": "Books",
+    "question": "Where did Harry Potter live as a child?",
+    "options": ["In a castle", "Under the stairs", "In a treehouse", "On a boat"],
+    "answer": 2
+  },
+  {
+    "category": "Books",
+    "question": "What is the name of the magical world in 'The Chronicles of Narnia'?",
+    "options": ["Oz", "Neverland", "Narnia", "Hogwarts"],
+    "answer": 3
+  },
+  {
+    "category": "Books",
+    "question": "Who wrote 'Matilda'?",
+    "options": ["Enid Blyton", "Roald Dahl", "J.K. Rowling", "E.B. White"],
+    "answer": 2
+  },
+  {
+    "category": "Books",
+    "question": "What is the name of the pig in 'Charlotte's Web'?",
+    "options": ["Wilbur", "Babe", "Porky", "Peppa"],
+    "answer": 1
+  },
+  {
+    "category": "Books",
+    "question": "Who is Greg’s best friend in 'Diary of a Wimpy Kid'?",
+    "options": ["Tom", "Rowley", "Ben", "Sam"],
+    "answer": 2
+  },
+  {
+    "category": "Books",
+    "question": "What is the name of the treehouse in Andy Griffiths’ popular series?",
+    "options": ["The Magic Treehouse", "The 13-Storey Treehouse", "The Jungle Treehouse", "The Secret Treehouse"],
+    "answer": 2
+  },
+  {
+    "category": "Books",
+    "question": "Which animal is the main character in 'The Tale of Peter Rabbit'?",
+    "options": ["Rabbit", "Fox", "Bear", "Mouse"],
+    "answer": 1
+  },
+  {
+    "category": "Books",
+    "question": "Who wrote 'Green Eggs and Ham'?",
+    "options": ["Eric Carle", "Julia Donaldson", "Dr. Seuss", "Roald Dahl"],
+    "answer": 3
+  },
+  {
+    "category": "Books",
+    "question": "What is the name of the school Harry Potter attends?",
+    "options": ["Hogwarts", "Narnia", "Xavier's", "Sunnydale"],
+    "answer": 1
+  },
+  {
+    "category": "Books",
+    "question": "Which book features a boy who never grows up?",
+    "options": ["Peter Pan", "Pinocchio", "Charlie and the Chocolate Factory", "Matilda"],
+    "answer": 1
+  },
+  {
+    "category": "Books",
+    "question": "What is the name of the lion in 'The Lion, the Witch and the Wardrobe'?",
+    "options": ["Scar", "Simba", "Aslan", "Leo"],
+    "answer": 3
+  },
+  {
+    "category": "Books",
+    "question": "Who is the author of 'The Gruffalo'?",
+    "options": ["Julia Donaldson", "Eric Carle", "Dr. Seuss", "J.K. Rowling"],
+    "answer": 1
+  },
+  {
+    "category": "Books",
+    "question": "What is the name of the chocolate factory owner in Roald Dahl’s book?",
+    "options": ["Willy Wonka", "Charlie Bucket", "Mr. Fox", "Matilda"],
+    "answer": 1
+  },
+  {
+    "category": "Books",
+    "question": "Which book series features a diary and a wimpy kid?",
+    "options": ["Tom Gates", "Diary of a Wimpy Kid", "Dork Diaries", "Goosebumps"],
+    "answer": 2
+  },
+  {
+    "category": "Books",
+    "question": "In 'Where the Wild Things Are', what is the boy’s name?",
+    "options": ["Max", "Sam", "Charlie", "Jack"],
+    "answer": 1
+  },
+  {
+    "category": "Books",
+    "question": "What colour is the Cat in the Hat’s hat?",
+    "options": ["Blue and white", "Red and white", "Green and yellow", "Black and white"],
+    "answer": 2
+  },
+  {
+    "category": "Books",
+    "question": "Who wrote 'Possum Magic'?",
+    "options": ["Mem Fox", "Pamela Allen", "Emily Rodda", "Jackie French"],
+    "answer": 1
+  },
+  {
+    "category": "Books",
+    "question": "What is the name of the famous bear who loves honey?",
+    "options": ["Paddington", "Winnie the Pooh", "Baloo", "Yogi Bear"],
+    "answer": 2
+  },
+  {
+    "category": "Books",
+    "question": "Who is the main character in 'The Magic Faraway Tree'?",
+    "options": ["Jo", "Bessie", "Fanny", "All of them"],
+    "answer": 4
+  },
+  {
+    "category": "Books",
+    "question": "Which book features a caterpillar that eats a lot?",
+    "options": ["The Very Hungry Caterpillar", "The Gruffalo", "Green Eggs and Ham", "Room on the Broom"],
+    "answer": 1
+  },
+  {
+    "category": "Books",
+    "question": "What is the name of the wizarding sport played on broomsticks?",
+    "options": ["Quidditch", "Soccer", "Rugby", "Wizards' Ball"],
+    "answer": 1
+  },
+  {
+    "category": "Books",
+    "question": "Who is the main character in 'Matilda'?",
+    "options": ["Matilda", "Miss Honey", "Miss Trunchbull", "Lavender"],
+    "answer": 1
+  },
+  {
+    "category": "Books",
+    "question": "What is the name of the dog in 'Hairy Maclary'?",
+    "options": ["Hairy Maclary", "Slinky Malinki", "Scarface Claw", "Bottomley Potts"],
+    "answer": 1
+  },
+  {
+    "category": "Books",
+    "question": "Which book is about a pig and a spider?",
+    "options": ["Charlotte's Web", "Babe", "Animal Farm", "Peppa Pig"],
+    "answer": 1
+  },
+  {
+    "category": "Books",
+    "question": "Who wrote 'The Rainbow Fish'?",
+    "options": ["Marcus Pfister", "Eric Carle", "Julia Donaldson", "Dr. Seuss"],
+    "answer": 1
+  },
+  {
+    "category": "Books",
+    "question": "What is the name of Andy’s toy cowboy in 'Toy Story'?",
+    "options": ["Buzz", "Woody", "Jessie", "Bullseye"],
+    "answer": 2
+  },
+  {
+    "category": "Books",
+    "question": "Which book features a house made of gingerbread?",
+    "options": ["Hansel and Gretel", "Cinderella", "Rapunzel", "Snow White"],
+    "answer": 1
+  },
+  {
+    "category": "Books",
+    "question": "Who wrote 'The Bad Guys' series?",
+    "options": ["Aaron Blabey", "Andy Griffiths", "Jacqueline Harvey", "Emily Rodda"],
+    "answer": 1
+  },
+  {
+    "category": "Books",
+    "question": "What is the name of the pig in 'Babe'?",
+    "options": ["Wilbur", "Babe", "Peppa", "Porky"],
+    "answer": 2
+  },
+  {
+    "category": "Books",
+    "question": "Who is the author of 'Harry Potter'?",
+    "options": ["J.K. Rowling", "Roald Dahl", "Enid Blyton", "Jacqueline Wilson"],
+    "answer": 1
+  },
+  {
+    "category": "Books",
+    "question": "In 'The Gruffalo', what animal is the main character?",
+    "options": ["Mouse", "Fox", "Owl", "Snake"],
+    "answer": 1
+  },
+  {
+    "category": "Books",
+    "question": "What is the name of the little girl in 'Little Red Riding Hood'?",
+    "options": ["Goldilocks", "Red", "Little Red Riding Hood", "Ruby"],
+    "answer": 3
+  },
+  {
+    "category": "Books",
+    "question": "Which book features three bears and a girl?",
+    "options": ["Goldilocks and the Three Bears", "The Three Little Pigs", "Hansel and Gretel", "Snow White"],
+    "answer": 1
+  },
+  {
+    "category": "Books",
+    "question": "Who wrote 'The Cat in the Hat'?",
+    "options": ["Dr. Seuss", "Eric Carle", "Julia Donaldson", "Roald Dahl"],
+    "answer": 1
+  },
+  {
+    "category": "Books",
+    "question": "Which book is about a boy who grows a giant beanstalk?",
+    "options": ["Jack and the Beanstalk", "James and the Giant Peach", "The BFG", "The Magic Pudding"],
+    "answer": 1
+  },
+  {
+    "category": "Books",
+    "question": "Who is the main character in 'Dork Diaries'?",
+    "options": ["Nikki Maxwell", "Greg Heffley", "Tom Gates", "Matilda"],
+    "answer": 1
+  },
+  {
+    "category": "Books",
+    "question": "What animal is 'Slinky Malinki'?",
+    "options": ["Dog", "Cat", "Mouse", "Rabbit"],
+    "answer": 2
+  },
+  {
+    "category": "Books",
+    "question": "Which book features a chocolate factory?",
+    "options": ["Charlie and the Chocolate Factory", "James and the Giant Peach", "The Twits", "Matilda"],
+    "answer": 1
+  },
+  {
+    "category": "Books",
+    "question": "Who is the author of 'The 13-Storey Treehouse'?",
+    "options": ["Andy Griffiths", "Aaron Blabey", "Jacqueline Harvey", "Emily Rodda"],
+    "answer": 1
+  },
+  {
+    "category": "Books",
+    "question": "What is the name of the magical nanny who flies with an umbrella?",
+    "options": ["Mary Poppins", "Miss Honey", "Matilda", "Mrs. Piggle-Wiggle"],
+    "answer": 1
+  },
+  {
+    "category": "Books",
+    "question": "Which book features a wardrobe as a magical portal?",
+    "options": ["The Lion, the Witch and the Wardrobe", "Harry Potter", "Alice in Wonderland", "Peter Pan"],
+    "answer": 1
+  },
+  {
+    "category": "Books",
+    "question": "Who is the main character in 'The Adventures of Tintin'?",
+    "options": ["Tintin", "Snowy", "Captain Haddock", "Professor Calculus"],
+    "answer": 1
+  },
+  {
+    "category": "Books",
+    "question": "Who wrote 'Charlotte's Web'?",
+    "options": ["E.B. White", "Roald Dahl", "Eric Carle", "Julia Donaldson"],
+    "answer": 1
+  },
+  {
+    "category": "Books",
+    "question": "What is the name of the magical land in 'Alice in Wonderland'?",
+    "options": ["Wonderland", "Narnia", "Oz", "Neverland"],
+    "answer": 1
+  },
+  {
+    "category": "Books",
+    "question": "Which book is about a boy who finds a golden ticket?",
+    "options": ["Charlie and the Chocolate Factory", "James and the Giant Peach", "The BFG", "Matilda"],
+    "answer": 1
+  },
+  {
+    "category": "Books",
+    "question": "Who is the author of 'Goosebumps'?",
+    "options": ["R.L. Stine", "Roald Dahl", "J.K. Rowling", "Andy Griffiths"],
+    "answer": 1
+  },
+  {
+    "category": "Books",
+    "question": "Which book features a big friendly giant?",
+    "options": ["The BFG", "James and the Giant Peach", "Matilda", "The Twits"],
+    "answer": 1
+  },
+  {
+    "category": "Sports",
+    "question": "How many players are there in a soccer team on the field?",
+    "options": ["9", "10", "11", "12"],
+    "answer": 3
+  },
+  {
+    "category": "Sports",
+    "question": "Which sport is known as the 'king of sports'?",
+    "options": ["Basketball", "Soccer", "Tennis", "Cricket"],
+    "answer": 2
+  },
+  {
+    "category": "Sports",
+    "question": "In which sport do players use a racket to hit a shuttlecock?",
+    "options": ["Tennis", "Badminton", "Squash", "Table Tennis"],
+    "answer": 2
+  },
+  {
+    "category": "Sports",
+    "question": "Which country is famous for the sport of sumo wrestling?",
+    "options": ["China", "Japan", "South Korea", "Thailand"],
+    "answer": 2
+  },
+  {
+    "category": "Sports",
+    "question": "How many points is a touchdown worth in American football?",
+    "options": ["3", "6", "7", "1"],
+    "answer": 2
+  },
+  {
+    "category": "Sports",
+    "question": "Which sport uses a bat, ball, and wickets?",
+    "options": ["Baseball", "Cricket", "Softball", "Hockey"],
+    "answer": 2
+  },
+  {
+    "category": "Sports",
+    "question": "What is the name of the international soccer tournament held every four years?",
+    "options": ["Euro Cup", "World Cup", "Copa America", "Champions League"],
+    "answer": 2
+  },
+  {
+    "category": "Sports",
+    "question": "In basketball, how many points is a shot made from beyond the three-point line worth?",
+    "options": ["2", "3", "1", "4"],
+    "answer": 2
+  },
+  {
+    "category": "Sports",
+    "question": "Which sport is played on ice with sticks and a puck?",
+    "options": ["Curling", "Ice Hockey", "Figure Skating", "Skiing"],
+    "answer": 2
+  },
+  {
+    "category": "Sports",
+    "question": "What is the name of the race where runners compete over 42.195 kilometers?",
+    "options": ["Sprint", "Marathon", "Relay", "Hurdles"],
+    "answer": 2
+  },
+  {
+    "category": "Sports",
+    "question": "Which sport features the terms 'love', 'deuce', and 'ace'?",
+    "options": ["Tennis", "Badminton", "Table Tennis", "Squash"],
+    "answer": 1
+  },
+  {
+    "category": "Sports",
+    "question": "In which sport do players slide stones on ice towards a target area?",
+    "options": ["Curling", "Ice Hockey", "Figure Skating", "Skiing"],
+    "answer": 1
+  },
+  {
+    "category": "Sports",
+    "question": "Which sport involves riding waves on a board?",
+    "options": ["Sailing", "Surfing", "Swimming", "Water Polo"],
+    "answer": 2
+  },
+  {
+    "category": "Sports",
+    "question": "Which country invented basketball?",
+    "options": ["Canada", "USA", "UK", "Australia"],
+    "answer": 2
+  },
+  {
+    "category": "Sports",
+    "question": "In which sport do players score goals by throwing a ball into a net using their hands?",
+    "options": ["Water Polo", "Handball", "Basketball", "Volleyball"],
+    "answer": 2
+  },
+  {
+    "category": "Sports",
+    "question": "Which sport is known as 'the fastest game on ice'?",
+    "options": ["Ice Hockey", "Curling", "Figure Skating", "Speed Skating"],
+    "answer": 1
+  },
+  {
+    "category": "Sports",
+    "question": "How many players are on a basketball team on the court?",
+    "options": ["5", "6", "7", "11"],
+    "answer": 1
+  },
+  {
+    "category": "Sports",
+    "question": "Which sport uses a shuttlecock?",
+    "options": ["Badminton", "Tennis", "Squash", "Table Tennis"],
+    "answer": 1
+  },
+  {
+    "category": "Sports",
+    "question": "Which sport is played at Wimbledon?",
+    "options": ["Golf", "Tennis", "Cricket", "Rugby"],
+    "answer": 2
+  },
+  {
+    "category": "Sports",
+    "question": "What is the name of the famous Australian tennis tournament?",
+    "options": ["US Open", "Australian Open", "French Open", "Wimbledon"],
+    "answer": 2
+  },
+  {
+    "category": "Sports",
+    "question": "Which sport involves a pommel horse, rings, and parallel bars?",
+    "options": ["Gymnastics", "Weightlifting", "Wrestling", "Diving"],
+    "answer": 1
+  },
+  {
+    "category": "Sports",
+    "question": "Which sport is known as the 'king of sports' worldwide?",
+    "options": ["Basketball", "Soccer", "Cricket", "Tennis"],
+    "answer": 2
+  },
+  {
+    "category": "Sports",
+    "question": "Which sport uses a ball, bat, and bases?",
+    "options": ["Cricket", "Baseball", "Softball", "Hockey"],
+    "answer": 2
+  },
+  {
+    "category": "Sports",
+    "question": "What is the name of the race where cyclists compete over a long distance, often in stages?",
+    "options": ["Tour de France", "Giro d'Italia", "Vuelta a España", "All of the above"],
+    "answer": 4
+  },
+  {
+    "category": "Sports",
+    "question": "Which sport is played with a net, a ball, and players try to score points by hitting the ball over the net?",
+    "options": ["Volleyball", "Tennis", "Badminton", "Handball"],
+    "answer": 1
+  },
+  {
+    "category": "Sports",
+    "question": "In which sport do players wear skates and use sticks to hit a puck?",
+    "options": ["Ice Hockey", "Curling", "Figure Skating", "Speed Skating"],
+    "answer": 1
+  },
+  {
+    "category": "Sports",
+    "question": "Which sport is played on a diamond-shaped field?",
+    "options": ["Baseball", "Cricket", "Football", "Rugby"],
+    "answer": 1
+  },
+  {
+    "category": "Sports",
+    "question": "What is the name of the international sporting event held every four years featuring summer and winter sports?",
+    "options": ["World Cup", "Olympics", "Commonwealth Games", "Pan American Games"],
+    "answer": 2
+  },
+  {
+    "category": "Sports",
+    "question": "Which sport involves running, jumping, and throwing events?",
+    "options": ["Track and Field", "Gymnastics", "Swimming", "Cycling"],
+    "answer": 1
+  },
+  {
+    "category": "Sports",
+    "question": "Which sport uses a ball called a 'pigskin'?",
+    "options": ["Rugby", "American Football", "Soccer", "Baseball"],
+    "answer": 2
+  },
+  {
+    "category": "Sports",
+    "question": "Which sport is played on a court with a hoop at each end?",
+    "options": ["Basketball", "Netball", "Handball", "Volleyball"],
+    "answer": 1
+  },
+  {
+    "category": "Sports",
+    "question": "Which sport is known for the 'Grand Slam' tournaments?",
+    "options": ["Golf", "Tennis", "Cricket", "Baseball"],
+    "answer": 2
+  },
+  {
+    "category": "Sports",
+    "question": "Which sport uses a bow and arrow?",
+    "options": ["Archery", "Shooting", "Fencing", "Javelin"],
+    "answer": 1
+  },
+  {
+    "category": "Sports",
+    "question": "Which sport is played on horseback and involves hitting a ball with a mallet?",
+    "options": ["Polo", "Horse Racing", "Equestrian Jumping", "Dressage"],
+    "answer": 1
+  },
+  {
+    "category": "Sports",
+    "question": "Which sport is known for the 'Tour de France' race?",
+    "options": ["Running", "Cycling", "Swimming", "Rowing"],
+    "answer": 2
+  },
+  {
+    "category": "Sports",
+    "question": "Which sport is played with a racket and a yellow fuzzy ball?",
+    "options": ["Tennis", "Badminton", "Squash", "Table Tennis"],
+    "answer": 1
+  },
+  {
+    "category": "Sports",
+    "question": "Which sport involves sliding stones on ice towards a target?",
+    "options": ["Curling", "Ice Hockey", "Figure Skating", "Speed Skating"],
+    "answer": 1
+  },
+  {
+    "category": "Sports",
+    "question": "Which sport is played on a rectangular field with goalposts at each end and involves carrying and kicking a ball?",
+    "options": ["Rugby", "Soccer", "American Football", "Australian Rules Football"],
+    "answer": 4
+  },
+  {
+    "category": "Sports",
+    "question": "Which sport uses a small white ball and clubs?",
+    "options": ["Golf", "Cricket", "Baseball", "Tennis"],
+    "answer": 1
+  },
+  {
+    "category": "Sports",
+    "question": "Which sport involves performing flips, jumps, and routines on apparatus like bars and beams?",
+    "options": ["Gymnastics", "Diving", "Cheerleading", "Martial Arts"],
+    "answer": 1
+  },
+  {
+    "category": "Sports",
+    "question": "Which sport is played in a pool and involves teams trying to score goals by throwing a ball?",
+    "options": ["Water Polo", "Swimming", "Diving", "Synchronized Swimming"],
+    "answer": 1
+  },
+  {
+    "category": "Sports",
+    "question": "Which country is famous for cricket and rugby?",
+    "options": ["Australia", "USA", "Canada", "Japan"],
+    "answer": 1
+  },
+  {
+    "category": "Sports",
+    "question": "Which sport is played with a puck and skates on ice?",
+    "options": ["Ice Hockey", "Curling", "Figure Skating", "Speed Skating"],
+    "answer": 1
+  },
+  {
+    "category": "Sports",
+    "question": "Which sport uses a net, a ball, and players try to score by hitting the ball over the net with their hands?",
+    "options": ["Volleyball", "Tennis", "Badminton", "Handball"],
+    "answer": 1
+  },
+  {
+    "category": "Sports",
+    "question": "Which sport is played with a bat and a ball and is popular in Australia and England?",
+    "options": ["Baseball", "Cricket", "Softball", "Tennis"],
+    "answer": 2
+  },
+  {
+    "category": "Sports",
+    "question": "Which sport involves two teams trying to score goals by kicking a ball into the opponent’s net?",
+    "options": ["Soccer", "Basketball", "Rugby", "Hockey"],
+    "answer": 1
+  }
+]

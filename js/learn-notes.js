@@ -1,6 +1,13 @@
+import { correctGuess, incorrectGuess, clearFeedBack } from './feedback.js';
+import { incrementScore, clearScore } from './score.js';
+
 // Data
 const semitone = 6;
-const roundDuration = 120;
+const toneDistance = semitone * 2;
+const notePerOctave = 7;
+const ledgerLow = -3;
+const ledgerHigh = 9;
+const referenceFrequency = 440.00;
 const syllables = ["Do (C", "Re (D", "Mi (E", "Fa (F", "Sol (G", "La (A", "Si (B"];
 const formatNote = note => note + `${octaves.indexOf(octaveSetting)})`
 const trebleClef = new Clef("𝄞", "First Octave", 3, -8, 15, ["Small Octave", "First Octave", "Second Octave", "Third Octave"])
@@ -12,15 +19,11 @@ const octaves = ["Sub-Contra Octave", "Contra-Octave", "Great Octave", "Small Oc
 // State
 let clef = 0;
 let note = 0;
-let score = 0;
 let animationId = null;
-let timeLeft = roundDuration;
-let timerInterval = null;
 let nextRoundTimeout = null
 let roundActive = false;
 let speedSetting = 1; // Default speed
 let octaveSetting = "First Octave"; // Default octave
-let bestScore = 0;
 
 function Clef(clef, baseOctave, referencePosition, lowerNote, higherNote, octaves) {
   this.clef = clef
@@ -45,22 +48,10 @@ Clef.prototype.randomNote = function randomNote(octaveSetting) {
 // DOM
 const canvas = document.getElementById('noteDisplay');
 const ctx = canvas.getContext('2d');
-const feedbackDiv = document.getElementById('feedback');
-const scoreDiv = document.getElementById('score');
-const bestScoreDiv = document.getElementById('bestScore');
 const buttonsDiv = document.getElementById('buttons');
-const timerDiv = document.getElementById('timer');
-const restartBtn = document.getElementById('restartBtn');
+const startButton = document.getElementById('start');
 const speedRange = document.getElementById('speedRange');
 const speedValue = document.getElementById('speedValue');
-// const octaveRange = document.getElementById('octaveRange');
-// const octaveValue = document.getElementById('octaveValue');
-
-const toneDistance = semitone * 2;
-const notePerOctave = 7;
-const ledgerLow = -3;
-const ledgerHigh = 9;
-const referenceFrequency = 440.00;
 const xA4 = canvas.height / 3 + 3.5 * toneDistance
 
 // Draw staff
@@ -68,7 +59,7 @@ function drawStaff() {
   ctx.clearRect(0, 0, canvas.width, canvas.height);
   ctx.strokeStyle = "#444";
   for (let i = 0; i < 5; i++) {
-    y = canvas.height / 3 + i * toneDistance
+    const y = canvas.height / 3 + i * toneDistance
     drawLine(20, y, 360)
   }
   ctx.font = "80px serif";
@@ -94,7 +85,7 @@ function drawLedgerLines(x, note) {
 
 // Animate note and monitor answer
 function animateNote(note) {
-  noteX = canvas.width - 30;
+  let noteX = canvas.width - 30;
   const speed = Number(speedSetting/10);
 
   function frame() {
@@ -108,8 +99,9 @@ function animateNote(note) {
       // Time's up for this note, auto-wrong if still waiting
       roundActive = false;
       setupButtons(roundActive);
-      incorrectGuess(note);
-  }
+      incorrectGuess(formatNote(syllables[note.note]));
+      nextRoundTimeout = setTimeout(newRound, 800);
+    }
   }
   if (animationId) cancelAnimationFrame(animationId);
   frame();
@@ -119,11 +111,11 @@ function animateNote(note) {
 // Set up buttons
 function setupButtons(enabled = true) {
   buttonsDiv.innerHTML = '';
-  octaveNumber = octaves.indexOf(octaveSetting)
   syllables
     .map(item => formatNote(item))
     .forEach((syll, idx) => {
       const btn = document.createElement('button');
+      btn.classList.add("answer")
       btn.textContent = syll;
       btn.disabled = !enabled;
       btn.onclick = () => guess(idx, btn);
@@ -135,7 +127,7 @@ function setupButtons(enabled = true) {
 function newRound() {
   roundActive = true;
   setupButtons(roundActive);
-  feedbackDiv.textContent = '';
+  clearFeedBack()
   note = clef.randomNote(octaveSetting);
   animateNote(note);
 }
@@ -146,70 +138,28 @@ function guess(actual, btn) {
   roundActive = false;
   setupButtons(roundActive);
   if (actual === note.note) {
-    correctGuess(note);
+    note.play();
+    incrementScore()
+    correctGuess();
   } else {
-    incorrectGuess(note);
+    clearScore();
+    incorrectGuess(formatNote(syllables[note.note]));
   }
   nextRoundTimeout = setTimeout(newRound, 800);
-}
-
-function clearScore() {
-    if (score > bestScore) {
-      bestScore = score;
-      bestScoreDiv.textContent = `Best Score: ${bestScore}`;
-    }
-    score = 0;
-    scoreDiv.textContent = `Score: ${score}`;
-}
-
-function correctGuess(note) {
-    score++;
-    note.play();
-    octaveNumber = octaves.indexOf(octaveSetting)
-    feedbackDiv.textContent = "✅ Correct! " + formatNote(syllables[note.note]);
-    feedbackDiv.style.color = "#27ae60";
-    scoreDiv.textContent = `Score: ${score}`;
-}
-
-function incorrectGuess(note) {
-    clearScore();
-    feedbackDiv.textContent = "❌ Incorrect. It was " + formatNote(syllables[note.note]);
-    feedbackDiv.style.color = "#c0392b";
-}
-
-//// Timer logic
-//function startTimer() {
-//  timeLeft = roundDuration;
-//  timerDiv.textContent = `Time: ${timeLeft}`;
-//  timerInterval = setInterval(() => {
-//    timeLeft--;
-//    timerDiv.textContent = `Time: ${timeLeft}`;
-//    if (timeLeft <= 0) {
-//      endGameOnTimer();
-//    }
-//  }, 1000);
-//}
-
-function endGameOnTimer() {
-  endGame();
-  feedbackDiv.textContent = `Time's up! Final score: ${score}`;
-  feedbackDiv.style.color = "#2980b9";
 }
 
 function endGame() {
   roundActive = false;
   setupButtons(roundActive);
   clearScore();
-  clearInterval(timerInterval);
   clearInterval(nextRoundTimeout)
 }
 
 function startGame() {
   endGame();
-  feedbackDiv.textContent = '';
-  feedbackDiv.style.color = "#222";
+  clearFeedBack();
+  startButton.innerText = "Restart";
   clef = trebleClef
-//  startTimer();
   nextRoundTimeout = setTimeout(newRound, 500);
 }
 
@@ -277,7 +227,7 @@ function playPianoNote(frequency) {
 
 function initClef() {
   clef = trebleClef
-  clefsElement = document.getElementById("clefs")
+  const clefsElement = document.getElementById("clefs");
   clefs.map(item => {
       const label = document.createElement('label');
       const radio = document.createElement('input');
@@ -306,7 +256,7 @@ function initClef() {
 
 function setOctaves(newClef) {
   clef = newClef;
-  octavesElement = document.getElementById('octaves');
+  const octavesElement = document.getElementById('octaves');
   octavesElement.innerHTML = '';
   clef.octaves.map(item => {
       const radio = document.createElement('input');
@@ -333,8 +283,9 @@ function setOctaves(newClef) {
 }
 
 // Initial setup
-initClef()
-startGame();
+initClef();
+drawStaff();
+startButton.addEventListener('click', startGame);
 
 speedValue.textContent = speedSetting;
 speedRange.value = speedSetting;

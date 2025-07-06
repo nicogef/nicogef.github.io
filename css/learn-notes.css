@@ -1,29 +1,20 @@
-body {
-   font-family: Arial, sans-serif;
-   background: #f3f7fa;
-   text-align: center;
-   margin: 40px;
+.container {
+  max-width: 600px;
+  margin: 20px auto;
 }
+
 h1 {
    color: #2c3e50;
 }
-button {
-  margin: 10px;
-  padding: 15px 25px;
-  font-size: 18px;
-  background: #3498db;
-  color: #fff;
-  border: none;
-  border-radius: 8px;
-  cursor: pointer;
+
+button.answer {
+  margin: 5px 5px;
 }
+
 button:disabled {
    background: #bdc3c7;
    color: #fff;
    cursor: not-allowed;
-}
-button:hover:enabled {
-    background: #2980b9;
 }
 #noteDisplay {
     margin: 30px auto 10px auto;
@@ -34,17 +25,22 @@ button:hover:enabled {
 
 #optionRow {
     margin: auto auto auto auto;
-   display: flex;
+    display: flex;
     width: 600px;
     text-align: center;
 }
 #configuration {
-    margin: 30px auto 10px auto;
+    margin: auto 40px auto 40px;
     width: 300px;
     height: 200px;
-    display: block;
     text-align: center;
 }
+
+.status-bar {
+    margin: auto 40px auto 40px;
+
+}
+
 
 #results {
     margin: 30px auto 10px auto;
@@ -53,13 +49,6 @@ button:hover:enabled {
     display: block;
     text-align: enter;
 }
-
-#timer { font-size: 22px; margin-top: 10px; color: #c0392b; font-weight: bold;}
-#feedback { font-size: 26px; margin-top: 18px; min-height: 36px; font-weight: bold;}
-#score { font-size: 18px; margin-top: 10px; color: #222;}
-#bestScore { font-size: 18px; margin-top: 10px; color: #222;}
-#restartBtn { display: none; margin-top: 20px; padding: 12px 30px; font-size: 18px; display: inline-block;}
-
 
 #speedDiv { margin: auto auto 10px auto; width: 300px; text-align: center; }
 #speedControl { margin: 20px auto 10px auto; width: 300px; }
@@ -70,7 +59,7 @@ button:hover:enabled {
 #octaveValue { font-weight: bold; color: #2980b9; }
 #clefTable {   
   border-collapse: collapse;
-  width: 350px;
+  width: 300px;
   height: 50px;
   margin: 10px auto;
   font-family: Arial, sans-serif;

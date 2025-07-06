@@ -1,37 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Solfege Note Finder Game (Adjustable Speed)</title>
-    <link rel="stylesheet" href="./css/style.css">
+  <meta charset="UTF-8">
+  <title>Welcome to My Site</title>
+  <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
-    <h1>Solfege Note Finder Game</h1>
-    <div id="optionRow">
-        <div id="configuration">
-            <div id="speedDiv">
-                <label id="speedLabel" for="speedRange">Speed:</label>
-                <input id="speedRange" type="range" min="1" max="100" value="50" />
-                <span id="speedValue">50</span>
-                <span style="font-size:14px; color:#777;"><br>(1=slow, 100=fast)</span>
-            </div>
-            <div>
-                <table id="clefTable">
-                    <thead><tr><th>Clef</th><th>Octave</th> </tr></thead>
-                    <tbody><tr width="50" height="50"><td id="clefs"></td> <td><ul id="octaves"></ul></td></tr></tbody>
-                </table>
-            </div>
-        </div>
-        <div id="results">
-            <div id="timer">Time: 60</div>
-            <div id="score"></div>
-            <div id="bestScore">Best Score: 0</div>
-            <button id="restartBtn" onclick="startGame()">Restart</button>
-        </div>
-    </div>
-    <canvas id="noteDisplay" width="400" height="200"></canvas>
-    <div class="solfege-row" id="buttons"></div>
-    <div id="feedback"></div>
-    <script src="./js/learn-notes.js"></script>
+  <div class="container">
+    <h1>Welcome to My Website!</h1>
+    <p>Select a page to visit:</p>
+    <nav>
+      <ul>
+        <li><a href="learn-notes.html">Solfege Note Finder Game</a></li>
+        <li><a href="trivia.html">Trivia Trainer</a></li>
+      </ul>
+    </nav>
+  </div>
 </body>
 </html>

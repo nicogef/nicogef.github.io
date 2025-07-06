@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Trivia Quiz Game</title>
+  <link rel="stylesheet" href="./css/styles.css">
+  <link rel="stylesheet" href="./css/trivia.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Trivia Challenge</h1>
+    <div id="optionRow">
+        <div id="configuration">
+            <div>
+                <table id="categoriesTable">
+                    <thead><tr><th>Categories</th></tr></thead>
+                    <tbody><tr><td id="categories"></td></tr></tbody>
+                </table>
+            </div>
+        </div>
+        <div class="status-bar">
+            <p>Score: <span id="score">0</span></p>
+            <p>Best Score: <span id="best-score">0</span></p>
+            <button id="start" class="start-btn">Start Game</button>
+        </div>
+    </div>
+    <div class="game-container">
+        <div class="game-card">
+        <div class="game-content">
+            <div class="progress-bar"><div id="progress"></div></div>
+            <div class="question-container">
+                <p id="category" class="category-text">Category: Science</p>
+                <h2 id="question">What is the largest planet in our solar system?</h2>
+            </div>
+            <div class="answers-container">
+                <button class="answer" data-id="0"></button>
+                <button class="answer" data-id="1"></button>
+                <button class="answer" data-id="2"></button>
+                <button class="answer" data-id="3"></button>
+            </div>
+            <div id="feedback"></div>
+        </div>
+        </div>
+    </div>
+  </div>
+  <script type="module" src="./js/trivia.js"></script>
+</body>
+</html>

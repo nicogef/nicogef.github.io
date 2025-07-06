@@ -1,0 +1,97 @@
+body {
+   font-family: Arial, sans-serif;
+   background: #f3f7fa;
+   text-align: center;
+   margin: 40px;
+}
+h1 {
+   color: #2c3e50;
+}
+button {
+  margin: 10px;
+  padding: 15px 25px;
+  font-size: 18px;
+  background: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+button:disabled {
+   background: #bdc3c7;
+   color: #fff;
+   cursor: not-allowed;
+}
+button:hover:enabled {
+    background: #2980b9;
+}
+#noteDisplay {
+    margin: 30px auto 10px auto;
+    width: 400px;
+    height: 200px;
+    display: block;
+}
+
+#optionRow {
+    margin: auto auto auto auto;
+   display: flex;
+    width: 600px;
+    text-align: center;
+}
+#configuration {
+    margin: 30px auto 10px auto;
+    width: 300px;
+    height: 200px;
+    display: block;
+    text-align: center;
+}
+
+#results {
+    margin: 30px auto 10px auto;
+    width: 200px;
+    height: 200px;
+    display: block;
+    text-align: enter;
+}
+
+#timer { font-size: 22px; margin-top: 10px; color: #c0392b; font-weight: bold;}
+#feedback { font-size: 26px; margin-top: 18px; min-height: 36px; font-weight: bold;}
+#score { font-size: 18px; margin-top: 10px; color: #222;}
+#bestScore { font-size: 18px; margin-top: 10px; color: #222;}
+#restartBtn { display: none; margin-top: 20px; padding: 12px 30px; font-size: 18px; display: inline-block;}
+
+
+#speedDiv { margin: auto auto 10px auto; width: 300px; text-align: center; }
+#speedControl { margin: 20px auto 10px auto; width: 300px; }
+#speedLabel { font-size: 16px; margin-right: 10px; }
+#speedValue { font-weight: bold; color: #2980b9; }
+
+#octaveLabel { font-size: 16px; margin-right: 10px; }
+#octaveValue { font-weight: bold; color: #2980b9; }
+#clefTable {   
+  border-collapse: collapse;
+  width: 350px;
+  height: 50px;
+  margin: 10px auto;
+  font-family: Arial, sans-serif;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+td {
+  padding: 2px 6px;
+  border-bottom: 1px solid #e0e0e0;
+  text-align: left;
+}
+th {
+  background: #3498db;
+  color: #fff;
+  letter-spacing: 1px;
+  font-weight: 600;
+  text-align: center;
+}
+
+tr:hover {
+  background: #f1f7fd;
+}
+tbody tr:last-child td {
+  border-bottom: none;
+}

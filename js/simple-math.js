@@ -3,6 +3,8 @@ import { incrementScore, clearScore } from './score.js';
 const startBtn = document.getElementById('start')
 const questionElem = document.getElementById('question');
 const AnswerElem = document.getElementById('answer')
+const num1Elem = document.getElementById('num1')
+const num2Elem = document.getElementById('num2')
 let correctAnswer;
 let nextRoundTimeout = null
 
@@ -24,8 +26,8 @@ function generateQuestion() {
     startBtn.innerText = "Restart";
     const operation = getSelectedOperation();
 
-    let num1 = getRandomInt(1, 20);
-    let num2 = getRandomInt(1, 20);
+    let num1 = getRandomInt(1, num1Elem.value);
+    let num2 = getRandomInt(1, num2Elem.value);
 
     switch (operation) {
     case 'addition':
@@ -60,14 +62,14 @@ function submit() {
     nextRoundTimeout = setTimeout(generateQuestion, 800);
 }
 
+num1Elem.value = 20;
+num2Elem.value = 20;
 document.getElementById('submit-form')
         .addEventListener('submit', 
                           function(event) {
                             event.preventDefault();
                             submit();
                           });
-// document.getElementById('submit')
-//         .addEventListener('click', submit);
 startBtn.addEventListener('click', generateQuestion);
 document.getElementById('add')
         .addEventListener('change', function() {

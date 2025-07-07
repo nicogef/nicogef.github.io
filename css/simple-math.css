@@ -1,0 +1,8 @@
+.number-input {
+  width: 50px;
+}
+
+.number-input:focus {
+  border-color: #005fa3;
+  background-color: #eaf6ff;
+}

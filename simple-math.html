@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Math Game</title>
+  <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Simple Math Game</h1>
+    <div class="header-row">
+        <table class="configuration-table">
+            <thead><tr><th>Categories</th></tr></thead>
+            <tbody><tr><td id="categories">
+              <label><input name="operation" type="radio" value="addition" id="add" checked> Addition (+)</label><br>
+              <label><input name="operation" type="radio" value="subtraction" id="sub"> Subtraction (-)</label><br>
+              <label><input name="operation" type="radio" value="multiplication" id="mul"> Multiplication (×)</label><br>
+              <label><input name="operation" type="radio" value="division" id="div"> Division (÷)</label>
+            </td></tr></tbody>
+        </table>
+        <div class="status-bar">
+            <p class="score"><span id="score"></span></p>
+            <p class="score"><span id="best-score"></span></p>
+            <button id="start" class="start-btn">Start Game</button>
+        </div>
+    </div>
+    <div class="game-container">
+        <div class="game-card">
+            <div id="feedback"></div>
+            <h2 id="question"></h2>
+            <!-- <h2 id="answer"></h2> -->
+             
+            <form id="submit-form">
+                <label for="answer">Answer:</label>
+                <input type="text" id="answer">
+                <button id="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+  </div>
+
+  <script type="module" src="./js/simple-math.js"></script>
+</body>
+</html>

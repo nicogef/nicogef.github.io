@@ -6,16 +6,16 @@ let bestScore = 0;
 
 export function incrementScore() {
     score++;
-    scoreDiv.textContent = `${score}`;
+    scoreDiv.textContent = `Score: ${score}`;
 }
 
 export function clearScore() {
     if (score > bestScore) {
       bestScore = score;
-      bestScoreDiv.textContent = `${bestScore}`;
+      bestScoreDiv.textContent = `Best Score: ${bestScore}`;
     }
     score = 0;
-    scoreDiv.textContent = `${score}`;
+    scoreDiv.textContent = `Score: ${score}`;
 }
 
 export function getScore() {

@@ -9,24 +9,20 @@
 <body>
   <div class="container">
     <h1>Trivia Challenge</h1>
-    <div id="optionRow">
-        <div id="configuration">
-            <div>
-                <table id="categoriesTable">
-                    <thead><tr><th>Categories</th></tr></thead>
-                    <tbody><tr><td id="categories"></td></tr></tbody>
-                </table>
-            </div>
-        </div>
+    <div class="header-row">
+        <table class="configuration-table">
+            <thead><tr><th>Categories</th></tr></thead>
+            <tbody><tr><td id="categories"></td></tr></tbody>
+        </table>
         <div class="status-bar">
-            <p>Score: <span id="score">0</span></p>
-            <p>Best Score: <span id="best-score">0</span></p>
+            <p class="score"><span id="score"></span></p>
+            <p class="score"><span id="best-score"></span></p>
             <button id="start" class="start-btn">Start Game</button>
         </div>
     </div>
     <div class="game-container">
         <div class="game-card">
-        <div class="game-content">
+            <div id="feedback"></div>
             <div class="progress-bar"><div id="progress"></div></div>
             <div class="question-container">
                 <p id="category" class="category-text">Category: Science</p>
@@ -38,8 +34,6 @@
                 <button class="answer" data-id="2"></button>
                 <button class="answer" data-id="3"></button>
             </div>
-            <div id="feedback"></div>
-        </div>
         </div>
     </div>
   </div>

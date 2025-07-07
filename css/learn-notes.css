@@ -1,14 +1,5 @@
-.container {
-  max-width: 600px;
-  margin: 20px auto;
-}
-
-h1 {
-   color: #2c3e50;
-}
-
-button.answer {
-  margin: 5px 5px;
+.answers-container {
+  grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
 button:disabled {
@@ -22,25 +13,6 @@ button:disabled {
     height: 200px;
     display: block;
 }
-
-#optionRow {
-    margin: auto auto auto auto;
-    display: flex;
-    width: 600px;
-    text-align: center;
-}
-#configuration {
-    margin: auto 40px auto 40px;
-    width: 300px;
-    height: 200px;
-    text-align: center;
-}
-
-.status-bar {
-    margin: auto 40px auto 40px;
-
-}
-
 
 #results {
     margin: 30px auto 10px auto;
@@ -57,30 +29,3 @@ button:disabled {
 
 #octaveLabel { font-size: 16px; margin-right: 10px; }
 #octaveValue { font-weight: bold; color: #2980b9; }
-#clefTable {   
-  border-collapse: collapse;
-  width: 300px;
-  height: 50px;
-  margin: 10px auto;
-  font-family: Arial, sans-serif;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
-}
-td {
-  padding: 2px 6px;
-  border-bottom: 1px solid #e0e0e0;
-  text-align: left;
-}
-th {
-  background: #3498db;
-  color: #fff;
-  letter-spacing: 1px;
-  font-weight: 600;
-  text-align: center;
-}
-
-tr:hover {
-  background: #f1f7fd;
-}
-tbody tr:last-child td {
-  border-bottom: none;
-}

@@ -284,7 +284,7 @@ function setOctaves(newClef) {
 
 // Initial setup
 initClef();
-drawStaff();
+startGame()
 startButton.addEventListener('click', startGame);
 
 speedValue.textContent = speedSetting;

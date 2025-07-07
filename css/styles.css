@@ -7,35 +7,43 @@ body {
 }
 
 .container {
-  max-width: 400px;
-  margin: 80px auto;
+  max-width: 600px;
+  margin: 20px auto;
   background: #fff;
   border-radius: 18px;
   box-shadow: 0 6px 24px rgba(0,0,0,0.08);
-  padding: 40px 30px;
+  padding: 20px 20px;
   text-align: center;
 }
 
-#feedback { font-size: 26px; margin-top: 18px; min-height: 36px; font-weight: bold;}
-
-
-button.answer {
-  background-color: #6b73ff;
-  color: #fff;
-  border: none;
-  padding: 15px;
-  border-radius: 12px;
-  font-size: 1.1rem;
-  cursor: pointer;
-  transition: background-color 0.3s, transform 0.3s;
-}
-button.answer:hover {
-  background-color: #4e57d9;
-  transform: scale(1.05);
+h1 {
+  margin-top: 8px;
+  margin-bottom: 16px;
+  color: #2d3a4b;
 }
 
-
+.header-row {
+    margin: auto auto 20px auto;
+    display: flex;
+    width: 500px;
+}
+.configuration-table {   
+  margin: auto auto auto auto;
+  border-collapse: collapse;
+  width: 300px;
+  height: 100px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  text-align: center;
+}
+.status-bar {
+    margin: auto 0px auto auto;
+}
+.score {
+    height: 10px;
+    text-align: center;
+}
 .start-btn {
+  width: 120px;
   background-color: #ff6363;
   color: #fff;
   border: none;
@@ -47,9 +55,48 @@ button.answer:hover {
 }
 .start-btn:hover { background-color: #ff4545; }
 
-h1 {
-  margin-bottom: 16px;
-  color: #2d3a4b;
+.game-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.game-card {
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 30px;
+  padding-top: 10px;
+  max-width: 500px;
+  width: 100%;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+.answers-container {
+  display: grid;
+  gap: 15px;
+  margin-bottom: 10px;
+}
+
+#feedback {
+  margin-bottom: 20px;
+  font-size: 26px;
+  min-height: 36px; 
+  font-weight: bold;
+}
+
+button.answer {
+  background-color: #6b73ff;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 12px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+button.answer:hover {
+  background-color: #4e57d9;
+  transform: scale(1.05);
 }
 
 nav ul {
@@ -70,4 +117,24 @@ nav a {
 
 nav a:hover {
   color: #004488;
+}
+
+td {
+  padding: 2px 6px;
+  border-bottom: 1px solid #e0e0e0;
+  text-align: left;
+}
+th {
+  background: #3498db;
+  color: #fff;
+  letter-spacing: 1px;
+  font-weight: 600;
+  text-align: center;
+}
+
+tr:hover {
+  background: #f1f7fd;
+}
+tbody tr:last-child td {
+  border-bottom: none;
 }

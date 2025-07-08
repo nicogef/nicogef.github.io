@@ -10,14 +10,9 @@
   <div class="container">
     <h1>Solfege Note Finder Game</h1>
     <div id="speedDiv">
-        <label id="speedLabel" for="speedRange">Speed:</label>
-        <input id="speedRange" type="range" min="1" max="100" value="50" />
-        <span id="speedValue">50</span>
+        <label><input name="notation" type="radio" id="solfege" checked>Solfege</label>
+        <label><input name="notation" type="radio" id="alphabet">Alphabet</label>
     </div>
-    <div id="speedDiv">
-      <label><input name="notation" type="radio" id="solfege" checked>Solfege</label>
-      <label><input name="notation" type="radio" id="alphabet">Alphabet</label>
-    </div>         
     <div class="header-row">
         <table class="configuration-table">
             <thead><tr><th>Clef</th><th>Octave</th> </tr></thead>
@@ -52,6 +47,11 @@
             </div>
         </div>
     </div>
+    </div>
+    <div id="speedDiv">
+        <label id="speedLabel" for="speedRange">Speed:</label>
+        <input id="speedRange" type="range" min="1" max="100" value="50" />
+        <span id="speedValue">50</span>
     </div>
   </div>
   <script type="module" src="./js/learn-notes.js"></script>

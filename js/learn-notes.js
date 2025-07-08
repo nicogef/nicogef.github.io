@@ -293,6 +293,7 @@ startButton.addEventListener('click', startGame);
 
 document.querySelectorAll('.white-key, .black-key').forEach(key => {
   key.addEventListener('mousedown', () => {
+    let note = alphabet.indexOf(key.getAttribute('data-note'))
     guess(note)
   });
 });

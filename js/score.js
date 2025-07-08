@@ -21,3 +21,21 @@ export function clearScore() {
 export function getScore() {
     return score;
 }
+
+export function scoreToJson() {
+    return { "score": score, "best-score": bestScore };
+}
+
+export function restoreScore(value) {
+    if (value === undefined) {
+        return;
+    }
+    if (value.score) {
+        score = value.score;
+    }
+    scoreDiv.textContent = `Score: ${score}`;
+    if (value["best-score"]) {
+        bestScore = value["best-score"];
+        bestScoreDiv.textContent = `Best Score: ${bestScore}`;
+    }
+}

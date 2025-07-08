@@ -862,5 +862,305 @@
     "question": "Which sport involves two teams trying to score goals by kicking a ball into the opponent’s net?",
     "options": ["Soccer", "Basketball", "Rugby", "Hockey"],
     "answer": 1
+  },
+  {
+    "category": "Math",
+    "question": "What is the only even prime number?",
+    "options": ["1", "2", "4", "6"],
+    "answer": 2
+  },
+  {
+    "category": "Math",
+    "question": "How many sides does a pentagon have?",
+    "options": ["5", "6", "7", "8"],
+    "answer": 1
+  },
+  {
+    "category": "Math",
+    "question": "What is the Roman numeral for 50?",
+    "options": ["L", "C", "V", "X"],
+    "answer": 1
+  },
+  {
+    "category": "Math",
+    "question": "What is the value of π (pi) rounded to two decimal places?",
+    "options": ["3.12", "3.14", "3.16", "3.18"],
+    "answer": 2
+  },
+  {
+    "category": "Math",
+    "question": "What is the sum of the angles in a triangle?",
+    "options": ["90°", "180°", "270°", "360°"],
+    "answer": 2
+  },
+  {
+    "category": "Math",
+    "question": "What is the largest single-digit number?",
+    "options": ["7", "8", "9", "10"],
+    "answer": 3
+  },
+  {
+    "category": "Math",
+    "question": "What do you call a number that is divisible only by 1 and itself?",
+    "options": ["Prime", "Even", "Odd", "Composite"],
+    "answer": 1
+  },
+  {
+    "category": "Math",
+    "question": "What is the square root of 81?",
+    "options": ["7", "8", "9", "10"],
+    "answer": 3
+  },
+  {
+    "category": "Math",
+    "question": "What is 12 × 12?",
+    "options": ["124", "132", "144", "156"],
+    "answer": 3
+  },
+  {
+    "category": "Math",
+    "question": "What is the name of a shape with eight sides?",
+    "options": ["Hexagon", "Octagon", "Heptagon", "Nonagon"],
+    "answer": 2
+  },
+  {
+    "category": "Math",
+    "question": "What is 10% of 200?",
+    "options": ["10", "15", "20", "25"],
+    "answer": 3
+  },
+  {
+    "category": "Math",
+    "question": "What is the next number in this sequence: 2, 4, 6, 8, ___?",
+    "options": ["9", "10", "12", "14"],
+    "answer": 2
+  },
+  {
+    "category": "Math",
+    "question": "What is the value of 7 squared?",
+    "options": ["42", "49", "56", "77"],
+    "answer": 2
+  },
+  {
+    "category": "Math",
+    "question": "What is the perimeter of a square with sides of 5 cm each?",
+    "options": ["10 cm", "15 cm", "20 cm", "25 cm"],
+    "answer": 3
+  },
+  {
+    "category": "Math",
+    "question": "What is half of 0.6?",
+    "options": ["0.3", "0.4", "0.5", "0.6"],
+    "answer": 1
+  },
+  {
+    "category": "Math",
+    "question": "What is 1/4 of 100?",
+    "options": ["10", "20", "25", "30"],
+    "answer": 2
+  },
+  {
+    "category": "Math",
+    "question": "How many minutes are there in two and a half hours?",
+    "options": ["120", "150", "180", "210"],
+    "answer": 2
+  },
+  {
+    "category": "Math",
+    "question": "What is the smallest prime number?",
+    "options": ["0", "1", "2", "3"],
+    "answer": 3
+  },
+  {
+    "category": "Math",
+    "question": "What is 1000 minus 333?",
+    "options": ["667", "777", "888", "999"],
+    "answer": 1
+  },
+  {
+    "category": "Math",
+    "question": "What is the product of 9 and 7?",
+    "options": ["56", "63", "72", "81"],
+    "answer": 2
+  },
+  {
+    "category": "Math",
+    "question": "How many degrees are in a straight angle?",
+    "options": ["90", "180", "270", "360"],
+    "answer": 2
+  },
+  {
+    "category": "Math",
+    "question": "What is the sum of the first five positive integers?",
+    "options": ["10", "15", "20", "25"],
+    "answer": 2
+  },
+  {
+    "category": "Math",
+    "question": "If you have three quarters, how much money do you have?",
+    "options": ["50 cents", "65 cents", "75 cents", "80 cents"],
+    "answer": 3
+  },
+  {
+    "category": "Math",
+    "question": "What is the decimal equivalent of 1/2?",
+    "options": ["0.2", "0.3", "0.4", "0.5"],
+    "answer": 4
+  },
+  {
+    "category": "Math",
+    "question": "What is the largest two-digit even number?",
+    "options": ["98", "99", "100", "102"],
+    "answer": 1
+  },
+  {
+    "category": "Math",
+    "question": "What is the result of 15 divided by 3?",
+    "options": ["3", "4", "5", "6"],
+    "answer": 3
+  },
+  {
+    "category": "Math",
+    "question": "What is the name of a triangle with all sides equal?",
+    "options": ["Scalene", "Isosceles", "Equilateral", "Right"],
+    "answer": 3
+  },
+  {
+    "category": "Math",
+    "question": "What is the area of a rectangle with length 8 cm and width 3 cm?",
+    "options": ["11 cm²", "22 cm²", "24 cm²", "32 cm²"],
+    "answer": 3
+  },
+  {
+    "category": "Math",
+    "question": "What is the value of 0.1 + 0.2?",
+    "options": ["0.2", "0.3", "0.4", "0.5"],
+    "answer": 2
+  },
+  {
+    "category": "Math",
+    "question": "What is 20% of 50?",
+    "options": ["5", "10", "15", "20"],
+    "answer": 2
+  },
+  {
+    "category": "Math",
+    "question": "What is the next odd number after 17?",
+    "options": ["18", "19", "20", "21"],
+    "answer": 2
+  },
+  {
+    "category": "Math",
+    "question": "What is the sum of the angles in a quadrilateral?",
+    "options": ["180°", "270°", "360°", "540°"],
+    "answer": 3
+  },
+  {
+    "category": "Math",
+    "question": "What is the Roman numeral for 100?",
+    "options": ["C", "D", "L", "M"],
+    "answer": 1
+  },
+  {
+    "category": "Math",
+    "question": "What is the value of 6 × 7?",
+    "options": ["36", "42", "48", "54"],
+    "answer": 2
+  },
+  {
+    "category": "Math",
+    "question": "What is the difference between 100 and 45?",
+    "options": ["45", "50", "55", "60"],
+    "answer": 3
+  },
+  {
+    "category": "Math",
+    "question": "What is the name of the longest side of a right triangle?",
+    "options": ["Base", "Height", "Hypotenuse", "Diagonal"],
+    "answer": 3
+  },
+  {
+    "category": "Math",
+    "question": "How many hours are there in three days?",
+    "options": ["24", "48", "72", "96"],
+    "answer": 3
+  },
+  {
+    "category": "Math",
+    "question": "What is 2/5 as a percentage?",
+    "options": ["20%", "25%", "40%", "50%"],
+    "answer": 3
+  },
+  {
+    "category": "Math",
+    "question": "What is the product of any number and zero?",
+    "options": ["0", "1", "The number itself", "Infinity"],
+    "answer": 1
+  },
+  {
+    "category": "Math",
+    "question": "What is the value of 5 cubed (5³)?",
+    "options": ["15", "25", "75", "125"],
+    "answer": 4
+  },
+  {
+    "category": "Math",
+    "question": "What is the smallest two-digit number?",
+    "options": ["9", "10", "11", "12"],
+    "answer": 2
+  },
+  {
+    "category": "Math",
+    "question": "What is the answer to 2 + 2 × 2?",
+    "options": ["6", "8", "12", "16"],
+    "answer": 1
+  },
+  {
+    "category": "Math",
+    "question": "What is the sum of the angles in a hexagon?",
+    "options": ["360°", "540°", "720°", "900°"],
+    "answer": 2
+  },
+  {
+    "category": "Math",
+    "question": "What is the name for a number that is the result of multiplying a number by itself?",
+    "options": ["Square", "Cube", "Prime", "Factor"],
+    "answer": 1
+  },
+  {
+    "category": "Math",
+    "question": "What is the value of 100 divided by 4?",
+    "options": ["20", "25", "30", "40"],
+    "answer": 2
+  },
+  {
+    "category": "Math",
+    "question": "What is the next multiple of 9 after 27?",
+    "options": ["36", "45", "54", "63"],
+    "answer": 1
+  },
+  {
+    "category": "Math",
+    "question": "What is the Roman numeral for 500?",
+    "options": ["C", "D", "L", "M"],
+    "answer": 2
+  },
+  {
+    "category": "Math",
+    "question": "How many centimeters are in a meter?",
+    "options": ["10", "100", "1000", "10000"],
+    "answer": 2
+  },
+  {
+    "category": "Math",
+    "question": "What is the value of 3.5 + 2.5?",
+    "options": ["5", "6", "7", "8"],
+    "answer": 2
+  },
+  {
+    "category": "Math",
+    "question": "What is the only number that is both a square and a cube between 1 and 100?",
+    "options": ["8", "16", "36", "64"],
+    "answer": 4
   }
 ]

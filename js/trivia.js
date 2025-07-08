@@ -1,5 +1,7 @@
 import { correctGuess, incorrectGuess, stopOnTimer, clearFeedBack } from './feedback.js';
-import { clearScore, incrementScore, getScore } from './score.js';
+import { incrementScore, clearScore, scoreToJson, restoreScore } from './score.js';
+import { storeCookie, readCookie } from './cookie.js';
+
 let questions = []
 async function fetchQuestions() {
   try {
@@ -65,6 +67,7 @@ function checkAnswer(selectedIndex) {
     incorrectGuess(correctAnswerText)
     answerButtons[selectedIndex].classList.add('incorrect');
   }
+  storeCookie("trivia", scoreToJson())
   answerButtons.forEach(btn => btn.disabled = true);
   setTimeout(nextQuestion, 1000);
 }
@@ -111,7 +114,8 @@ function initCategories() {
   });
 }
 
-
+let value = readCookie("trivia")
+restoreScore(value)
 initCategories();
 startGame()
 startButton.addEventListener('click', startGame);

@@ -1,5 +1,7 @@
 import { correctGuess, incorrectGuess, clearFeedBack } from './feedback.js';
-import { incrementScore, clearScore } from './score.js';
+import { incrementScore, clearScore, scoreToJson, restoreScore } from './score.js';
+import { storeCookie, readCookie } from './cookie.js';
+
 const startBtn = document.getElementById('start')
 const questionElem = document.getElementById('question');
 const AnswerElem = document.getElementById('answer')
@@ -26,8 +28,8 @@ function generateQuestion() {
     startBtn.innerText = "Restart";
     const operation = getSelectedOperation();
 
-    let num1 = getRandomInt(1, num1Elem.value);
-    let num2 = getRandomInt(1, num2Elem.value);
+    let num1 = getRandomInt(0, num1Elem.value);
+    let num2 = getRandomInt(0, num2Elem.value);
 
     switch (operation) {
     case 'addition':
@@ -59,11 +61,17 @@ function submit() {
         incorrectGuess(`${correctAnswer}`);
         clearScore();
     }
+    storeCookie("simple-math", scoreToJson())
     nextRoundTimeout = setTimeout(generateQuestion, 800);
 }
 
 num1Elem.value = 20;
 num2Elem.value = 20;
+let value = readCookie("simple-math")
+if (value) {
+    restoreScore(value)
+}
+
 document.getElementById('submit-form')
         .addEventListener('submit', 
                           function(event) {

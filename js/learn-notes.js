@@ -1,5 +1,6 @@
 import { correctGuess, incorrectGuess, clearFeedBack } from './feedback.js';
-import { incrementScore, clearScore } from './score.js';
+import { incrementScore, clearScore, scoreToJson, restoreScore } from './score.js';
+import { storeCookie, readCookie } from './cookie.js';
 
 // Data
 const semitone = 6;
@@ -145,6 +146,7 @@ function guess(actual, btn) {
     clearScore();
     incorrectGuess(formatNote(syllables[note.note]));
   }
+  storeCookie("learn-notes", scoreToJson())
   nextRoundTimeout = setTimeout(newRound, 800);
 }
 
@@ -283,6 +285,8 @@ function setOctaves(newClef) {
 }
 
 // Initial setup
+let value = readCookie("learn-notes")
+restoreScore(value)
 initClef();
 startGame()
 startButton.addEventListener('click', startGame);

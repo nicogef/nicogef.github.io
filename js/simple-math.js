@@ -46,8 +46,15 @@ function generateQuestion() {
         correctAnswer = num1 * num2;
         break;
     case 'division':
-        questionElem.innerText = `${num1 * num2} ÷ ${num2} = ?`;
-        correctAnswer = num1;
+        if (num1 === 0 && num2 === 0) {
+            generateQuestion();
+        } else if (num2 === 0) {
+            questionElem.innerText = `${num1 * num2} ÷ ${num1} = ?`;
+            correctAnswer = num2;
+        } else {
+            questionElem.innerText = `${num1 * num2} ÷ ${num2} = ?`;
+            correctAnswer = num1;
+        }
         break;
     }
 }

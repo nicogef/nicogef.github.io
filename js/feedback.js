@@ -14,6 +14,12 @@ export function incorrectGuess(msg) {
     feedbackDiv.style.color = "#c0392b";
 }
 
+
+export function tooSlow(msg) {
+    feedbackDiv.textContent = "❌ Too Slow. It was " + msg;
+    feedbackDiv.style.color = "#c0392b";
+}
+
 export function stopOnTimer(msg) {
     feedbackDiv.textContent = "Timer is Finished: " + msg;
     feedbackDiv.style.color = "#27ae60";

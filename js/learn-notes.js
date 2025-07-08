@@ -1,4 +1,4 @@
-import { correctGuess, incorrectGuess, clearFeedBack } from './feedback.js';
+import { correctGuess, incorrectGuess, tooSlow, clearFeedBack } from './feedback.js';
 import { incrementScore, clearScore, scoreToJson, restoreScore } from './score.js';
 import { storeCookie, readCookie } from './cookie.js';
 
@@ -98,7 +98,7 @@ function animateNote(note) {
     } else {
       // Time's up for this note, auto-wrong if still waiting
       roundActive = false;
-      incorrectGuess(syllables[note.note]);
+      tooSlow(syllables[note.note]);
       nextRoundTimeout = setTimeout(newRound, 800);
     }
   }
@@ -117,6 +117,7 @@ function newRound() {
 // Handle guess
 function guess(actual) {
   if (!roundActive) return;
+  if (animationId) cancelAnimationFrame(animationId);
   roundActive = false;
   if (actual === note.note) {
     note.play();

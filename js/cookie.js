@@ -4,14 +4,13 @@ export function storeCookie(name, json) {
     // Serialize the object to a JSON string
     const cookieValue = encodeURIComponent(JSON.stringify(json));
     document.cookie = `${name}=${cookieValue}; expires=${new Date(Date.now() + sevenDays).toUTCString()}; path=/`;
-    console.log(document.cookie)
 }
 
 export function readCookie(name) {
     const value = `; ${document.cookie}`;
     const parts = value.split(`; ${name}=`);
     if (parts.length === 2) {
-        let raw = parts[1];
+        let raw = parts[1].split(";")[0];
         if (raw) {
             const value = decodeURIComponent(raw);
             const result = JSON.parse(value);

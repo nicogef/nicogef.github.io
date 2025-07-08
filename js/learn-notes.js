@@ -9,13 +9,11 @@ const notePerOctave = 7;
 const ledgerLow = -3;
 const ledgerHigh = 9;
 const referenceFrequency = 440.00;
-const syllables = ["Do (C", "Re (D", "Mi (E", "Fa (F", "Sol (G", "La (A", "Si (B"];
-const formatNote = note => note + `${octaves.indexOf(octaveSetting)})`
+const solfege = ["Do", "Re", "Mi", "Fa", "Sol", "La", "Si"];
+const alphabet = ["C", "D", "E", "F", "G", "A", "B"];
 const trebleClef = new Clef("𝄞", "First Octave", 3, -8, 15, ["Small Octave", "First Octave", "Second Octave", "Third Octave"])
 const bassClef = new Clef("𝄢", "Small Octave", -2, -19, -1, ["Great Octave", "Small Octave", "First Octave"])
 const clefs = [trebleClef, bassClef]
-const octaves = ["Sub-Contra Octave", "Contra-Octave", "Great Octave", "Small Octave",
-                 "First Octave", "Second Octave", "Third Octave", "Fourth Octave"]
 
 // State
 let clef = 0;
@@ -25,6 +23,7 @@ let nextRoundTimeout = null
 let roundActive = false;
 let speedSetting = 1; // Default speed
 let octaveSetting = "First Octave"; // Default octave
+let syllables = solfege
 
 function Clef(clef, baseOctave, referencePosition, lowerNote, higherNote, octaves) {
   this.clef = clef
@@ -49,7 +48,7 @@ Clef.prototype.randomNote = function randomNote(octaveSetting) {
 // DOM
 const canvas = document.getElementById('noteDisplay');
 const ctx = canvas.getContext('2d');
-const buttonsDiv = document.getElementById('buttons');
+// const buttonsDiv = document.getElementById('buttons');
 const startButton = document.getElementById('start');
 const speedRange = document.getElementById('speedRange');
 const speedValue = document.getElementById('speedValue');
@@ -99,8 +98,7 @@ function animateNote(note) {
     } else {
       // Time's up for this note, auto-wrong if still waiting
       roundActive = false;
-      setupButtons(roundActive);
-      incorrectGuess(formatNote(syllables[note.note]));
+      incorrectGuess(syllables[note.note]);
       nextRoundTimeout = setTimeout(newRound, 800);
     }
   }
@@ -108,43 +106,25 @@ function animateNote(note) {
   frame();
 }
 
-
-// Set up buttons
-function setupButtons(enabled = true) {
-  buttonsDiv.innerHTML = '';
-  syllables
-    .map(item => formatNote(item))
-    .forEach((syll, idx) => {
-      const btn = document.createElement('button');
-      btn.classList.add("answer")
-      btn.textContent = syll;
-      btn.disabled = !enabled;
-      btn.onclick = () => guess(idx, btn);
-      buttonsDiv.appendChild(btn);
-    });
-}
-
 // New round
 function newRound() {
   roundActive = true;
-  setupButtons(roundActive);
   clearFeedBack()
   note = clef.randomNote(octaveSetting);
   animateNote(note);
 }
 
 // Handle guess
-function guess(actual, btn) {
+function guess(actual) {
   if (!roundActive) return;
   roundActive = false;
-  setupButtons(roundActive);
   if (actual === note.note) {
     note.play();
     incrementScore()
     correctGuess();
   } else {
     clearScore();
-    incorrectGuess(formatNote(syllables[note.note]));
+    incorrectGuess(syllables[note.note]);
   }
   storeCookie("learn-notes", scoreToJson())
   nextRoundTimeout = setTimeout(newRound, 800);
@@ -152,7 +132,6 @@ function guess(actual, btn) {
 
 function endGame() {
   roundActive = false;
-  setupButtons(roundActive);
   clearScore();
   clearInterval(nextRoundTimeout)
 }
@@ -284,12 +263,55 @@ function setOctaves(newClef) {
   });
 }
 
+function redrawNotes() {
+  document.querySelectorAll('.white-key, .black-key').forEach(key => {
+    let note = alphabet.indexOf(key.getAttribute('data-note'))
+    if (syllables[note]) {
+      key.innerHTML = syllables[note];
+    }
+  });
+}
+
+function restoreState() {
+  restoreScore(readCookie("learn-notes"))
+  let value = readCookie("learn-notes-options")
+  if (value["syllables"] === "solfege") {
+    syllables = solfege;
+    document.getElementById('solfege').checked = true;
+  } else {
+    syllables = alphabet;
+    document.getElementById('alphabet').checked = true;
+  }
+  redrawNotes()
+}
+
 // Initial setup
-let value = readCookie("learn-notes")
-restoreScore(value)
+restoreState();
 initClef();
 startGame()
 startButton.addEventListener('click', startGame);
+
+document.querySelectorAll('.white-key, .black-key').forEach(key => {
+  key.addEventListener('mousedown', () => {
+    guess(note)
+  });
+});
+document.getElementById('solfege')
+        .addEventListener('change', function() {
+            if (this.checked) { 
+                syllables = solfege
+                storeCookie("learn-notes-options", { "syllables" : "solfege"});
+                redrawNotes()
+            }
+        });
+document.getElementById('alphabet')
+        .addEventListener('change', function() {
+            if (this.checked) { 
+                syllables = alphabet
+                storeCookie("learn-notes-options", { "syllables" : "alphabet"});
+                redrawNotes()
+            }
+        });
 
 speedValue.textContent = speedSetting;
 speedRange.value = speedSetting;

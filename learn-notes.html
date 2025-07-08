@@ -13,8 +13,11 @@
         <label id="speedLabel" for="speedRange">Speed:</label>
         <input id="speedRange" type="range" min="1" max="100" value="50" />
         <span id="speedValue">50</span>
-        <span style="font-size:14px; color:#777;"><br>(1=slow, 100=fast)</span>
     </div>
+    <div id="speedDiv">
+      <label><input name="notation" type="radio" id="solfege" checked>Solfege</label>
+      <label><input name="notation" type="radio" id="alphabet">Alphabet</label>
+    </div>         
     <div class="header-row">
         <table class="configuration-table">
             <thead><tr><th>Clef</th><th>Octave</th> </tr></thead>
@@ -30,7 +33,24 @@
         <div class="game-card">
         <div id="feedback"></div>
         <canvas id="noteDisplay" width="400" height="200"></canvas>
-        <div class="answers-container" id="buttons"></div>
+        <div class="piano">
+            <div class="white-keys">
+                <div class="white-key" data-note="C">C</div>
+                <div class="white-key" data-note="D">D</div>
+                <div class="white-key" data-note="E">E</div>
+                <div class="white-key" data-note="F">F</div>
+                <div class="white-key" data-note="G">G</div>
+                <div class="white-key" data-note="A">A</div>
+                <div class="white-key" data-note="B">B</div>
+            </div>
+            <div class="black-keys">
+                <div class="black-key" data-note="C#"></div>
+                <div class="black-key" data-note="D#"></div>
+                <div class="black-key" data-note="F#"></div>
+                <div class="black-key" data-note="G#"></div>
+                <div class="black-key" data-note="A#"></div>
+            </div>
+        </div>
     </div>
     </div>
   </div>

@@ -68,9 +68,7 @@ function submit() {
 num1Elem.value = 20;
 num2Elem.value = 20;
 let value = readCookie("simple-math")
-if (value) {
-    restoreScore(value)
-}
+restoreScore(value)
 
 document.getElementById('submit-form')
         .addEventListener('submit', 

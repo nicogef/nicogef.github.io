@@ -22,6 +22,72 @@ button:disabled {
     text-align: center;
 }
 
+
+.piano {
+  position: relative;
+  width: 350px;
+  height: 180px;
+  margin: 40px auto;
+  background: #333;
+  border-radius: 8px;
+  padding: 20px 10px 10px 10px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+  user-select: none;
+}
+.white-keys {
+  display: flex;
+  position: relative;
+  z-index: 1;
+}
+.white-key {
+      width: 50px;
+      height: 160px;
+      background: white;
+      border: 1px solid #bbb;
+      border-radius: 0 0 5px 5px;
+      margin-right: -1px;
+      box-sizing: border-box;
+      position: relative;
+      text-align: center;
+      cursor: pointer;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      align-items: center;
+      font-size: 16px;
+}
+.white-key:active {
+  background: #eee;
+}
+.black-keys {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100px;
+  width: 100%;
+  display: flex;
+  pointer-events: none;
+  z-index: 2;
+}
+.black-key {
+  width: 32px;
+  height: 100px;
+  background: black;
+  border-radius: 0 0 3px 3px;
+  position: absolute;
+  pointer-events: auto;
+  cursor: pointer;
+}
+.black-key:active {
+  background: #444;
+}
+/* Position black keys */
+.black-key[data-note="C#"] { left: 35px; }
+.black-key[data-note="D#"] { left: 85px; }
+.black-key[data-note="F#"] { left: 185px; }
+.black-key[data-note="G#"] { left: 235px; }
+.black-key[data-note="A#"] { left: 285px; }
+
 #speedDiv { margin: auto auto 10px auto; width: 300px; text-align: center; }
 #speedControl { margin: 20px auto 10px auto; width: 300px; }
 #speedLabel { font-size: 16px; margin-right: 10px; }

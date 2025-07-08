@@ -61,7 +61,7 @@ function generateQuestion() {
 
 // Handle guess
 function submit() {
-    if (Number(AnswerElem.value) === correctAnswer) {
+    if (AnswerElem.value != "" && Number(AnswerElem.value) === correctAnswer) {
         correctGuess();
         incrementScore();
     } else {

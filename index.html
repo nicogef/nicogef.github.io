@@ -5,18 +5,33 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Funny Games</title>
   <link rel="stylesheet" href="./css/styles.css">
+  <link rel="stylesheet" href="./css/index.css">
 </head>
 <body>
   <div class="background"></div>
-  <div class="blur-container">
-    <!-- <img src="./resources/image.png" width="448" height="256" alt="Funny Games"> -->
-    <nav>
-      <ul>
-        <li><a href="./learn-notes/learn-notes.html">Solfege Note Finder Game</a><div id="learn-notes"></div></li>
-        <li><a href="./trivia/trivia.html">Trivia Trainer Game</a><div id="trivia"></div></li>
-        <li><a href="./simple-math/simple-math.html">Simple Math Game</a><div id="simple-math"></div></li>
-      </ul>
-    </nav>
+  <div class="blur-container"></div>
+  <div class="wrapper">
+    <a href="./learn-notes/learn-notes.html" class="tile">
+      <img src="../resources/note-finder-img.png" alt="note-finder-img" />
+      <div class="tile-content">             
+        <h2 class="tile-title">Note Finder</h2>
+        <p class="tile-score" id="learn-notes"></p>
+      </div>
+    </a>
+    <a href="./trivia/trivia.html" class="tile">
+      <img src="../resources/trivia-img.jpg" alt="trivia-img" />
+      <div class="tile-content">             
+        <h2 class="tile-title">Trivia Trainer</h2>
+        <p class="tile-score" id="trivia"></p>
+      </div>
+    </a>
+    <a href="./simple-math/simple-math.html" class="tile">
+      <img src="../resources/math-img.jpg" alt="math-img" />
+      <div class="tile-content">             
+        <h2 class="tile-title">Simple Math</h2>
+        <p class="tile-score" id="simple-math"></p>
+      </div>
+    </a>
   </div>
   <script type="module" src="./js/index.js"></script>
 </body>

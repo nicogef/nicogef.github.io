@@ -17,26 +17,25 @@ body {
 
 /* Center container with blur effect */
 .blur-container {
-  position: relative;
-  max-width: 600px;
-  margin: 5px auto;
-  background: rgba(255, 255, 255, 0.7); /* translucent white */
-  border-radius: 18px;
+  position: fixed;
+  top: 0; left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(6, 6, 6, 0.44);
   box-shadow: 0 6px 24px rgba(0,0,0,0.08);
-  padding: 10px 20px;
-  text-align: center;
-  backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px); /* Safari support */
-  color: #222;
-  text-align: center;
+  /* backdrop-filter: blur(2px); */
+  z-index: -1;
 }
 
 .container {
   max-width: 600px;
   margin: 5px auto;
-  background: #fff;
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(2px);
   border-radius: 18px;
   box-shadow: 0 6px 24px rgba(0,0,0,0.08);
+  -webkit-backdrop-filter: blur(8px); /* Safari support */
   padding: 10px 20px;
   text-align: center;
 }
@@ -57,6 +56,7 @@ h1 {
   border-collapse: collapse;
   width: 300px;
   height: 100px;
+  background: rgba(255, 255, 255, 0.7);
   box-shadow: 0 2px 8px rgba(0,0,0,0.08);
   text-align: center;
 }
@@ -87,7 +87,11 @@ h1 {
   width: 100%;
 }
 .game-card {
-  background-color: #fff;
+  background: rgba(255, 255, 255, 0.75);
+  backdrop-filter: blur(2px);
+  border-radius: 18px;
+  box-shadow: 0 6px 24px rgba(0,0,0,0.08);
+  -webkit-backdrop-filter: blur(8px); /* Safari support */
   border-radius: 20px;
   padding: 30px;
   padding-top: 10px;
@@ -122,26 +126,6 @@ button.answer {
 button.answer:hover {
   background-color: #4e57d9;
   transform: scale(1.05);
-}
-
-nav ul {
-  list-style: none;
-  padding: 0;
-}
-
-nav li {
-  margin: 18px 0;
-}
-
-nav a {
-  text-decoration: none;
-  color: #0077ff;
-  font-size: 1.2em;
-  transition: color 0.2s;
-}
-
-nav a:hover {
-  color: #004488;
 }
 
 td {

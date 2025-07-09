@@ -34,6 +34,7 @@ const startButton = document.getElementById('start');
 
 function startGame() {
   clearScore();
+  storeCookie("trivia", scoreToJson())
   currentQuestionIndex = 0;
   startButton.innerText = "Restart";
   shuffledQuestions = [...questions.filter(q => q.category === category)];
@@ -84,6 +85,7 @@ function nextQuestion() {
 function endGame() {
   stopOnTimer("Good Job, your score is " + getScore())
   clearScore()
+  storeCookie("trivia", scoreToJson())
 }
 
 function initCategories() {

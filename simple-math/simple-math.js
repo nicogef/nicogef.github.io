@@ -83,7 +83,11 @@ document.getElementById('submit-form')
                             event.preventDefault();
                             submit();
                           });
-startBtn.addEventListener('click', generateQuestion);
+startBtn.addEventListener('click', () => {
+        clearScore();
+        storeCookie("simple-math", scoreToJson())
+        generateQuestion();
+    });
 document.getElementById('add')
         .addEventListener('change', function() {
             if (this.checked) { 

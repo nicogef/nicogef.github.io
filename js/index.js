@@ -1,7 +1,4 @@
 import { readCookie } from './cookie.js';
-setBestScore("learn-notes")  
-setBestScore("trivia")  
-setBestScore("simple-math")
 
 function setBestScore(game) {
     let value = readCookie(game)
@@ -10,3 +7,16 @@ function setBestScore(game) {
     }
     document.getElementById(game).textContent = `Current Best Score: ${value["best-score"]}`;
 }
+
+window.addEventListener('pageshow', function (event) {
+  const navigation = performance.getEntriesByType("navigation")[0];
+  if (event.persisted || (navigation && navigation.type === "back_forward")) {
+    setBestScore("learn-notes")  
+    setBestScore("trivia")  
+    setBestScore("simple-math")
+  }
+});
+
+setBestScore("learn-notes")  
+setBestScore("trivia")  
+setBestScore("simple-math")

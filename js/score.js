@@ -37,5 +37,7 @@ export function restoreScore(value) {
     if (value["best-score"]) {
         bestScore = value["best-score"];
         bestScoreDiv.textContent = `Best Score: ${bestScore}`;
+    } else {
+        bestScoreDiv.textContent = `Best Score: 0`;
     }
 }

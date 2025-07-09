@@ -134,6 +134,7 @@ function guess(actual) {
 function endGame() {
   roundActive = false;
   clearScore();
+  storeCookie("learn-notes", scoreToJson())
   clearInterval(nextRoundTimeout)
 }
 

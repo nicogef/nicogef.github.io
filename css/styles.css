@@ -6,6 +6,31 @@ body {
   min-height: 100vh;
 }
 
+.background {
+  position: fixed;
+  top: 0; left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: url('../resources/image.png') no-repeat center center/cover;
+  z-index: -1;
+}
+
+/* Center container with blur effect */
+.blur-container {
+  position: relative;
+  max-width: 600px;
+  margin: 5px auto;
+  background: rgba(255, 255, 255, 0.7); /* translucent white */
+  border-radius: 18px;
+  box-shadow: 0 6px 24px rgba(0,0,0,0.08);
+  padding: 10px 20px;
+  text-align: center;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px); /* Safari support */
+  color: #222;
+  text-align: center;
+}
+
 .container {
   max-width: 600px;
   margin: 5px auto;

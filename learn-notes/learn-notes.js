@@ -1,6 +1,7 @@
 import { correctGuess, incorrectGuess, tooSlow, clearFeedBack } from '../js/feedback.js';
-import { incrementScore, clearScore, scoreToJson, restoreScore } from '../js/score.js';
+import { initScore } from '../js/score.js';
 import { storeCookie, readCookie } from '../js/cookie.js';
+
 
 // Data
 const semitone = 6;
@@ -11,9 +12,6 @@ const ledgerHigh = 9;
 const referenceFrequency = 440.00;
 const solfege = ["Do", "Re", "Mi", "Fa", "Sol", "La", "Si"];
 const alphabet = ["C", "D", "E", "F", "G", "A", "B"];
-const trebleClef = new Clef("𝄞", "First Octave", 3, -8, 15, ["Small Octave", "First Octave", "Second Octave", "Third Octave"])
-const bassClef = new Clef("𝄢", "Small Octave", -2, -19, -1, ["Great Octave", "Small Octave", "First Octave"])
-const clefs = [trebleClef, bassClef]
 
 // State
 let clef = 0;
@@ -25,25 +23,29 @@ let speedSetting = 1; // Default speed
 let octaveSetting = "First Octave"; // Default octave
 let syllables = solfege
 
-function Clef(clef, baseOctave, referencePosition, lowerNote, higherNote, octaves) {
-  this.clef = clef
-  this.baseOctave = octaves.indexOf(baseOctave)
-  this.referencePosition = referencePosition
-  this.lowerNote = lowerNote
-  this.higherNote = higherNote
-  this.octaves = octaves
+class Clef {
+  constructor(clef, baseOctave, referencePosition, lowerNote, higherNote, octaves) {
+    this.clef = clef;
+    this.baseOctave = octaves.indexOf(baseOctave);
+    this.referencePosition = referencePosition;
+    this.lowerNote = lowerNote;
+    this.higherNote = higherNote;
+    this.octaves = octaves;
+  }
+  randomNote(octaveSetting) {
+    this.note = Math.floor(Math.random() * notePerOctave);
+    // Calculate note position
+    this.position = this.note - this.referencePosition + notePerOctave * (this.octaves.indexOf(octaveSetting) - this.baseOctave);
+    // Calculate Y position based on f0
+    this.y = xA4 - this.position * semitone;
+    this.frequency = referenceFrequency * Math.pow(2, this.position / 12);
+    return new Note(this.note, this.position, this.y, this.frequency);
+  }
 }
+const trebleClef = new Clef("𝄞", "First Octave", 3, -8, 15, ["Small Octave", "First Octave", "Second Octave", "Third Octave"])
+const bassClef = new Clef("𝄢", "Small Octave", -2, -19, -1, ["Great Octave", "Small Octave", "First Octave"])
+const clefs = [trebleClef, bassClef]
 
-Clef.prototype.randomNote = function randomNote(octaveSetting) {
-  this.note = Math.floor(Math.random() * notePerOctave);
-  // Calculate note position
-  
-  this.position = this.note - this.referencePosition + notePerOctave * (this.octaves.indexOf(octaveSetting) - this.baseOctave);
-  // Calculate Y position based on f0
-  this.y =  xA4 - this.position * semitone;
-  this.frequency = referenceFrequency * Math.pow(2, this.position / 12);
-  return new Note(this.note, this.position, this.y, this.frequency)
-}
 
 // DOM
 const canvas = document.getElementById('noteDisplay');
@@ -121,26 +123,24 @@ function guess(actual) {
   roundActive = false;
   if (actual === note.note) {
     note.play();
-    incrementScore()
+    score.incrementScore()
     correctGuess();
   } else {
-    clearScore();
+    score.clearScore();
     incorrectGuess(syllables[note.note]);
   }
-  storeCookie("learn-notes", scoreToJson())
   nextRoundTimeout = setTimeout(newRound, 800);
 }
 
 function endGame() {
   roundActive = false;
-  clearScore();
-  storeCookie("learn-notes", scoreToJson())
+  score.clearScore();
+  clearFeedBack();
   clearInterval(nextRoundTimeout)
 }
 
 function startGame() {
   endGame();
-  clearFeedBack();
   startButton.innerText = "Restart";
   clef = trebleClef
   nextRoundTimeout = setTimeout(newRound, 500);
@@ -153,20 +153,21 @@ speedRange.addEventListener('input', function() {
   speedRange.value = speedSetting;
 });
 
-function Note(note, position, y, frequency) {
-  this.note = note
-  // Calculate note position
-  this.position = position;
-  // Calculate Y position based on f0
-  this.y = y;
-  this.frequency = frequency;
-  console.log(`Index: ${this.note} for note: ${this.position}`);
-}
-Note.prototype.play = function play() {
-  playPianoNote(this.frequency)
-}
+class Note {
+  constructor(note, position, y, frequency) {
+    this.note = note;
+    // Calculate note position
+    this.position = position;
+    // Calculate Y position based on f0
+    this.y = y;
+    this.frequency = frequency;
+    console.log(`Index: ${this.note} for note: ${this.position}`);
+  }
+  play() {
+    playPianoNote(this.frequency);
+  }
   // Draw note at position
-Note.prototype.drawAt = function drawAt(x) {
+  drawAt(x) {
     ctx.beginPath();
     ctx.ellipse(x, this.y, semitone + 1, semitone, 0, 0, 2 * Math.PI);
     ctx.fillStyle = "#3498db";
@@ -174,8 +175,9 @@ Note.prototype.drawAt = function drawAt(x) {
     ctx.strokeStyle = "#222";
     ctx.stroke();
 
-    drawLedgerLines(x, note)
+    drawLedgerLines(x, note);
   }
+}
 
 function playPianoNote(frequency) {
   const audioCtx = new (window.AudioContext || window.webkitAudioContext)();
@@ -275,7 +277,6 @@ function redrawNotes() {
 }
 
 function restoreState() {
-  restoreScore(readCookie("learn-notes"))
   let value = readCookie("learn-notes-options")
   if (value["syllables"] === "solfege") {
     syllables = solfege;
@@ -289,6 +290,7 @@ function restoreState() {
 
 // Initial setup
 restoreState();
+const score = initScore("learn-notes");
 initClef();
 startGame()
 startButton.addEventListener('click', startGame);
@@ -315,6 +317,8 @@ document.getElementById('alphabet')
                 redrawNotes()
             }
         });
-
+document.getElementById('open-cert').onclick = function() {
+  score.openCertificate();
+};
 speedValue.textContent = speedSetting;
 speedRange.value = speedSetting;

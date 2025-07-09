@@ -1,6 +1,5 @@
 import { correctGuess, incorrectGuess, stopOnTimer, clearFeedBack } from '../js/feedback.js';
-import { incrementScore, clearScore, scoreToJson, restoreScore } from '../js/score.js';
-import { storeCookie, readCookie } from '../js/cookie.js';
+import { initScore } from '../js/score.js';
 
 let questions = []
 async function fetchQuestions() {
@@ -33,8 +32,7 @@ const progressElem = document.getElementById('progress');
 const startButton = document.getElementById('start');
 
 function startGame() {
-  clearScore();
-  storeCookie("trivia", scoreToJson())
+  score.clearScore();
   currentQuestionIndex = 0;
   startButton.innerText = "Restart";
   shuffledQuestions = [...questions.filter(q => q.category === category)];
@@ -63,12 +61,11 @@ function checkAnswer(selectedIndex) {
   if (answerButtons[selectedIndex].innerText === correctAnswerText) {
     answerButtons[selectedIndex].classList.add('correct');
     correctGuess()
-    incrementScore();
+    score.incrementScore();
   } else {
     incorrectGuess(correctAnswerText)
     answerButtons[selectedIndex].classList.add('incorrect');
   }
-  storeCookie("trivia", scoreToJson())
   answerButtons.forEach(btn => btn.disabled = true);
   setTimeout(nextQuestion, 1000);
 }
@@ -84,8 +81,7 @@ function nextQuestion() {
 
 function endGame() {
   stopOnTimer("Good Job, your score is " + getScore())
-  clearScore()
-  storeCookie("trivia", scoreToJson())
+  score.clearScore()
 }
 
 function initCategories() {
@@ -116,11 +112,13 @@ function initCategories() {
   });
 }
 
-let value = readCookie("trivia")
-restoreScore(value)
+let score = initScore("trivia")
 initCategories();
 startGame()
 startButton.addEventListener('click', startGame);
 answerButtons.forEach((btn, index) => {
   btn.addEventListener('click', () => checkAnswer(index));
 });
+document.getElementById('open-cert').onclick = function() {
+  score.openCertificate();
+};

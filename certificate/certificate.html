@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Certificate for your accomplishment</title>
+  <link rel="stylesheet" href="../css/styles.css">
+  <link rel="stylesheet" href="./certificate.css">
+  <style>
+  </style>
+</head>
+<body>
+  <div class="background"></div>
+  <div class="blur-container"></div>
+  <div class="edit-fields">
+    <div>
+      <label for="recipientInput">Recipient:</label>
+      <input type="text" id="recipientInput" value="Your Name" />
+    </div>
+    <div>
+      <label for="signatureInput">Signature:</label>
+      <input type="text" id="signatureInput" value="Mon Papa" />
+    </div>
+    <div>
+      <button class="print-btn" onclick="window.print()">Print Certificate</button>
+    </div>
+  </div>
+  <div class="certificate-container">
+    <div class="certificate-org">Funny Games</div>
+    <div class="certificate-title">Certificate of Best Score</div>
+    <div class="certificate-subtitle">This certificate is proudly presented to</div>
+    <div class="certificate-recipient" id="recipientDisplay">Your Name</div>
+    <div class="certificate-text">
+      For having obtained the score <span id="score">TBC</span></b> in the <b><span id="game">TBC</span></b> game<br>
+      and demonstrating outstanding performance.
+    </div>
+    <div class="certificate-footer">
+      <div class="certificate-signature-container">
+        <div class="certificate-signature" id="signatureDisplay">Mon papa</div>
+        <div>Father</div>
+      </div>
+      <div class="certificate-signature-container">
+        <div class="certificate-signature" id="current-date">July 9, 2025</div>
+        <div>Date</div>
+      </div>
+    </div>
+  </div>
+  <script>
+    // Helper to get query parameters
+    function getQueryParam(param) {
+      const urlParams = new URLSearchParams(window.location.search);
+      return urlParams.get(param);
+    }
+
+    // Set initial values from URL if present
+    window.addEventListener('DOMContentLoaded', function() {
+      const gameFromURL = getQueryParam('name');
+      const scoreFromURL = getQueryParam('score');
+      if (gameFromURL) {
+        document.getElementById('game').textContent = gameFromURL;
+      }
+      if (scoreFromURL) {
+        document.getElementById('score').textContent = scoreFromURL;
+      }
+      const today = new Date();
+      const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+      document.getElementById('current-date').textContent = today.toLocaleDateString(undefined, options)
+    });
+
+    // Live update fields
+    document.getElementById('recipientInput').addEventListener('input', function() {
+      document.getElementById('recipientDisplay').textContent = this.value || ' ';
+    });
+    document.getElementById('signatureInput').addEventListener('input', function() {
+      document.getElementById('signatureDisplay').textContent = this.value || ' ';
+    });
+  </script>
+</body>
+</html>

@@ -1,6 +1,5 @@
 import { correctGuess, incorrectGuess, clearFeedBack } from '../js/feedback.js';
-import { incrementScore, clearScore, scoreToJson, restoreScore } from '../js/score.js';
-import { storeCookie, readCookie } from '../js/cookie.js';
+import { initScore } from '../js/score.js';
 
 const startBtn = document.getElementById('start')
 const questionElem = document.getElementById('question');
@@ -63,19 +62,17 @@ function generateQuestion() {
 function submit() {
     if (AnswerElem.value != "" && Number(AnswerElem.value) === correctAnswer) {
         correctGuess();
-        incrementScore();
+        score.incrementScore();
     } else {
         incorrectGuess(`${correctAnswer}`);
-        clearScore();
+         score.clearScore();
     }
-    storeCookie("simple-math", scoreToJson())
     nextRoundTimeout = setTimeout(generateQuestion, 800);
 }
 
 num1Elem.value = 20;
 num2Elem.value = 20;
-let value = readCookie("simple-math")
-restoreScore(value)
+let score = initScore("simple-math")
 
 document.getElementById('submit-form')
         .addEventListener('submit', 
@@ -84,8 +81,7 @@ document.getElementById('submit-form')
                             submit();
                           });
 startBtn.addEventListener('click', () => {
-        clearScore();
-        storeCookie("simple-math", scoreToJson())
+         score.clearScore();
         generateQuestion();
     });
 document.getElementById('add')
@@ -112,3 +108,6 @@ document.getElementById('div')
                 generateQuestion() 
             }
         });
+document.getElementById('open-cert').onclick = function() {
+  score.openCertificate();
+};

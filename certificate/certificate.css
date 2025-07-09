@@ -1,0 +1,139 @@
+
+    @media print {
+      @page { size: A4 landscape; margin: 0; }
+      body, html { 
+        box-shadow: none; 
+        background: none !important; 
+        margin: 0 !important; 
+        padding: 0 !important; 
+        border: 0; 
+        min-height: 100%;
+      }
+      .background, .blur-container, .edit-fields, .print-btn {  
+        box-shadow: none; 
+        background: none !important; 
+        margin: 0; 
+        padding: 0; 
+        border: 0; 
+        display: none !important; 
+      }
+      .certificate-container { 
+        box-sizing: border-box;
+        box-shadow: none !important; 
+        page-break-inside: avoid;
+        margin: auto !important;
+        overflow: hidden;
+        /* border: none; */
+        height: 100vh;
+        max-width: 100%;
+        max-height: 100%;
+      }
+    }
+    body {
+      margin: 0;
+      padding: 40px 0;
+      text-align: center;
+    }
+    .certificate-container {
+      width: 270mm;
+      height: 190mm;
+      margin: 0 auto;
+      background: #fff;
+      border: 16px solid tan;
+      box-shadow: 0 0 20px rgba(0,0,0,0.15);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+    }
+    .certificate-title {
+      color: #bfa14a;
+      font-size: 48px;
+      margin-top: 30px;
+      margin-bottom: 10px;
+      font-family: 'Georgia', serif;
+      letter-spacing: 2px;
+    }
+    .certificate-org {
+      color: #bfa14a;
+      font-size: 28px;
+      margin-bottom: 20px;
+      font-weight: bold;
+    }
+    .certificate-subtitle {
+      font-size: 22px;
+      margin-bottom: 20px;
+      color: #333;
+    }
+    .certificate-recipient {
+      font-size: 32px;
+      font-style: italic;
+      margin: 20px auto 10px auto;
+      border-bottom: 2px solid #222;
+      width: 400px;
+      padding: 8px 0;
+      color: #222;
+      min-height: 44px;
+      transition: border 0.2s;
+    }
+    .certificate-text {
+      font-size: 20px;
+      margin-bottom: 30px;
+      color: #555;
+    }
+    .certificate-footer {
+      position: absolute;
+      bottom: 20px;
+      left: 0;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      padding: 0 0;
+      font-size: 18px;
+      color: #555;
+    }
+    .certificate-signature-container {
+        padding: 5px 20px;
+    }
+    .certificate-signature {
+      border-top: 1px solid #222;
+      width: 200px;
+      margin: 0 auto;
+      padding-top: 5px;
+      font-style: italic;
+      color: #333;
+      min-height: 28px;
+      transition: border 0.2s;
+    }
+    .edit-fields {
+      margin-bottom: 25px;
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+    }
+    .edit-fields label {
+      font-size: 1.1em;
+      color: #000000;
+      margin-right: 8px;
+    }
+    .edit-fields input {
+      font-size: 1.1em;
+      padding: 4px 8px;
+      border-radius: 4px;
+      border: 1px solid #bbb;
+      width: 170px;
+    }
+.print-btn {
+  margin: 0;
+  display: inline-block;
+  padding: 5px 10px;
+  background: #bfa14a;
+  color: #fff;
+  font-size: 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  transition: background 0.2s;
+}

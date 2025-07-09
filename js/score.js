@@ -1,43 +1,54 @@
-const scoreDiv = document.getElementById('score');
-const bestScoreDiv = document.getElementById('best-score');
+import { storeCookie, readCookie } from '../js/cookie.js';
 
-let score = 0;
-let bestScore = 0;
-
-export function incrementScore() {
-    score++;
-    scoreDiv.textContent = `Score: ${score}`;
-}
-
-export function clearScore() {
-    if (score > bestScore) {
-      bestScore = score;
-      bestScoreDiv.textContent = `Best Score: ${bestScore}`;
+export function initScore(cookieName) {
+    let value = readCookie(cookieName)
+    let score = 0
+    let bestScore = 0
+    if (value) {
+        if (value.score) {
+            score = value.score;
+        }
+        if (value["best-score"]) {
+            bestScore = value["best-score"];
+        }
     }
-    score = 0;
-    scoreDiv.textContent = `Score: ${score}`;
+    return new Score(cookieName, score, bestScore)
 }
 
-export function getScore() {
-    return score;
-}
-
-export function scoreToJson() {
-    return { "score": score, "best-score": bestScore };
-}
-
-export function restoreScore(value) {
-    if (value === undefined) {
-        return;
+export class Score {
+    constructor(cookieName, score, bestScore) {
+        this.cookieName = cookieName;
+        this.score = score;
+        this.bestScore = bestScore;
+        this.scoreDiv = document.getElementById('score');
+        this.bestScoreDiv = document.getElementById('best-score');
+        this.scoreDiv.textContent = `Score: ${score}`;
+        this.bestScoreDiv.textContent = `Best Score: ${bestScore}`;
     }
-    if (value.score) {
-        score = value.score;
+
+    incrementScore() {
+        this.score++;
+        this.scoreDiv.textContent = `Score: ${this.score}`;
+        storeCookie(this.cookieName, this.scoreToJson());
     }
-    scoreDiv.textContent = `Score: ${score}`;
-    if (value["best-score"]) {
-        bestScore = value["best-score"];
-        bestScoreDiv.textContent = `Best Score: ${bestScore}`;
-    } else {
-        bestScoreDiv.textContent = `Best Score: 0`;
+
+    clearScore() {
+        if (this.score > this.bestScore) {
+            this.bestScore = this.score;
+            this.bestScoreDiv.textContent = `Best Score: ${this.bestScore}`;
+        }
+        this.score = 0;
+        this.scoreDiv.textContent = `Score: ${this.score}`;
+        storeCookie(this.cookieName, this.scoreToJson());
+    }
+
+    scoreToJson() {
+        return { "score": this.score, "best-score": this.bestScore };
+    }
+
+    openCertificate() {
+        const name = encodeURIComponent(this.cookieName);
+        const bestScore = encodeURIComponent(`${this.bestScore}`);
+        window.open(`../certificate/certificate.html?name=${name}&score=${bestScore}`, '_blank');
     }
 }

@@ -147,3 +147,15 @@ tr:hover {
 tbody tr:last-child td {
   border-bottom: none;
 }
+.print-btn {
+  background: transparent;  
+  margin: auto auto auto auto;
+  display: inline-block;
+  padding: 5px;
+  color: #fff;
+  font-size: 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.print-btn:hover { background: #ffffff; }

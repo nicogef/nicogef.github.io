@@ -1,6 +1,6 @@
-import { correctGuess, incorrectGuess, clearFeedBack } from './feedback.js';
-import { incrementScore, clearScore, scoreToJson, restoreScore } from './score.js';
-import { storeCookie, readCookie } from './cookie.js';
+import { correctGuess, incorrectGuess, clearFeedBack } from '../js/feedback.js';
+import { incrementScore, clearScore, scoreToJson, restoreScore } from '../js/score.js';
+import { storeCookie, readCookie } from '../js/cookie.js';
 
 const startBtn = document.getElementById('start')
 const questionElem = document.getElementById('question');

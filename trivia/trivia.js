@@ -1,11 +1,11 @@
-import { correctGuess, incorrectGuess, stopOnTimer, clearFeedBack } from './feedback.js';
-import { incrementScore, clearScore, scoreToJson, restoreScore } from './score.js';
-import { storeCookie, readCookie } from './cookie.js';
+import { correctGuess, incorrectGuess, stopOnTimer, clearFeedBack } from '../js/feedback.js';
+import { incrementScore, clearScore, scoreToJson, restoreScore } from '../js/score.js';
+import { storeCookie, readCookie } from '../js/cookie.js';
 
 let questions = []
 async function fetchQuestions() {
   try {
-    const response = await fetch('./resources/trivia-questions.json');
+    const response = await fetch('../resources/trivia-questions.json');
     if (!response.ok) throw new Error('Network response was not ok');
     questions = await response.json(); // Store in array
   } catch (error) {

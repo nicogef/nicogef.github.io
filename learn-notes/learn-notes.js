@@ -1,6 +1,6 @@
-import { correctGuess, incorrectGuess, tooSlow, clearFeedBack } from './feedback.js';
-import { incrementScore, clearScore, scoreToJson, restoreScore } from './score.js';
-import { storeCookie, readCookie } from './cookie.js';
+import { correctGuess, incorrectGuess, tooSlow, clearFeedBack } from '../js/feedback.js';
+import { incrementScore, clearScore, scoreToJson, restoreScore } from '../js/score.js';
+import { storeCookie, readCookie } from '../js/cookie.js';
 
 // Data
 const semitone = 6;

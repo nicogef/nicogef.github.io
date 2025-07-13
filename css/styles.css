@@ -3,7 +3,6 @@ body {
   background: linear-gradient(120deg, #89f7fe 0%, #66a6ff 100%);
   margin: 0;
   padding: 0;
-  min-height: 100vh;
 }
 
 .background {
@@ -11,7 +10,7 @@ body {
   top: 0; left: 0;
   width: 100vw;
   height: 100vh;
-  background: url('../resources/image.png') no-repeat center center/cover;
+  background: url('../resources/image.jpg') no-repeat center center/cover;
   z-index: -1;
 }
 
@@ -152,7 +151,6 @@ tbody tr:last-child td {
   margin: auto auto auto auto;
   display: inline-block;
   padding: 5px;
-  color: #fff;
   font-size: 20px;
   border: none;
   border-radius: 6px;

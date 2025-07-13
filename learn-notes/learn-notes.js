@@ -10,22 +10,20 @@ const notePerOctave = 7;
 const ledgerLow = -3;
 const ledgerHigh = 9;
 const referenceFrequency = 440.00;
-const solfege = ["Do", "Re", "Mi", "Fa", "Sol", "La", "Si"];
 const alphabet = ["C", "D", "E", "F", "G", "A", "B"];
 
 // State
-let clef = 0;
 let note = 0;
 let animationId = null;
 let nextRoundTimeout = null
 let roundActive = false;
 let speedSetting = 1; // Default speed
-let octaveSetting = "First Octave"; // Default octave
-let syllables = solfege
+let syllables;
 
 class Clef {
-  constructor(clef, baseOctave, referencePosition, lowerNote, higherNote, octaves) {
-    this.clef = clef;
+  constructor(name, sign, baseOctave, referencePosition, lowerNote, higherNote, octaves) {
+    this.name = name;
+    this.sign = sign;
     this.baseOctave = octaves.indexOf(baseOctave);
     this.referencePosition = referencePosition;
     this.lowerNote = lowerNote;
@@ -42,9 +40,20 @@ class Clef {
     return new Note(this.note, this.position, this.y, this.frequency);
   }
 }
-const trebleClef = new Clef("𝄞", "First Octave", 3, -8, 15, ["Small Octave", "First Octave", "Second Octave", "Third Octave"])
-const bassClef = new Clef("𝄢", "Small Octave", -2, -19, -1, ["Great Octave", "Small Octave", "First Octave"])
-const clefs = [trebleClef, bassClef]
+const syllablesNames =
+{
+  "solfege" : ["Do", "Re", "Mi", "Fa", "Sol", "La", "Si"],
+  "alphabet": alphabet
+}
+const clefs = 
+{
+  "treble" : new Clef("treble", "𝄞", "First Octave", 3, -8, 15, ["Small Octave", "First Octave", "Second Octave", "Third Octave"]),
+  "bass": new Clef("bass", "𝄢", "Small Octave", -2, -19, -1, ["Great Octave", "Small Octave", "First Octave"])
+}
+
+let syllablesName;
+let clef;
+let octaves;
 
 
 // DOM
@@ -66,7 +75,7 @@ function drawStaff() {
   }
   ctx.font = "80px serif";
   ctx.fillStyle = "#000000";
-  ctx.fillText(clef.clef, 10, canvas.height / 3 + 4 * toneDistance); // Position for treble clef on G4 (Sol) or bass clef F3 (Fa)
+  ctx.fillText(clefs[clef].sign, 10, canvas.height / 3 + 4 * toneDistance); // Position for treble clef on G4 (Sol) or bass clef F3 (Fa)
 }
 
 function drawLine(x, y, xlength) {
@@ -112,7 +121,7 @@ function animateNote(note) {
 function newRound() {
   roundActive = true;
   clearFeedBack()
-  note = clef.randomNote(octaveSetting);
+  note = clefs[clef].randomNote(octaves[clef]);
   animateNote(note);
 }
 
@@ -142,7 +151,6 @@ function endGame() {
 function startGame() {
   endGame();
   startButton.innerText = "Restart";
-  clef = trebleClef
   nextRoundTimeout = setTimeout(newRound, 500);
 }
 
@@ -210,52 +218,52 @@ function playPianoNote(frequency) {
   };
 }
 
-function initClef() {
-  clef = trebleClef
+function initClef(clefName) {
+  updateClef(clefName);
   const clefsElement = document.getElementById("clefs");
-  clefs.map(item => {
+  Object.values(clefs).forEach(item => {
       const label = document.createElement('label');
       const radio = document.createElement('input');
       radio.type = 'radio';
       radio.name = 'clef';
-      radio.value = item.clef;
-      if (clef.clef === item.clef) {
+      radio.value = item.name;
+      if (clef === item.name) {
         radio.checked = true;
       } 
 
       radio.addEventListener('change', function() {
         if (this.checked) {
-          octaveSetting = clef.octaves[clef.baseOctave];
-          clef = item
-          setOctaves(item);
+          updateClef(this.value);
+          storeConfig();
           newRound()
         }
       });
       label.appendChild(radio);
-      label.appendChild(document.createTextNode(item.clef));
+      label.appendChild(document.createTextNode(item.sign));
       clefsElement.appendChild(label);
       clefsElement.appendChild(document.createElement('br'));
   });
-  setOctaves(clef)
 }
 
-function setOctaves(newClef) {
-  clef = newClef;
+function initOctaves(clefName) {
   const octavesElement = document.getElementById('octaves');
+  const currentClef = clefs[clefName];
+  const octaveName = octaves[clefName];
   octavesElement.innerHTML = '';
-  clef.octaves.map(item => {
+  currentClef.octaves.map(item => {
       const radio = document.createElement('input');
       radio.type = 'radio';
       radio.name = 'octave';
       radio.value = item;
-      if (clef.octaves[clef.baseOctave] === item) {
+      if (octaveName === item) {
         radio.checked = true;
-          octaveSetting = item;
       } 
 
       radio.addEventListener('change', function() {
         if (this.checked) {
-          octaveSetting = this.value;
+          octaves[clef] = this.value;
+          updateOctaves(octaves);
+          storeConfig();
           newRound();
         }
       });
@@ -267,31 +275,25 @@ function setOctaves(newClef) {
   });
 }
 
-function redrawNotes() {
-  document.querySelectorAll('.white-key, .black-key').forEach(key => {
-    let note = alphabet.indexOf(key.getAttribute('data-note'))
-    if (syllables[note]) {
-      key.innerHTML = syllables[note];
-    }
-  });
-}
-
-function restoreState() {
-  let value = readCookie("learn-notes-options")
-  if (value["syllables"] === "solfege") {
-    syllables = solfege;
-    document.getElementById('solfege').checked = true;
+function initState() {
+  let value = readCookie("learn-notes-options");
+  updateSyllables(value.syllables ? value.syllables : "alphabet");
+  let clefName = value.clef ? value.clef : "treble";
+  if (value.octaves) {
+    octaves = value.octaves;
   } else {
-    syllables = alphabet;
-    document.getElementById('alphabet').checked = true;
+    updateOctaves({ 
+      "treble" : clefs["treble"].octaves[clefs["treble"].baseOctave], 
+      "bass" : clefs["bass"].octaves[clefs["bass"].baseOctave] 
+    })
   }
-  redrawNotes()
+  initClef(clefName);
+  storeConfig();
 }
 
 // Initial setup
-restoreState();
+initState();
 const score = initScore("learn-notes");
-initClef();
 startGame()
 startButton.addEventListener('click', startGame);
 
@@ -301,24 +303,47 @@ document.querySelectorAll('.white-key, .black-key').forEach(key => {
     guess(note)
   });
 });
-document.getElementById('solfege')
-        .addEventListener('change', function() {
+document.getElementsByName('notation').forEach(key => {
+        key.addEventListener('change', function() {
             if (this.checked) { 
-                syllables = solfege
-                storeCookie("learn-notes-options", { "syllables" : "solfege"});
-                redrawNotes()
+                updateSyllables(this.id)
+                storeConfig();
             }
         });
-document.getElementById('alphabet')
-        .addEventListener('change', function() {
-            if (this.checked) { 
-                syllables = alphabet
-                storeCookie("learn-notes-options", { "syllables" : "alphabet"});
-                redrawNotes()
-            }
-        });
+      });
 document.getElementById('open-cert').onclick = function() {
   score.openCertificate();
 };
+
+function updateOctaves(newOctaves) {
+  octaves = newOctaves;
+}
+
+function updateClef(newClef) {
+  clef = newClef;
+  initOctaves(clef);
+}
+
+function updateSyllables(newSyllables) {
+  syllablesName = newSyllables
+  syllables = syllablesNames[syllablesName];
+  document.getElementById(syllablesName).checked = true;
+  document.querySelectorAll('.white-key, .black-key').forEach(key => {
+    let note = alphabet.indexOf(key.getAttribute('data-note'))
+    if (syllables[note]) {
+      key.innerHTML = syllables[note];
+    }
+  });
+}
+
+function storeConfig() {
+  storeCookie("learn-notes-options", 
+    { 
+      "syllables" : syllablesName,
+      "clef" : clef,
+      "octaves" : octaves
+    });
+                
+}
 speedValue.textContent = speedSetting;
 speedRange.value = speedSetting;

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Activity Tiles</title>
+  <link rel="stylesheet" href="../css/tiles.css">
+  <link rel="stylesheet" href="../css/styles.css">
+  <link rel="stylesheet" href="../css/side-bar.css">
+  <link rel="stylesheet" href="../css/modal.css">
+  <link rel="stylesheet" href="./activities.css">
+</head>
+<body>
+  <div class="background"></div>
+  <div class="blur-container"></div>
+  <div class="sidebar">
+    <h3>Activities for today <button class="print-btn" id="editListBtn">✎</button></h3>
+    <ul class="side-list" id="sideList"></ul>
+  </div>
+  <div class="main-content">
+    <div class="tiles-container" id="tilesContainer"></div>
+  </div>
+  <!-- Modal Popup -->
+  <div class="modal-bg" id="modalBg" aria-modal="true" role="dialog">
+    <div class="modal" id="modal">
+      <button class="close-btn" id="closeModalBtn" title="Close">&times;</button>
+      <div id="passwordSection">
+        <h3>Password Required</h3>
+        <form id="passwordForm">
+          <input type="password" id="passwordInput" placeholder="Enter password" required autocomplete="off" />
+          <div class="error-msg" id="passwordError"></div>
+          <button type="submit" class="edit-btn" style="width:100%;">Unlock</button>
+        </form>
+      </div>
+      <div id="listSection" style="display:none;">
+        <h3>Edit Activity List</h3>
+        <form id="addItemForm" class="list-edit">
+          <input type="text" id="newItemInput" placeholder="Add new activity" required autocomplete="off" />
+          <button type="submit" class="edit-btn" style="width:100%;margin-top:6px;">Add</button>
+        </form>
+        <ul id="editList"></ul>
+      </div>
+    </div>
+  </div>
+  <script type="module" src="./activities.js"></script>
+</body>
+</html>

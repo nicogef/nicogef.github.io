@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <!-- Background -->
+  <rect width="400" height="300" fill="#f5a623" rx="18"/>
+  <rect width="400" height="300" fill="url(#bgGrad)" rx="18"/>
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f5a623;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e8834a;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Open book left page -->
+  <path d="M80 80 Q90 75 200 90 L200 230 Q90 215 80 220 Z" fill="#fff8ee" stroke="#c8996a" stroke-width="2"/>
+  <!-- Open book right page -->
+  <path d="M320 80 Q310 75 200 90 L200 230 Q310 215 320 220 Z" fill="#fff8ee" stroke="#c8996a" stroke-width="2"/>
+  <!-- Book spine -->
+  <rect x="196" y="88" width="8" height="144" fill="#c8996a" rx="2"/>
+
+  <!-- Left page lines -->
+  <line x1="110" y1="120" x2="185" y2="122" stroke="#c8996a" stroke-width="2" stroke-linecap="round"/>
+  <line x1="110" y1="135" x2="185" y2="136" stroke="#c8996a" stroke-width="2" stroke-linecap="round"/>
+  <line x1="110" y1="150" x2="185" y2="151" stroke="#c8996a" stroke-width="2" stroke-linecap="round"/>
+  <line x1="110" y1="165" x2="185" y2="165" stroke="#c8996a" stroke-width="2" stroke-linecap="round"/>
+  <line x1="110" y1="180" x2="170" y2="180" stroke="#c8996a" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Right page lines -->
+  <line x1="215" y1="120" x2="290" y2="122" stroke="#c8996a" stroke-width="2" stroke-linecap="round"/>
+  <line x1="215" y1="135" x2="290" y2="136" stroke="#c8996a" stroke-width="2" stroke-linecap="round"/>
+  <line x1="215" y1="150" x2="290" y2="151" stroke="#c8996a" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Branching arrows on right page (choose-your-own-adventure) -->
+  <circle cx="240" cy="175" r="6" fill="#6b73ff"/>
+  <line x1="246" y1="172" x2="268" y2="162" stroke="#6b73ff" stroke-width="2.5"/>
+  <polygon points="268,162 260,158 264,167" fill="#6b73ff"/>
+  <line x1="246" y1="178" x2="268" y2="188" stroke="#e8834a" stroke-width="2.5"/>
+  <polygon points="268,188 260,192 264,183" fill="#e8834a"/>
+
+  <!-- Stars decorative -->
+  <text x="340" y="60" font-size="22" fill="#fff" opacity="0.8">✦</text>
+  <text x="50" y="50" font-size="16" fill="#fff" opacity="0.6">✦</text>
+  <text x="355" y="250" font-size="14" fill="#fff" opacity="0.5">✦</text>
+</svg>

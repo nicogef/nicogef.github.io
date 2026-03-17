@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Make Your Own Story</title>
+  <link rel="stylesheet" href="../css/styles.css">
+  <link rel="stylesheet" href="./story-book.css">
+</head>
+<body>
+  <div class="background"></div>
+  <div class="blur-container"></div>
+  <div class="container">
+    <h1>Make Your Own Story <button id="write-story-card" class="write-story-btn" title="Write your own story">✍️</button><button id="upload-story-btn" class="write-story-btn" title="Upload a story">📂</button></h1>
+    <input type="file" id="upload-story-input" accept=".yaml,.yml" style="display:none" />
+
+    <!-- View 1: story selector -->
+    <div id="story-list">
+      <p id="loading-msg">Loading stories...</p>
+    </div>
+
+    <!-- View 2: reader -->
+    <div id="story-reader" style="display:none">
+      <div class="header-row" style="justify-content:flex-start; width:auto;">
+        <button id="back-btn" class="start-btn">&#8592; Stories</button>
+        <h2 id="story-title"></h2>
+        <button id="map-btn" class="map-btn" title="View story map">🗺 Map</button>
+      </div>
+      <div class="game-container">
+        <div class="game-card">
+          <img id="page-image" style="display:none" alt="Story illustration" />
+          <div id="page-text"></div>
+          <div id="choices"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- View 3: story writer -->
+    <div id="story-writer" style="display:none">
+
+      <div class="header-row" style="justify-content:flex-start; width:auto; flex-wrap:wrap; gap:8px;">
+        <button id="writer-back-btn" class="start-btn">← Stories</button>
+        <input id="writer-title-input" class="writer-title-input" placeholder="My Story Title…" />
+        <button id="writer-map-btn"      class="map-btn">🗺 Map</button>
+        <button id="writer-play-btn"     class="map-btn">▶ Play</button>
+        <button id="writer-download-btn" class="map-btn">⬇ YAML</button>
+        <button id="writer-save-library-btn" class="map-btn map-btn-save">📚 Save</button>
+      </div>
+
+      <div class="writer-meta-row">
+        <div id="writer-cover-area" class="writer-cover-area">
+          <input type="file" id="writer-cover-input" accept="image/*" style="display:none" />
+          <span class="writer-cover-placeholder">📖</span>
+        </div>
+        <div class="writer-meta-fields">
+          <input id="writer-desc-input" class="writer-desc-input" placeholder="Short description…" />
+          <input id="writer-password-input" class="writer-desc-input writer-password-input" placeholder="🔒 Password to edit &amp; view map (optional)…" />
+        </div>
+      </div>
+
+      <div class="writer-layout">
+        <div class="writer-sidebar">
+          <div id="writer-page-list"></div>
+          <button id="writer-add-page-btn" class="writer-add-btn">✨ Add Page</button>
+        </div>
+        <div id="writer-editor" class="writer-editor">
+          <p class="writer-hint">← Pick a page or add a new one!</p>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+  <!-- Story map modal — outside .container to escape backdrop-filter stacking context -->
+  <div id="tree-modal" style="display:none">
+    <div id="tree-overlay"></div>
+    <div id="tree-panel">
+      <div class="tree-header">
+        <h3>🗺 Story Map</h3>
+        <div class="tree-zoom">
+          <button id="zoom-out">−</button>
+          <span id="zoom-label">100%</span>
+          <button id="zoom-in">+</button>
+        </div>
+        <button id="close-tree">✕</button>
+      </div>
+      <div id="tree-legend">
+        <span class="legend-normal">● page</span>
+        <span class="legend-end">★ end</span>
+        <span class="legend-loop">↩ loop</span>
+        <span class="legend-seen">↗ seen</span>
+      </div>
+      <div id="tree-content"></div>
+    </div>
+  </div>
+  <script type="module" src="./story-book.js"></script>
+</body>
+</html>

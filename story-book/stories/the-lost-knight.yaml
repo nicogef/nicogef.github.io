@@ -1,0 +1,211 @@
+title: "The Lost Knight"
+description: "A medieval adventure where every choice matters."
+cover: "img-fog.svg"
+start: "beginning"
+password: "abc123"
+
+pages:
+  - id: "beginning"
+    image: "img-fog.svg"
+    text: |
+      You are **Sir Roland**, a brave knight who has wandered far from home.
+      A dense fog rolls across the land as the sun dips below the horizon.
+
+      Before you stand two paths: the crumbling gates of a **dark castle**,
+      and the shadowy entrance to an ancient **forest**.
+    choices:
+      - text: "Enter the castle"
+        next: "castle-gates"
+      - text: "Explore the forest"
+        next: "forest-entrance"
+
+  - id: "castle-gates"
+    image: "img-castle.svg"
+    text: |
+      The iron gates groan as you push them open. Inside the courtyard,
+      torches flicker against stone walls. A hooded figure stands near a well.
+
+      *"Stranger,"* the figure rasps, *"you carry the mark of the old kingdom.
+      Do you seek the throne — or the treasure beneath it?"*
+    choices:
+      - text: "I seek the throne"
+        next: "throne-path"
+      - text: "Tell me about the treasure"
+        next: "treasure-path"
+      - text: "Draw your sword and demand answers"
+        next: "attack-figure"
+
+  - id: "forest-entrance"
+    image: "img-forest.svg"
+    text: |
+      Twisted roots and glowing moss line the forest path.
+      An owl watches you from above with golden eyes.
+
+      After a few minutes of walking, you find a wounded fox caught in a trap.
+      It gazes at you with surprising intelligence.
+    choices:
+      - text: "Free the fox"
+        next: "free-fox"
+      - text: "Leave it and press deeper into the forest"
+        next: "forest-deep"
+
+  - id: "throne-path"
+    text: |
+      The hooded figure nods slowly and leads you through winding corridors
+      to a great hall. At its center sits an ancient throne, cracked and cold.
+
+      *"Sit,"* the figure says. *"The castle chooses its ruler by will alone."*
+
+      You feel an invisible force pulling you toward the throne.
+    next: "throne-choice"
+
+  - id: "throne-choice"
+    text: |
+      You sit upon the throne. The cold stone warms beneath you.
+      A distant rumble shakes the walls — and then, silence.
+
+      The hooded figure removes their hood to reveal a young woman with silver eyes.
+      *"The castle accepts you, Sir Roland. The curse is broken."*
+
+      Light floods through the cracked windows. The kingdom stirs to life.
+    choices:
+      - text: "Ask about the curse"
+        next: "curse-explained"
+      - text: "Step outside to see the kingdom"
+        next: "victory-castle"
+
+  - id: "treasure-path"
+    text: |
+      The figure tilts their head. *"The treasure is not gold. It is knowledge —
+      the map to the Dragon's Lair, where the last ember of the old world burns."*
+
+      They hand you a rolled parchment. On it: a path leading east, past the forest,
+      into the mountains.
+    choices:
+      - text: "Follow the map immediately"
+        next: "dragon-lair"
+      - text: "Rest in the castle first"
+        next: "castle-rest"
+
+  - id: "attack-figure"
+    text: |
+      You draw your sword. The figure raises a hand — and your blade flies from your grip,
+      clattering across the cobblestones.
+
+      *"I am not your enemy,"* they say calmly. *"But you are not yet ready for what lies ahead.
+      Come back when your temper has cooled."*
+
+      They vanish. You are alone in the courtyard, your sword at your feet.
+      The gate still stands open. Perhaps you should try a different approach.
+    next: "castle-gates"
+
+  - id: "free-fox"
+    text: |
+      You kneel and carefully spring the trap open. The fox shakes its leg, then looks up at you.
+
+      To your astonishment, it speaks — in a voice like rustling leaves:
+      *"You have a kind heart, Sir Roland. The forest remembers."*
+
+      It trots ahead, glancing back as if asking you to follow.
+    choices:
+      - text: "Follow the fox"
+        next: "fox-guide"
+      - text: "Watch it go and continue alone"
+        next: "forest-deep"
+
+  - id: "forest-deep"
+    text: |
+      The forest grows darker. You hear whispers in the canopy above.
+      Then — a clearing, and in it, the ruins of a stone altar.
+
+      On the altar rests a sword unlike any you have seen:
+      its blade glows faintly blue, and the hilt is carved with dragon scales.
+    choices:
+      - text: "Take the sword"
+        next: "take-sword"
+      - text: "This feels dangerous — go back to the castle instead"
+        next: "castle-gates"
+
+  - id: "fox-guide"
+    text: |
+      The fox leads you deeper into the forest, until you reach a hidden grove.
+      In its center stands a tree so tall its crown disappears into the clouds.
+
+      Carved into its bark: a map of the entire kingdom — and marked on it,
+      a secret path to the castle's inner sanctum.
+    next: "victory-forest"
+
+  - id: "take-sword"
+    text: |
+      The moment your hand closes around the hilt, a voice booms across the clearing:
+
+      *"WHO DISTURBS THE BLADE OF AGES?"*
+
+      A dragon descends from the sky, wings blotting out the moon.
+      But it does not attack. It lands before you and lowers its massive head.
+
+      *"You have the courage to wield it. Use it well, knight."*
+    next: "victory-dragon"
+
+  - id: "castle-rest"
+    text: |
+      You sleep on a straw mattress in the castle's dusty guest chamber.
+      In the morning, you feel refreshed and ready for the journey ahead.
+
+      The hooded figure leaves bread and water at your door, with a note:
+      *"The mountains do not forgive hesitation. Go now."*
+    next: "dragon-lair"
+
+  - id: "dragon-lair"
+    text: |
+      ### The Dragon's Lair
+
+      After days of travel, you reach the mountain pass.
+      The air smells of sulfur and old smoke.
+
+      At the cave entrance, claw marks scar the stone.
+      Deep inside, a faint orange glow pulses like a heartbeat.
+    choices:
+      - text: "Enter boldly"
+        next: "victory-castle"
+      - text: "Approach quietly"
+        next: "victory-dragon"
+
+  - id: "curse-explained"
+    text: |
+      The woman — whose name is Lyra — tells you the castle was cursed three hundred years ago
+      by a sorcerer who sought eternal rule. Only a knight of true lineage could break it.
+
+      *"Your bloodline was the key all along,"* she says, smiling.
+      *"Your wandering was never aimless, Sir Roland. It was destiny."*
+    next: "victory-castle"
+
+  - id: "victory-castle"
+    text: |
+      ### Victory!
+
+      The sun rises over the kingdom, warm and golden.
+      Villagers emerge from their homes, blinking in wonder.
+
+      You stand at the castle gates, no longer a wanderer —
+      but a ruler, welcomed home at last.
+
+  - id: "victory-forest"
+    text: |
+      ### A New Path
+
+      With the forest map in hand, you navigate the castle's inner sanctum
+      and discover the lost archives of the old kingdom.
+
+      The fox sits beside you as you read, its golden eyes gleaming.
+      Some magic, it seems, was waiting all along to be found.
+
+  - id: "victory-dragon"
+    text: |
+      ### Chosen by the Dragon
+
+      The dragon recognizes you as the prophesied Dragonknight —
+      a warrior bound to the last ember of the ancient world.
+
+      Together, you return to the castle. The kingdom awakens.
+      Legends will be told of the knight who walked the dragon's path.

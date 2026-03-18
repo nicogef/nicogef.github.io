@@ -29,6 +29,15 @@ let fromWriter      = false;
 
 // ── Utilities ─────────────────────────────────────────────────────────────────
 
+function generateUID() {
+  return 'p-' + Math.random().toString(36).slice(2, 9) + Date.now().toString(36).slice(-4);
+}
+
+function normalizeStory(story) {
+  if (!Array.isArray(story.pages)) return story;
+  return { ...story, pages: story.pages.map(p => p.title ? p : { ...p, title: p.id }) };
+}
+
 function escHtml(s) {
   return String(s || '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 }
@@ -46,7 +55,7 @@ async function fetchIndex() {
 
 async function fetchStory(filename) {
   const text = await fetchText(`./stories/${filename}`);
-  return parse(text);
+  return normalizeStory(parse(text));
 }
 
 // ── Story list ────────────────────────────────────────────────────────────────
@@ -239,16 +248,19 @@ function renderTreeSvg(pages, startId) {
   const globallyExpanded = new Set();
 
   function makeNode(pageId, path) {
-    if (path.has(pageId))             return { id: pageId, isPhantom: true, phantomType: 'loop' };
+    if (path.has(pageId)) {
+      const lp = pages.get(pageId);
+      return { id: pageId, title: lp?.title || pageId, isPhantom: true, phantomType: 'loop' };
+    }
     const page = pages.get(pageId);
-    if (!page)                        return { id: pageId, isPhantom: true, phantomType: 'missing' };
-    if (globallyExpanded.has(pageId)) return { id: pageId, isPhantom: true, phantomType: 'ref' };
+    if (!page)                        return { id: pageId, title: pageId, isPhantom: true, phantomType: 'missing' };
+    if (globallyExpanded.has(pageId)) return { id: pageId, title: page.title || pageId, isPhantom: true, phantomType: 'ref' };
     globallyExpanded.add(pageId);
 
     const rawText = (page.text || '').replace(/[*#_`>]/g, '').split('\n').map(l => l.trim()).find(l => l.length > 0) || '';
     const preview = rawText.slice(0, 28) + (rawText.length > 28 ? '…' : '');
     const isEnd = !page.choices && !page.next;
-    const node = { id: pageId, type: isEnd ? 'end' : 'normal', preview, children: [], labels: [] };
+    const node = { id: pageId, title: page.title || pageId, type: isEnd ? 'end' : 'normal', preview, children: [], labels: [] };
 
     const childPath = new Set(path);
     childPath.add(pageId);
@@ -361,10 +373,10 @@ function renderTreeSvg(pages, startId) {
         ? 'fill="#fff0f0" stroke="#e74c3c"'
         : 'fill="#f4f4f4" stroke="#aaa"';
       s += `<rect x="${x}" y="${y}" width="${NW}" height="${NH}" rx="11" ${dashStyle} stroke-width="1.5" stroke-dasharray="5,3"/>`;
-      const idStr = node.id.length > 18 ? node.id.slice(0, 18) + '…' : node.id;
+      const displayStr = node.title.length > 18 ? node.title.slice(0, 18) + '…' : node.title;
       const label = node.phantomType === 'missing' ? '⚠ missing' : '↗ see above';
       const labelColor = node.phantomType === 'missing' ? '#e74c3c' : '#aaa';
-      s += `<text x="${cx}" y="${y+20}" text-anchor="middle" font-size="11" font-weight="700" fill="${labelColor}">${escXml(idStr)}</text>`;
+      s += `<text x="${cx}" y="${y+20}" text-anchor="middle" font-size="11" font-weight="700" fill="${labelColor}">${escXml(displayStr)}</text>`;
       s += `<text x="${cx}" y="${y+35}" text-anchor="middle" font-size="9" fill="${labelColor}">${label}</text>`;
       continue;
     }
@@ -375,8 +387,8 @@ function renderTreeSvg(pages, startId) {
     const titleColor = isEnd ? '#1a6b3a' : '#2d3a4b';
 
     s += `<rect x="${x}" y="${y}" width="${NW}" height="${NH}" rx="11" fill="${bg}" stroke="${border}" stroke-width="2" filter="url(#ns)"/>`;
-    const idStr = node.id.length > 18 ? node.id.slice(0, 18) + '…' : node.id;
-    s += `<text x="${cx}" y="${y+20}" text-anchor="middle" font-size="11" font-weight="700" fill="${titleColor}">${escXml(idStr)}</text>`;
+    const displayStr = node.title.length > 18 ? node.title.slice(0, 18) + '…' : node.title;
+    s += `<text x="${cx}" y="${y+20}" text-anchor="middle" font-size="11" font-weight="700" fill="${titleColor}">${escXml(displayStr)}</text>`;
     if (node.preview) {
       s += `<text x="${cx}" y="${y+35}" text-anchor="middle" font-size="9" fill="#777" font-style="italic">${escXml(node.preview)}</text>`;
     }
@@ -475,8 +487,8 @@ function getPageOptions(excludeId) {
 }
 
 function createNewPage() {
-  const id = 'page-' + (draftStory.pages.length + 1);
-  draftStory.pages.push({ id, text: '', choices: [] });
+  const id = generateUID();
+  draftStory.pages.push({ id, title: 'Page ' + (draftStory.pages.length + 1), text: '', choices: [] });
   renderPageList();
   return id;
 }
@@ -797,7 +809,7 @@ function renderPageList() {
 }
 
 function addPage() {
-  const id = 'page-' + (draftStory.pages.length + 1);
+  const id = generateUID();
   draftStory.pages.push({ id, title: 'Page ' + draftStory.pages.length, text: '', choices: [] });
   renderPageList();
   openPageEditor(id);
@@ -818,11 +830,12 @@ function openWriter() {
   storyWriter.style.display = 'block';
   setHeaderControls(false);
 
+  const startUid = generateUID();
   draftStory = {
     title: '',
     description: '',
-    start: 'start',
-    pages: [{ id: 'start', title: 'Start', text: '', choices: [] }],
+    start: startUid,
+    pages: [{ id: startUid, title: 'Start', text: '', choices: [] }],
   };
   editingPageId = null;
 
@@ -832,7 +845,7 @@ function openWriter() {
   renderCoverPreview();
 
   renderPageList();
-  openPageEditor('start');
+  openPageEditor(startUid);
 }
 
 function loadStoryIntoWriter(story) {
@@ -875,7 +888,7 @@ function persistDraft() {
 }
 
 function getLibrary() {
-  try { return JSON.parse(localStorage.getItem(LIBRARY_KEY) || '[]'); }
+  try { return JSON.parse(localStorage.getItem(LIBRARY_KEY) || '[]').map(normalizeStory); }
   catch { return []; }
 }
 
@@ -1037,7 +1050,7 @@ document.getElementById('upload-story-input').addEventListener('change', async e
   e.target.value = '';
   try {
     const text  = await file.text();
-    const story = parse(text);
+    const story = normalizeStory(parse(text));
     if (!story.title || !Array.isArray(story.pages) || story.pages.length === 0) {
       alert('Invalid story file — must have a title and at least one page.');
       return;

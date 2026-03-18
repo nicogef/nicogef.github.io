@@ -6,6 +6,7 @@ password: "abc123"
 
 pages:
   - id: "beginning"
+    title: "The Foggy Road"
     image: "img-fog.svg"
     text: |
       You are **Sir Roland**, a brave knight who has wandered far from home.
@@ -20,6 +21,7 @@ pages:
         next: "forest-entrance"
 
   - id: "castle-gates"
+    title: "Castle Gates"
     image: "img-castle.svg"
     text: |
       The iron gates groan as you push them open. Inside the courtyard,
@@ -36,6 +38,7 @@ pages:
         next: "attack-figure"
 
   - id: "forest-entrance"
+    title: "Forest Entrance"
     image: "img-forest.svg"
     text: |
       Twisted roots and glowing moss line the forest path.
@@ -50,6 +53,7 @@ pages:
         next: "forest-deep"
 
   - id: "throne-path"
+    title: "Throne Path"
     text: |
       The hooded figure nods slowly and leads you through winding corridors
       to a great hall. At its center sits an ancient throne, cracked and cold.
@@ -60,6 +64,7 @@ pages:
     next: "throne-choice"
 
   - id: "throne-choice"
+    title: "Throne Choice"
     text: |
       You sit upon the throne. The cold stone warms beneath you.
       A distant rumble shakes the walls — and then, silence.
@@ -75,6 +80,7 @@ pages:
         next: "victory-castle"
 
   - id: "treasure-path"
+    title: "Treasure Path"
     text: |
       The figure tilts their head. *"The treasure is not gold. It is knowledge —
       the map to the Dragon's Lair, where the last ember of the old world burns."*
@@ -88,6 +94,7 @@ pages:
         next: "castle-rest"
 
   - id: "attack-figure"
+    title: "Attack the Figure"
     text: |
       You draw your sword. The figure raises a hand — and your blade flies from your grip,
       clattering across the cobblestones.
@@ -100,6 +107,7 @@ pages:
     next: "castle-gates"
 
   - id: "free-fox"
+    title: "Free the Fox"
     text: |
       You kneel and carefully spring the trap open. The fox shakes its leg, then looks up at you.
 
@@ -114,6 +122,7 @@ pages:
         next: "forest-deep"
 
   - id: "forest-deep"
+    title: "Deep Forest"
     text: |
       The forest grows darker. You hear whispers in the canopy above.
       Then — a clearing, and in it, the ruins of a stone altar.
@@ -127,6 +136,7 @@ pages:
         next: "castle-gates"
 
   - id: "fox-guide"
+    title: "Fox Guide"
     text: |
       The fox leads you deeper into the forest, until you reach a hidden grove.
       In its center stands a tree so tall its crown disappears into the clouds.
@@ -136,6 +146,7 @@ pages:
     next: "victory-forest"
 
   - id: "take-sword"
+    title: "Take the Sword"
     text: |
       The moment your hand closes around the hilt, a voice booms across the clearing:
 
@@ -148,6 +159,7 @@ pages:
     next: "victory-dragon"
 
   - id: "castle-rest"
+    title: "Castle Rest"
     text: |
       You sleep on a straw mattress in the castle's dusty guest chamber.
       In the morning, you feel refreshed and ready for the journey ahead.
@@ -157,6 +169,7 @@ pages:
     next: "dragon-lair"
 
   - id: "dragon-lair"
+    title: "Dragon's Lair"
     text: |
       ### The Dragon's Lair
 
@@ -172,6 +185,7 @@ pages:
         next: "victory-dragon"
 
   - id: "curse-explained"
+    title: "Curse Explained"
     text: |
       The woman — whose name is Lyra — tells you the castle was cursed three hundred years ago
       by a sorcerer who sought eternal rule. Only a knight of true lineage could break it.
@@ -181,6 +195,7 @@ pages:
     next: "victory-castle"
 
   - id: "victory-castle"
+    title: "Victory: The Kingdom"
     text: |
       ### Victory!
 
@@ -191,6 +206,7 @@ pages:
       but a ruler, welcomed home at last.
 
   - id: "victory-forest"
+    title: "Victory: The Archives"
     text: |
       ### A New Path
 
@@ -201,6 +217,7 @@ pages:
       Some magic, it seems, was waiting all along to be found.
 
   - id: "victory-dragon"
+    title: "Victory: Dragonknight"
     text: |
       ### Chosen by the Dragon
 

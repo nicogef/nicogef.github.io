@@ -140,7 +140,7 @@ function renderStoryCard(story, filename) {
   const editBtn = document.createElement('button');
   editBtn.className = 'story-edit-btn';
   editBtn.title = story.password ? 'Edit story (password required)' : 'Edit story';
-  editBtn.textContent = story.password ? '🔒' : '✏️';
+  editBtn.textContent = '✏️';
   editBtn.addEventListener('click', e => {
     e.stopPropagation();
     if (story.password) {
@@ -978,7 +978,7 @@ function renderLocalStoryCard(story) {
   const editBtn = document.createElement('button');
   editBtn.className = 'story-edit-btn';
   editBtn.title = story.password ? 'Edit story (password required)' : 'Edit story';
-  editBtn.textContent = story.password ? '🔒' : '✏️';
+  editBtn.textContent = '✏️';
   editBtn.addEventListener('click', e => {
     e.stopPropagation();
     if (story.password) {
@@ -991,10 +991,15 @@ function renderLocalStoryCard(story) {
 
   const delBtn = document.createElement('button');
   delBtn.className = 'story-delete-btn';
-  delBtn.title = 'Delete from library';
+  delBtn.title = story.password ? 'Delete from library (password required)' : 'Delete from library';
   delBtn.textContent = '🗑️';
   delBtn.addEventListener('click', e => {
     e.stopPropagation();
+    if (story.password) {
+      const input = prompt('Enter password to delete this story:');
+      if (input === null) return;
+      if (input !== String(story.password)) { alert('Incorrect password.'); return; }
+    }
     if (confirm(`Delete "${story.title || 'this story'}" from your library?`)) {
       deleteLocalStory(story._localId);
     }

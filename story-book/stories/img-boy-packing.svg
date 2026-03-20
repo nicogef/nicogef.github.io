@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 180" width="400" height="180">
+  <defs>
+    <linearGradient id="room-bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#c9dff5"/>
+      <stop offset="100%" stop-color="#e8f0f8"/>
+    </linearGradient>
+    <linearGradient id="floor-grad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#d4a96a"/>
+      <stop offset="100%" stop-color="#b8894e"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background wall -->
+  <rect width="400" height="180" fill="url(#room-bg)"/>
+
+  <!-- Floor -->
+  <rect x="0" y="130" width="400" height="50" fill="url(#floor-grad)"/>
+  <line x1="0" y1="130" x2="400" y2="130" stroke="#b8894e" stroke-width="1.5"/>
+
+  <!-- Floor planks -->
+  <g stroke="#a07840" stroke-width="0.8" opacity="0.5">
+    <line x1="0" y1="148" x2="400" y2="148"/>
+    <line x1="0" y1="162" x2="400" y2="162"/>
+    <line x1="80" y1="130" x2="80" y2="180"/>
+    <line x1="180" y1="130" x2="180" y2="180"/>
+    <line x1="290" y1="130" x2="290" y2="180"/>
+    <line x1="360" y1="130" x2="360" y2="180"/>
+  </g>
+
+  <!-- Bed / furniture hint -->
+  <rect x="290" y="60" width="110" height="72" rx="4" fill="#b0c4de"/>
+  <rect x="290" y="60" width="110" height="20" rx="4" fill="#8aaac8"/>
+  <rect x="295" y="82" width="100" height="50" fill="#ccdaeb"/>
+  <!-- Pillow -->
+  <rect x="300" y="65" width="35" height="13" rx="4" fill="#f0f4f8"/>
+  <rect x="342" y="65" width="35" height="13" rx="4" fill="#f0f4f8"/>
+
+  <!-- Open suitcase on floor -->
+  <!-- Bottom half -->
+  <rect x="115" y="118" width="90" height="22" rx="5" fill="#c0392b"/>
+  <rect x="115" y="118" width="90" height="4" rx="2" fill="#962d22"/>
+  <!-- Suitcase lid (open, leaning back) -->
+  <rect x="113" y="104" width="90" height="18" rx="5" fill="#e74c3c" transform="rotate(-30 158 118)"/>
+  <!-- Lid detail -->
+  <rect x="113" y="108" width="90" height="3" rx="1" fill="#c0392b" transform="rotate(-30 158 118)"/>
+  <!-- Clothes inside suitcase -->
+  <ellipse cx="160" cy="128" rx="30" ry="6" fill="#5dade2" opacity="0.8"/>
+  <ellipse cx="168" cy="126" rx="18" ry="4" fill="#f39c12" opacity="0.7"/>
+  <!-- Suitcase handle -->
+  <path d="M148 118 Q160 112 172 118" fill="none" stroke="#962d22" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- ===== BOY CHARACTER ===== -->
+  <!-- Shadow -->
+  <ellipse cx="222" cy="135" rx="18" ry="5" fill="#000" opacity="0.12"/>
+
+  <!-- Legs (bent forward while kneeling over suitcase) -->
+  <!-- Left leg -->
+  <rect x="210" y="110" width="10" height="28" rx="5" fill="#2c3e50"/>
+  <!-- Right leg -->
+  <rect x="224" y="110" width="10" height="28" rx="5" fill="#2c3e50"/>
+  <!-- Shoes -->
+  <ellipse cx="215" cy="138" rx="8" ry="4" fill="#1a1a1a"/>
+  <ellipse cx="229" cy="138" rx="8" ry="4" fill="#1a1a1a"/>
+
+  <!-- Body (leaning forward) -->
+  <rect x="206" y="80" width="30" height="34" rx="8" fill="#4a90d9" transform="rotate(-15 221 97)"/>
+
+  <!-- Left arm reaching down toward suitcase -->
+  <line x1="207" y1="92" x2="185" y2="120" stroke="#F4A261" stroke-width="9" stroke-linecap="round"/>
+  <!-- Hand -->
+  <circle cx="184" cy="122" r="5" fill="#F4A261"/>
+
+  <!-- Right arm reaching down -->
+  <line x1="233" y1="90" x2="220" y2="118" stroke="#F4A261" stroke-width="9" stroke-linecap="round"/>
+  <!-- Hand -->
+  <circle cx="219" cy="120" r="5" fill="#F4A261"/>
+
+  <!-- Neck -->
+  <rect x="215" y="70" width="10" height="12" rx="4" fill="#F4A261"/>
+
+  <!-- Head -->
+  <circle cx="220" cy="60" r="20" fill="#F4A261"/>
+
+  <!-- Hair -->
+  <ellipse cx="220" cy="43" rx="20" ry="10" fill="#3D2B1F"/>
+  <ellipse cx="204" cy="52" rx="7" ry="11" fill="#3D2B1F"/>
+  <ellipse cx="236" cy="52" rx="7" ry="11" fill="#3D2B1F"/>
+  <!-- Hair top tuft -->
+  <ellipse cx="220" cy="41" rx="14" ry="7" fill="#3D2B1F"/>
+
+  <!-- Face -->
+  <!-- Eyes looking down -->
+  <ellipse cx="213" cy="62" rx="4" ry="3" fill="#fff"/>
+  <ellipse cx="227" cy="62" rx="4" ry="3" fill="#fff"/>
+  <circle cx="214" cy="63" r="2.5" fill="#3D2B1F"/>
+  <circle cx="228" cy="63" r="2.5" fill="#3D2B1F"/>
+  <circle cx="214.5" cy="62.5" r="1" fill="#fff"/>
+  <circle cx="228.5" cy="62.5" r="1" fill="#fff"/>
+
+  <!-- Concentrated brow -->
+  <path d="M210 58 Q213 56 216 58" fill="none" stroke="#3D2B1F" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M224 58 Q227 56 230 58" fill="none" stroke="#3D2B1F" stroke-width="1.5" stroke-linecap="round"/>
+
+  <!-- Mouth (focused, slightly open) -->
+  <path d="M216 69 Q220 72 224 69" fill="none" stroke="#c0735a" stroke-width="1.5" stroke-linecap="round"/>
+
+  <!-- Shirt collar -->
+  <path d="M213 80 L220 76 L227 80" fill="none" stroke="#3a80c9" stroke-width="2"/>
+
+  <!-- Item in hand (shirt being folded) -->
+  <rect x="168" y="116" width="22" height="14" rx="3" fill="#e67e22" transform="rotate(-20 179 123)"/>
+</svg>

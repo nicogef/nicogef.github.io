@@ -1,0 +1,156 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 180" width="400" height="180">
+  <defs>
+    <linearGradient id="hotel-bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f5efe6"/>
+      <stop offset="100%" stop-color="#ede0d0"/>
+    </linearGradient>
+    <linearGradient id="hotel-floor" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#c8a882"/>
+      <stop offset="100%" stop-color="#b8946c"/>
+    </linearGradient>
+    <linearGradient id="bed-sheet" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f0f4f8"/>
+      <stop offset="100%" stop-color="#dce8f4"/>
+    </linearGradient>
+    <radialGradient id="lamp2-glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffe8a0" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#ffe8a0" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Warm hotel room background -->
+  <rect width="400" height="180" fill="url(#hotel-bg)"/>
+
+  <!-- Wallpaper subtle texture -->
+  <rect width="400" height="135" fill="none" stroke="#e0d0c0" stroke-width="0.5" opacity="0.4"/>
+
+  <!-- Wainscoting line -->
+  <rect x="0" y="110" width="400" height="4" fill="#d4b896"/>
+  <rect x="0" y="114" width="400" height="21" fill="#c8a070"/>
+
+  <!-- Floor -->
+  <rect x="0" y="135" width="400" height="45" fill="url(#hotel-floor)"/>
+  <line x1="0" y1="135" x2="400" y2="135" stroke="#a07850" stroke-width="1.5"/>
+  <!-- Floor tiles -->
+  <g stroke="#a87840" stroke-width="0.6" opacity="0.5">
+    <line x1="0" y1="158" x2="400" y2="158"/>
+    <line x1="50" y1="135" x2="50" y2="180"/>
+    <line x1="130" y1="135" x2="130" y2="180"/>
+    <line x1="210" y1="135" x2="210" y2="180"/>
+    <line x1="300" y1="135" x2="300" y2="180"/>
+    <line x1="370" y1="135" x2="370" y2="180"/>
+  </g>
+
+  <!-- Hotel bed -->
+  <!-- Bed frame -->
+  <rect x="220" y="72" width="180" height="65" rx="4" fill="#8b6914"/>
+  <!-- Headboard -->
+  <rect x="370" y="58" width="32" height="80" rx="6" fill="#a07820"/>
+  <rect x="374" y="62" width="24" height="70" rx="4" fill="#b8901a"/>
+  <!-- Mattress -->
+  <rect x="222" y="75" width="148" height="60" rx="3" fill="url(#bed-sheet)"/>
+  <!-- Pillow -->
+  <rect x="340" y="78" width="28" height="18" rx="6" fill="#fff"/>
+  <rect x="310" y="78" width="28" height="18" rx="6" fill="#fff"/>
+  <!-- Blanket fold -->
+  <rect x="222" y="100" width="148" height="35" rx="3" fill="#9bc0e0"/>
+  <rect x="222" y="100" width="148" height="8" rx="3" fill="#7aa8cc"/>
+  <!-- Bed legs -->
+  <rect x="224" y="132" width="8" height="8" rx="2" fill="#6b5010"/>
+  <rect x="356" y="132" width="8" height="8" rx="2" fill="#6b5010"/>
+
+  <!-- Bedside table -->
+  <rect x="195" y="100" width="28" height="38" rx="3" fill="#a07820"/>
+  <rect x="197" y="102" width="24" height="16" rx="2" fill="#b8901a"/>
+  <rect x="197" y="120" width="24" height="16" rx="2" fill="#b8901a"/>
+  <!-- Drawer knobs -->
+  <circle cx="209" cy="110" r="2" fill="#6b5010"/>
+  <circle cx="209" cy="128" r="2" fill="#6b5010"/>
+  <!-- Lamp on table -->
+  <rect x="204" y="87" width="8" height="14" rx="2" fill="#c8a040"/>
+  <polygon points="197,74 221,74 217,89 201,89" fill="#f4d070"/>
+  <ellipse cx="209" cy="80" rx="25" ry="20" fill="url(#lamp2-glow)"/>
+  <circle cx="209" cy="80" r="3" fill="#ffe080" opacity="0.7"/>
+
+  <!-- Picture on wall -->
+  <rect x="20" y="18" width="65" height="50" rx="3" fill="#8a6a40"/>
+  <rect x="24" y="22" width="57" height="42" rx="2" fill="#6ab8c8"/>
+  <!-- Simple mountain scene -->
+  <polygon points="24,62 44,38 60,55 70,42 82,62" fill="#5aa0b0"/>
+  <polygon points="44,38 60,55 70,42 82,62 24,62" fill="#4890a0" opacity="0.4"/>
+  <ellipse cx="72" cy="32" rx="8" ry="8" fill="#ffe880" opacity="0.7"/>
+
+  <!-- Door hint on right -->
+  <rect x="330" y="0" width="0" height="0"/>
+
+  <!-- ===== BOY CHARACTER ===== -->
+  <!-- Shadow -->
+  <ellipse cx="135" cy="140" rx="22" ry="6" fill="#000" opacity="0.15"/>
+
+  <!-- Legs (standing upright, happy) -->
+  <!-- Left leg -->
+  <rect x="122" y="108" width="12" height="34" rx="6" fill="#2c3e50"/>
+  <!-- Right leg -->
+  <rect x="137" y="108" width="12" height="34" rx="6" fill="#2c3e50"/>
+  <!-- Shoes -->
+  <ellipse cx="128" cy="143" rx="10" ry="5" fill="#1a1a1a"/>
+  <ellipse cx="143" cy="143" rx="10" ry="5" fill="#1a1a1a"/>
+
+  <!-- Body (upright, proud) -->
+  <rect x="115" y="76" width="34" height="36" rx="9" fill="#4a90d9"/>
+
+  <!-- Left arm relaxed at side -->
+  <line x1="116" y1="86" x2="104" y2="108" stroke="#F4A261" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="103" cy="111" r="6" fill="#F4A261"/>
+
+  <!-- Right arm raised, holding key card -->
+  <line x1="148" y1="86" x2="162" y2="70" stroke="#F4A261" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="164" cy="67" r="6" fill="#F4A261"/>
+  <!-- Key card in hand -->
+  <rect x="163" y="54" width="16" height="24" rx="3" fill="#f9e48a" transform="rotate(15 171 66)"/>
+  <rect x="165" y="57" width="10" height="3" rx="1" fill="#c8b040" transform="rotate(15 170 58)"/>
+  <rect x="165" y="62" width="6" height="2" rx="1" fill="#c8b040" transform="rotate(15 168 63)"/>
+
+  <!-- Neck -->
+  <rect x="126" y="66" width="11" height="13" rx="5" fill="#F4A261"/>
+
+  <!-- Head -->
+  <circle cx="132" cy="55" r="21" fill="#F4A261"/>
+
+  <!-- Hair -->
+  <ellipse cx="132" cy="37" rx="21" ry="11" fill="#3D2B1F"/>
+  <ellipse cx="115" cy="47" rx="8" ry="12" fill="#3D2B1F"/>
+  <ellipse cx="149" cy="47" rx="8" ry="12" fill="#3D2B1F"/>
+  <ellipse cx="132" cy="36" rx="15" ry="8" fill="#3D2B1F"/>
+
+  <!-- Face — happy smile -->
+  <!-- Eyes (happy, slight squint) -->
+  <ellipse cx="124" cy="56" rx="4.5" ry="4" fill="#fff"/>
+  <ellipse cx="140" cy="56" rx="4.5" ry="4" fill="#fff"/>
+  <circle cx="125" cy="57" r="2.8" fill="#3D2B1F"/>
+  <circle cx="141" cy="57" r="2.8" fill="#3D2B1F"/>
+  <circle cx="125.5" cy="56" r="1" fill="#fff"/>
+  <circle cx="141.5" cy="56" r="1" fill="#fff"/>
+
+  <!-- Happy relaxed brows -->
+  <path d="M120 51 Q124 49 128 51" fill="none" stroke="#3D2B1F" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M136 51 Q140 49 144 51" fill="none" stroke="#3D2B1F" stroke-width="1.5" stroke-linecap="round"/>
+
+  <!-- Big smile -->
+  <path d="M124 66 Q132 73 140 66" fill="#c0735a" stroke="#c0735a" stroke-width="1"/>
+  <path d="M124 66 Q132 73 140 66" fill="none" stroke="#a05840" stroke-width="1.5" stroke-linecap="round"/>
+  <!-- Teeth -->
+  <path d="M127 66 Q132 71 137 66" fill="#fff"/>
+
+  <!-- Cheeks (happy) -->
+  <ellipse cx="117" cy="63" rx="5" ry="3" fill="#e88060" opacity="0.3"/>
+  <ellipse cx="147" cy="63" rx="5" ry="3" fill="#e88060" opacity="0.3"/>
+
+  <!-- Shirt collar -->
+  <path d="M124 76 L132 72 L140 76" fill="none" stroke="#3a80c9" stroke-width="2"/>
+
+  <!-- Small stars/sparkles around (happy arrival) -->
+  <text x="80" y="42" font-size="12" fill="#f9e48a" opacity="0.8">✦</text>
+  <text x="175" y="50" font-size="9" fill="#f9e48a" opacity="0.6">✦</text>
+  <text x="90" y="68" font-size="7" fill="#f9e48a" opacity="0.5">✦</text>
+</svg>

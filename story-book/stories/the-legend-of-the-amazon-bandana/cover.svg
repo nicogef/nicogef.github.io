@@ -1,0 +1,248 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 520" width="400" height="520">
+  <defs>
+    <pattern id="dp" x="190" y="250" width="30" height="30" patternUnits="userSpaceOnUse">
+      <rect width="30" height="30" fill="#e8902a"/>
+      <polygon points="15,0 30,15 15,30 0,15" fill="#28b4c2"/>
+    </pattern>
+    <clipPath id="gc">
+      <circle cx="205" cy="258" r="88"/>
+    </clipPath>
+    <linearGradient id="paper" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fefef8"/>
+      <stop offset="100%" stop-color="#f4f4ec"/>
+    </linearGradient>
+    <linearGradient id="parchment" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f0e5b8"/>
+      <stop offset="50%" stop-color="#e8d898"/>
+      <stop offset="100%" stop-color="#d4c070"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Paper -->
+  <rect width="400" height="520" fill="url(#paper)"/>
+
+  <!-- ══ STORY TITLE — above the map, no rectangle ══ -->
+  <text x="200" y="24" font-family="'Comic Sans MS',cursive" font-size="15" fill="#111"
+        text-anchor="middle" font-weight="bold" transform="rotate(-1,200,24)">The Search in the Amazon</text>
+  <text x="200" y="44" font-family="'Comic Sans MS',cursive" font-size="13" fill="#cc1111"
+        text-anchor="middle" transform="rotate(1,200,44)">You are Doomed!</text>
+  <text x="200" y="60" font-family="'Comic Sans MS',cursive" font-size="10" fill="#555"
+        text-anchor="middle" font-style="italic">the legend of the Amazon bandana</text>
+
+  <!-- ══ ORANGE VERTICAL TEXT (fully visible, outside map edges) ══ -->
+  <g font-family="'Arial Black', sans-serif" font-size="46" fill="#e05c00" font-weight="900" font-style="italic">
+    <text x="8"  y="188" transform="rotate(-3,8,188)">d</text>
+    <text x="6"  y="236" transform="rotate(2,6,236)">a</text>
+    <text x="9"  y="283" transform="rotate(-2,9,283)">n</text>
+    <text x="5"  y="330" transform="rotate(3,5,330)">g</text>
+    <text x="8"  y="377" transform="rotate(-1,8,377)">e</text>
+    <text x="7"  y="422" transform="rotate(2,7,422)">r</text>
+  </g>
+  <g font-family="'Arial Black', sans-serif" font-size="40" fill="#e05c00" font-weight="900" font-style="italic">
+    <text x="362" y="175" transform="rotate(3,362,175)">i</text>
+    <text x="356" y="218" transform="rotate(-2,356,218)">n</text>
+    <text x="348" y="263" transform="rotate(2,348,263)">s</text>
+    <text x="353" y="305" transform="rotate(-3,353,305)">i</text>
+    <text x="347" y="348" transform="rotate(2,347,348)">g</text>
+    <text x="347" y="390" transform="rotate(-1,347,390)">h</text>
+    <text x="350" y="432" transform="rotate(2,350,432)">t</text>
+  </g>
+
+  <!-- ══ MAP RECTANGLE (the rectangle IS the map) ══ -->
+  <!-- Outer shadow -->
+  <rect x="72" y="70" width="256" height="298" rx="5" fill="rgba(0,0,0,0.18)" transform="translate(4,5)"/>
+  <!-- Map body -->
+  <rect x="72" y="70" width="256" height="298" rx="5" fill="url(#parchment)" stroke="#7a5010" stroke-width="2.5"/>
+  <!-- Inner dashed border -->
+  <rect x="79" y="77" width="242" height="284" rx="3" fill="none" stroke="#9a7030"
+        stroke-width="1.2" stroke-dasharray="6,4"/>
+
+  <!-- Map title centered -->
+  <text x="200" y="96" font-family="'Comic Sans MS',cursive" font-size="14" fill="#4a2600"
+        text-anchor="middle" font-weight="bold">— THE AMAZON —</text>
+
+  <!-- ══ RIVER (winding down left side of map, avoids globe) ══ -->
+  <!-- River body -->
+  <path d="M 100,77 Q 92,110 100,148 Q 108,182 100,218 Q 93,252 108,290 Q 120,325 100,362"
+        fill="none" stroke="#4488cc" stroke-width="7" opacity="0.55" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- River highlight -->
+  <path d="M 100,77 Q 92,110 100,148 Q 108,182 100,218 Q 93,252 108,290 Q 120,325 100,362"
+        fill="none" stroke="#88ccff" stroke-width="2.5" opacity="0.7" stroke-linecap="round"/>
+  <!-- River label -->
+  <text x="72" y="222" font-family="'Comic Sans MS',cursive" font-size="7" fill="#336699"
+        transform="rotate(-80,72,222)" text-anchor="middle" opacity="0.8">Rio Amazon</text>
+
+  <!-- ══ AMAZON FOREST inside map — upper-left ══ -->
+  <g>
+    <rect x="84"  y="158" width="4" height="16" fill="#4a3008"/>
+    <rect x="98"  y="162" width="4" height="14" fill="#4a3008"/>
+    <rect x="112" y="158" width="4" height="17" fill="#4a3008"/>
+    <rect x="126" y="164" width="3" height="12" fill="#4a3008"/>
+    <polygon points="86,158  76,178  96,178"  fill="#145014" opacity="0.8"/>
+    <polygon points="86,150  74,170  98,170"  fill="#1a6a1e"/>
+    <polygon points="86,142  75,160  97,160"  fill="#228828"/>
+    <polygon points="86,134  76,152  96,152"  fill="#2ca030"/>
+    <polygon points="100,162  90,182 110,182" fill="#145014" opacity="0.8"/>
+    <polygon points="100,153  88,174 112,174" fill="#1a6a1e"/>
+    <polygon points="100,144  89,164 111,164" fill="#228828"/>
+    <polygon points="100,136  90,154 110,154" fill="#2ca030"/>
+    <polygon points="114,158 104,178 124,178" fill="#145014" opacity="0.8"/>
+    <polygon points="114,149 103,170 125,170" fill="#1a6a1e"/>
+    <polygon points="114,140 104,160 124,160" fill="#228828"/>
+    <polygon points="114,133 105,150 123,150" fill="#2ca030"/>
+    <polygon points="128,164 118,182 138,182" fill="#1a6a1e"/>
+    <polygon points="128,156 118,174 138,174" fill="#228828"/>
+    <rect x="76" y="176" width="68" height="6" fill="#1a6a1e" opacity="0.6" rx="2"/>
+  </g>
+
+  <!-- ══ AMAZON FOREST inside map — upper-right ══ -->
+  <g>
+    <rect x="274" y="155" width="4" height="17" fill="#4a3008"/>
+    <rect x="288" y="160" width="4" height="14" fill="#4a3008"/>
+    <rect x="302" y="156" width="4" height="16" fill="#4a3008"/>
+    <polygon points="276,155 264,176 288,176" fill="#145014" opacity="0.8"/>
+    <polygon points="276,146 263,168 289,168" fill="#1a6a1e"/>
+    <polygon points="276,138 264,158 288,158" fill="#228828"/>
+    <polygon points="276,130 265,148 287,148" fill="#2ca030"/>
+    <polygon points="290,160 278,180 302,180" fill="#145014" opacity="0.8"/>
+    <polygon points="290,151 277,172 303,172" fill="#1a6a1e"/>
+    <polygon points="290,142 278,162 302,162" fill="#228828"/>
+    <polygon points="304,156 292,176 316,176" fill="#1a6a1e"/>
+    <polygon points="304,147 293,168 315,168" fill="#228828"/>
+    <rect x="263" y="174" width="60" height="6" fill="#1a6a1e" opacity="0.6" rx="2"/>
+  </g>
+
+  <!-- Dotted trail path on map -->
+  <path d="M 140,175 Q 165,200 185,230 Q 195,250 200,275"
+        fill="none" stroke="#8a5020" stroke-width="1.5" stroke-dasharray="5,5" opacity="0.7"/>
+  <!-- X marks the spot (near globe center top, above cyclops) -->
+  <line x1="196" y1="193" x2="208" y2="205" stroke="#cc2200" stroke-width="2.5" stroke-linecap="round" opacity="0.85"/>
+  <line x1="208" y1="193" x2="196" y2="205" stroke="#cc2200" stroke-width="2.5" stroke-linecap="round" opacity="0.85"/>
+
+  <!-- Small compass rose bottom-right of map -->
+  <g transform="translate(305, 338)">
+    <line x1="0" y1="-12" x2="0" y2="12" stroke="#6a4010" stroke-width="1.5"/>
+    <line x1="-12" y1="0" x2="12" y2="0" stroke="#6a4010" stroke-width="1.5"/>
+    <polygon points="0,-12 -4,-4 4,-4" fill="#cc2200"/>
+    <text x="0" y="-14" font-family="sans-serif" font-size="7" fill="#4a2800" text-anchor="middle" font-weight="bold">N</text>
+  </g>
+
+  <!-- ══ CHEERY SMALL BILLBOARDS — outside the map rectangle ══ -->
+
+  <!-- "DANGER" top left -->
+  <g transform="rotate(-5,50,75)">
+    <rect x="24" y="60" width="52" height="22" rx="3" fill="#ff3333" stroke="#cc0000" stroke-width="1.2"/>
+    <text x="50" y="75" font-family="'Arial Black',sans-serif" font-size="9" fill="white" text-anchor="middle" font-weight="900">DANGER</text>
+    <line x1="50" y1="82" x2="50" y2="108" stroke="#6b4a1a" stroke-width="2.5"/>
+    <rect x="45" y="107" width="10" height="4" fill="#8a6a2a" rx="1"/>
+  </g>
+
+  <!-- "INSIGHT" left -->
+  <g transform="rotate(-7,46,140)">
+    <rect x="20" y="128" width="52" height="22" rx="3" fill="#22ccff" stroke="#0099cc" stroke-width="1.2"/>
+    <text x="46" y="143" font-family="'Arial Black',sans-serif" font-size="9" fill="white" text-anchor="middle" font-weight="900">INSIGHT</text>
+    <line x1="46" y1="150" x2="46" y2="175" stroke="#6b4a1a" stroke-width="2.5"/>
+    <rect x="41" y="174" width="10" height="4" fill="#8a6a2a" rx="1"/>
+  </g>
+
+  <!-- "SEARCH!" left -->
+  <g transform="rotate(5,46,208)">
+    <rect x="20" y="196" width="52" height="22" rx="3" fill="#ff9900" stroke="#cc7700" stroke-width="1.2"/>
+    <text x="46" y="211" font-family="'Arial Black',sans-serif" font-size="9" fill="white" text-anchor="middle" font-weight="900">SEARCH!</text>
+    <line x1="46" y1="218" x2="46" y2="243" stroke="#6b4a1a" stroke-width="2.5"/>
+    <rect x="41" y="242" width="10" height="4" fill="#8a6a2a" rx="1"/>
+  </g>
+
+  <!-- "OR ELSE!" right -->
+  <g transform="rotate(6,361,155)">
+    <rect x="337" y="143" width="50" height="22" rx="3" fill="#88dd00" stroke="#55aa00" stroke-width="1.2"/>
+    <text x="362" y="158" font-family="'Arial Black',sans-serif" font-size="8" fill="#1a3300" text-anchor="middle" font-weight="900">OR ELSE!</text>
+    <line x1="362" y1="165" x2="362" y2="190" stroke="#6b4a1a" stroke-width="2.5"/>
+    <rect x="357" y="189" width="10" height="4" fill="#8a6a2a" rx="1"/>
+  </g>
+
+  <!-- "CHOOSE" bottom right -->
+  <g transform="rotate(5,360,380)">
+    <rect x="334" y="368" width="52" height="22" rx="3" fill="#ffdd00" stroke="#ccaa00" stroke-width="1.2"/>
+    <text x="360" y="383" font-family="'Arial Black',sans-serif" font-size="9" fill="#332200" text-anchor="middle" font-weight="900">CHOOSE</text>
+    <line x1="360" y1="390" x2="360" y2="415" stroke="#6b4a1a" stroke-width="2.5"/>
+    <rect x="355" y="414" width="10" height="4" fill="#8a6a2a" rx="1"/>
+  </g>
+
+  <!-- "YOUR DAD" bottom right -->
+  <g transform="rotate(-4,360,412)">
+    <rect x="334" y="400" width="52" height="22" rx="3" fill="#ff66cc" stroke="#cc3399" stroke-width="1.2"/>
+    <text x="360" y="415" font-family="'Arial Black',sans-serif" font-size="8" fill="white" text-anchor="middle" font-weight="900">YOUR DAD</text>
+    <line x1="360" y1="422" x2="360" y2="447" stroke="#6b4a1a" stroke-width="2.5"/>
+    <rect x="355" y="446" width="10" height="4" fill="#8a6a2a" rx="1"/>
+  </g>
+
+  <!-- "OR ELSE!" bottom left -->
+  <g transform="rotate(7,46,404)">
+    <rect x="20" y="392" width="52" height="22" rx="3" fill="#aa44ff" stroke="#7722cc" stroke-width="1.2"/>
+    <text x="46" y="407" font-family="'Arial Black',sans-serif" font-size="8" fill="white" text-anchor="middle" font-weight="900">OR ELSE!</text>
+    <line x1="46" y1="414" x2="46" y2="439" stroke="#6b4a1a" stroke-width="2.5"/>
+    <rect x="41" y="438" width="10" height="4" fill="#8a6a2a" rx="1"/>
+  </g>
+
+  <!-- ══ GLOBE ══ -->
+  <circle cx="208" cy="261" r="90" fill="rgba(0,0,0,0.12)"/>
+  <rect x="0" y="0" width="400" height="520" fill="url(#dp)" clip-path="url(#gc)"/>
+  <g clip-path="url(#gc)" stroke="#222" stroke-width="1" opacity="0.45">
+    <line x1="117" y1="170" x2="293" y2="346"/>
+    <line x1="147" y1="170" x2="293" y2="316"/>
+    <line x1="177" y1="170" x2="293" y2="286"/>
+    <line x1="207" y1="170" x2="293" y2="256"/>
+    <line x1="237" y1="170" x2="293" y2="226"/>
+    <line x1="117" y1="200" x2="278" y2="361"/>
+    <line x1="117" y1="230" x2="263" y2="376"/>
+    <line x1="117" y1="260" x2="240" y2="383"/>
+    <line x1="117" y1="290" x2="212" y2="385"/>
+    <line x1="293" y1="170" x2="117" y2="346"/>
+    <line x1="263" y1="170" x2="117" y2="316"/>
+    <line x1="233" y1="170" x2="117" y2="286"/>
+    <line x1="203" y1="170" x2="117" y2="256"/>
+    <line x1="173" y1="170" x2="117" y2="226"/>
+    <line x1="293" y1="200" x2="128" y2="365"/>
+    <line x1="293" y1="230" x2="143" y2="380"/>
+    <line x1="293" y1="260" x2="166" y2="387"/>
+    <line x1="293" y1="290" x2="196" y2="387"/>
+  </g>
+  <circle cx="205" cy="258" r="88" fill="none" stroke="#222" stroke-width="3"/>
+
+  <!-- ══ CYCLOPS HEAD ══ -->
+  <ellipse cx="205" cy="252" rx="36" ry="42" fill="#d4c8a8" stroke="#555" stroke-width="2"/>
+  <path d="M172,236 Q180,218 192,228 Q198,214 205,222 Q212,212 218,226 Q228,216 238,236" fill="#8a6a3a" stroke="#6a4a1a" stroke-width="1.5"/>
+  <ellipse cx="170" cy="252" rx="8" ry="11" fill="#c8b898" stroke="#555" stroke-width="1.5"/>
+  <ellipse cx="240" cy="252" rx="8" ry="11" fill="#c8b898" stroke="#555" stroke-width="1.5"/>
+  <ellipse cx="205" cy="245" rx="20" ry="14" fill="white" stroke="#222" stroke-width="1.8"/>
+  <path d="M183,232 Q205,224 227,232" fill="none" stroke="#4a3010" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="205" cy="247" r="9" fill="#2ab0c0"/>
+  <circle cx="205" cy="247" r="4.5" fill="#080818"/>
+  <circle cx="210" cy="243" r="2.5" fill="white" opacity="0.9"/>
+  <path d="M200,264 Q205,275 210,264" fill="none" stroke="#6a4a2a" stroke-width="1.8" stroke-linecap="round"/>
+  <circle cx="200" cy="270" r="3" fill="#c0a080" stroke="#6a4a2a" stroke-width="1"/>
+  <circle cx="210" cy="270" r="3" fill="#c0a080" stroke="#6a4a2a" stroke-width="1"/>
+  <path d="M185,282 Q195,292 205,293 Q215,292 225,282" fill="none" stroke="#4a2a10" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- ══ BOTTOM TEXT BOX ══ -->
+  <rect x="86" y="376" width="228" height="76" rx="3" fill="rgba(255,255,255,0.85)" stroke="#556633" stroke-width="1.8" transform="rotate(-0.8,200,414)"/>
+  <text x="98" y="395" font-family="'Comic Sans MS',cursive" font-size="12" fill="#111" font-weight="bold">Choose the right</text>
+  <text x="98" y="411" font-family="'Comic Sans MS',cursive" font-size="11" fill="#111">path  find your dad</text>
+  <text x="98" y="426" font-family="'Comic Sans MS',cursive" font-size="11" fill="#111">otherwise your journey</text>
+  <text x="98" y="444" font-family="'Comic Sans MS',cursive" font-size="11" fill="#cc1111" font-weight="bold">ENDS!</text>
+
+  <!-- ══ DO NOT READ ══ -->
+  <g transform="rotate(-90,52,462)">
+    <text x="52" y="462" font-family="'Comic Sans MS',cursive" font-size="11" fill="#555">do not read</text>
+  </g>
+
+  <!-- ══ ENDS TRAGICALLY rectangle ══ -->
+  <g transform="rotate(-1.5,200,492)">
+    <rect x="88" y="464" width="224" height="48" rx="4" fill="#0a0a2a" stroke="#cc1111" stroke-width="2.5"/>
+    <rect x="92" y="468" width="216" height="40" rx="2" fill="none" stroke="#cc1111" stroke-width="0.8" opacity="0.5"/>
+    <text x="200" y="486" font-family="'Arial Black',sans-serif" font-size="14" fill="#ff2222" text-anchor="middle" font-weight="900" letter-spacing="2">ENDS</text>
+    <text x="200" y="504" font-family="'Arial Black',sans-serif" font-size="11" fill="#ff6622" text-anchor="middle" font-weight="900" letter-spacing="1">TRAGICALLY!!!!</text>
+  </g>
+
+</svg>

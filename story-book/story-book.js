@@ -175,7 +175,30 @@ function openStory(story, filename) {
   storyReader.style.display = 'block';
   setReaderMode(true);
 
-  renderPage(story.start);
+  if (story.cover) {
+    showCover(story);
+  } else {
+    renderPage(story.start);
+  }
+}
+
+function showCover(story) {
+  pageImage.src = story.cover.startsWith('data:') ? story.cover : `./stories/${story.cover}`;
+  pageImage.classList.add('cover-mode');
+  pageImage.style.display = 'block';
+  pageText.innerHTML = '';
+  choicesEl.innerHTML = '';
+
+  const btn = document.createElement('button');
+  btn.className = 'choice-btn';
+  btn.textContent = 'Start reading →';
+  btn.addEventListener('click', () => {
+    pageImage.classList.remove('cover-mode');
+    renderPage(story.start);
+  });
+  choicesEl.appendChild(btn);
+
+  window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 
 // ── Reader ────────────────────────────────────────────────────────────────────

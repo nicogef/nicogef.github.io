@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <defs>
+    <linearGradient id="wall-grad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%"   stop-color="#d6cdc2"/>
+      <stop offset="100%" stop-color="#c8bfb4"/>
+    </linearGradient>
+    <linearGradient id="morning" x1="0.5" y1="0" x2="0.5" y2="1">
+      <stop offset="0%"   stop-color="#fff7e6" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#fff7e6" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="wood-grad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%"   stop-color="#7a4e2d"/>
+      <stop offset="20%"  stop-color="#8B5E3C"/>
+      <stop offset="50%"  stop-color="#9a6b45"/>
+      <stop offset="80%"  stop-color="#8B5E3C"/>
+      <stop offset="100%" stop-color="#7a4e2d"/>
+    </linearGradient>
+    <linearGradient id="paper-grad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%"   stop-color="#fffdf0"/>
+      <stop offset="100%" stop-color="#faf5d8"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Wall -->
+  <rect width="400" height="300" fill="url(#wall-grad)"/>
+  <rect width="400" height="300" fill="url(#morning)"/>
+  <!-- Skirting board -->
+  <rect x="0" y="282" width="400" height="18" fill="#b0a496"/>
+
+  <!-- Door frame -->
+  <rect x="115" y="0" width="174" height="284" rx="3" fill="#5C3A1E"/>
+  <!-- Door surface -->
+  <rect x="121" y="0" width="162" height="284" fill="url(#wood-grad)"/>
+  <!-- Wood grain lines -->
+  <line x1="145" y1="0" x2="143" y2="284" stroke="#6b4226" stroke-width="0.5" opacity="0.3"/>
+  <line x1="185" y1="0" x2="186" y2="284" stroke="#9a6b45" stroke-width="0.4" opacity="0.2"/>
+  <line x1="218" y1="0" x2="217" y2="284" stroke="#6b4226" stroke-width="0.5" opacity="0.25"/>
+  <line x1="255" y1="0" x2="256" y2="284" stroke="#9a6b45" stroke-width="0.4" opacity="0.2"/>
+  <!-- Top panel -->
+  <rect x="133" y="12" width="58" height="80" rx="3" fill="none" stroke="#5C3A1E" stroke-width="1.5"/>
+  <rect x="213" y="12" width="58" height="80" rx="3" fill="none" stroke="#5C3A1E" stroke-width="1.5"/>
+  <!-- Bottom panel -->
+  <rect x="133" y="106" width="138" height="162" rx="3" fill="none" stroke="#5C3A1E" stroke-width="1.5"/>
+  <!-- Door knob -->
+  <circle cx="264" cy="182" r="8" fill="#C8A951" stroke="#A07830" stroke-width="1.2"/>
+  <circle cx="264" cy="182" r="3" fill="#A07830"/>
+
+  <!-- Note -->
+  <g transform="translate(202, 152) rotate(-2) scale(0.5)">
+    <!-- Shadow -->
+    <rect x="-62" y="-52" width="124" height="100" rx="2" fill="rgba(0,0,0,0.22)" transform="translate(3,4)"/>
+    <!-- Paper -->
+    <rect x="-62" y="-52" width="124" height="100" rx="2" fill="url(#paper-grad)" stroke="#c8b86a" stroke-width="0.8"/>
+    <!-- Tape -->
+    <rect x="-20" y="-60" width="40" height="14" rx="2" fill="rgba(210,225,255,0.65)" stroke="rgba(160,190,230,0.8)" stroke-width="0.7"/>
+    <!-- Ruled lines -->
+    <line x1="-52" y1="-26" x2="52" y2="-26" stroke="#c8d8f0" stroke-width="0.7"/>
+    <line x1="-52" y1="-10" x2="52" y2="-10" stroke="#c8d8f0" stroke-width="0.7"/>
+    <line x1="-52" y1="6"   x2="52" y2="6"   stroke="#c8d8f0" stroke-width="0.7"/>
+    <line x1="-52" y1="22"  x2="52" y2="22"  stroke="#c8d8f0" stroke-width="0.7"/>
+    <line x1="-52" y1="38"  x2="52" y2="38"  stroke="#c8d8f0" stroke-width="0.7"/>
+    <!-- Text -->
+    <text x="-50" y="-29" font-family="'Segoe Script','Comic Sans MS',cursive" font-size="9" fill="#1e1e4a" font-style="italic">Had to go to work early.</text>
+    <text x="-50" y="-13" font-family="'Segoe Script','Comic Sans MS',cursive" font-size="9" fill="#1e1e4a" font-style="italic">Eggs in the fridge.</text>
+    <text x="-36" y="18"  font-family="'Segoe Script','Comic Sans MS',cursive" font-size="10" fill="#1e1e4a" font-style="italic">- mum ♡</text>
+  </g>
+</svg>

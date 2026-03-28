@@ -1,0 +1,374 @@
+title: The Legend of the Amazon bandana
+description: >-
+  The Search in the amazon, Choose the right path, find your dad, otherwise your
+  journey ENDS
+start: p-7kasuru2hru
+pages:
+  - id: p-7kasuru2hru
+    title: Introduction
+    text: >-
+      You find an old book in your missing Dad's office.
+
+      It tells you about an ancient artefact that he was reasearching about
+      choose the right path Find your Dad wrong path your Story ends tragically!
+
+
+      **Beware and warning!!!**
+
+
+      This book is different from others, in this book you are in charge of
+      everything that happens the wrong move not a problem you can go back and
+      take another path!
+    image: >-
+      data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0MDAgNTIwIiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjUyMCI+CiAgPGRlZnM+CiAgICA8cGF0dGVybiBpZD0iZHAiIHg9IjE5MCIgeT0iMjUwIiB3aWR0aD0iMzAiIGhlaWdodD0iMzAiIHBhdHRlcm5Vbml0cz0idXNlclNwYWNlT25Vc2UiPgogICAgICA8cmVjdCB3aWR0aD0iMzAiIGhlaWdodD0iMzAiIGZpbGw9IiNlODkwMmEiLz4KICAgICAgPHBvbHlnb24gcG9pbnRzPSIxNSwwIDMwLDE1IDE1LDMwIDAsMTUiIGZpbGw9IiMyOGI0YzIiLz4KICAgIDwvcGF0dGVybj4KICAgIDxjbGlwUGF0aCBpZD0iZ2MiPgogICAgICA8Y2lyY2xlIGN4PSIyMDUiIGN5PSIyNTgiIHI9Ijg4Ii8+CiAgICA8L2NsaXBQYXRoPgogICAgPGxpbmVhckdyYWRpZW50IGlkPSJwYXBlciIgeDE9IjAiIHkxPSIwIiB4Mj0iMCIgeTI9IjEiPgogICAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjZmVmZWY4Ii8+CiAgICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2Y0ZjRlYyIvPgogICAgPC9saW5lYXJHcmFkaWVudD4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0icGFyY2htZW50IiB4MT0iMCIgeTE9IjAiIHgyPSIxIiB5Mj0iMSI+CiAgICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiNmMGU1YjgiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSI1MCUiIHN0b3AtY29sb3I9IiNlOGQ4OTgiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjZDRjMDcwIi8+CiAgICA8L2xpbmVhckdyYWRpZW50PgogIDwvZGVmcz4KCiAgPCEtLSBQYXBlciAtLT4KICA8cmVjdCB3aWR0aD0iNDAwIiBoZWlnaHQ9IjUyMCIgZmlsbD0idXJsKCNwYXBlcikiLz4KCiAgPCEtLSDilZDilZAgU1RPUlkgVElUTEUg4oCUIGFib3ZlIHRoZSBtYXAsIG5vIHJlY3RhbmdsZSDilZDilZAgLS0+CiAgPHRleHQgeD0iMjAwIiB5PSIyNCIgZm9udC1mYW1pbHk9IidDb21pYyBTYW5zIE1TJyxjdXJzaXZlIiBmb250LXNpemU9IjE1IiBmaWxsPSIjMTExIgogICAgICAgIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtd2VpZ2h0PSJib2xkIiB0cmFuc2Zvcm09InJvdGF0ZSgtMSwyMDAsMjQpIj5UaGUgU2VhcmNoIGluIHRoZSBBbWF6b248L3RleHQ+CiAgPHRleHQgeD0iMjAwIiB5PSI0NCIgZm9udC1mYW1pbHk9IidDb21pYyBTYW5zIE1TJyxjdXJzaXZlIiBmb250LXNpemU9IjEzIiBmaWxsPSIjY2MxMTExIgogICAgICAgIHRleHQtYW5jaG9yPSJtaWRkbGUiIHRyYW5zZm9ybT0icm90YXRlKDEsMjAwLDQ0KSI+WW91IGFyZSBEb29tZWQhPC90ZXh0PgogIDx0ZXh0IHg9IjIwMCIgeT0iNjAiIGZvbnQtZmFtaWx5PSInQ29taWMgU2FucyBNUycsY3Vyc2l2ZSIgZm9udC1zaXplPSIxMCIgZmlsbD0iIzU1NSIKICAgICAgICB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LXN0eWxlPSJpdGFsaWMiPnRoZSBsZWdlbmQgb2YgdGhlIEFtYXpvbiBiYW5kYW5hPC90ZXh0PgoKICA8IS0tIOKVkOKVkCBPUkFOR0UgVkVSVElDQUwgVEVYVCAoZnVsbHkgdmlzaWJsZSwgb3V0c2lkZSBtYXAgZWRnZXMpIOKVkOKVkCAtLT4KICA8ZyBmb250LWZhbWlseT0iJ0FyaWFsIEJsYWNrJywgc2Fucy1zZXJpZiIgZm9udC1zaXplPSI0NiIgZmlsbD0iI2UwNWMwMCIgZm9udC13ZWlnaHQ9IjkwMCIgZm9udC1zdHlsZT0iaXRhbGljIj4KICAgIDx0ZXh0IHg9IjgiICB5PSIxODgiIHRyYW5zZm9ybT0icm90YXRlKC0zLDgsMTg4KSI+ZDwvdGV4dD4KICAgIDx0ZXh0IHg9IjYiICB5PSIyMzYiIHRyYW5zZm9ybT0icm90YXRlKDIsNiwyMzYpIj5hPC90ZXh0PgogICAgPHRleHQgeD0iOSIgIHk9IjI4MyIgdHJhbnNmb3JtPSJyb3RhdGUoLTIsOSwyODMpIj5uPC90ZXh0PgogICAgPHRleHQgeD0iNSIgIHk9IjMzMCIgdHJhbnNmb3JtPSJyb3RhdGUoMyw1LDMzMCkiPmc8L3RleHQ+CiAgICA8dGV4dCB4PSI4IiAgeT0iMzc3IiB0cmFuc2Zvcm09InJvdGF0ZSgtMSw4LDM3NykiPmU8L3RleHQ+CiAgICA8dGV4dCB4PSI3IiAgeT0iNDIyIiB0cmFuc2Zvcm09InJvdGF0ZSgyLDcsNDIyKSI+cjwvdGV4dD4KICA8L2c+CiAgPGcgZm9udC1mYW1pbHk9IidBcmlhbCBCbGFjaycsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iNDAiIGZpbGw9IiNlMDVjMDAiIGZvbnQtd2VpZ2h0PSI5MDAiIGZvbnQtc3R5bGU9Iml0YWxpYyI+CiAgICA8dGV4dCB4PSIzNjIiIHk9IjE3NSIgdHJhbnNmb3JtPSJyb3RhdGUoMywzNjIsMTc1KSI+aTwvdGV4dD4KICAgIDx0ZXh0IHg9IjM1NiIgeT0iMjE4IiB0cmFuc2Zvcm09InJvdGF0ZSgtMiwzNTYsMjE4KSI+bjwvdGV4dD4KICAgIDx0ZXh0IHg9IjM0OCIgeT0iMjYzIiB0cmFuc2Zvcm09InJvdGF0ZSgyLDM0OCwyNjMpIj5zPC90ZXh0PgogICAgPHRleHQgeD0iMzUzIiB5PSIzMDUiIHRyYW5zZm9ybT0icm90YXRlKC0zLDM1MywzMDUpIj5pPC90ZXh0PgogICAgPHRleHQgeD0iMzQ3IiB5PSIzNDgiIHRyYW5zZm9ybT0icm90YXRlKDIsMzQ3LDM0OCkiPmc8L3RleHQ+CiAgICA8dGV4dCB4PSIzNDciIHk9IjM5MCIgdHJhbnNmb3JtPSJyb3RhdGUoLTEsMzQ3LDM5MCkiPmg8L3RleHQ+CiAgICA8dGV4dCB4PSIzNTAiIHk9IjQzMiIgdHJhbnNmb3JtPSJyb3RhdGUoMiwzNTAsNDMyKSI+dDwvdGV4dD4KICA8L2c+CgogIDwhLS0g4pWQ4pWQIE1BUCBSRUNUQU5HTEUgKHRoZSByZWN0YW5nbGUgSVMgdGhlIG1hcCkg4pWQ4pWQIC0tPgogIDwhLS0gT3V0ZXIgc2hhZG93IC0tPgogIDxyZWN0IHg9IjcyIiB5PSI3MCIgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyOTgiIHJ4PSI1IiBmaWxsPSJyZ2JhKDAsMCwwLDAuMTgpIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSg0LDUpIi8+CiAgPCEtLSBNYXAgYm9keSAtLT4KICA8cmVjdCB4PSI3MiIgeT0iNzAiIHdpZHRoPSIyNTYiIGhlaWdodD0iMjk4IiByeD0iNSIgZmlsbD0idXJsKCNwYXJjaG1lbnQpIiBzdHJva2U9IiM3YTUwMTAiIHN0cm9rZS13aWR0aD0iMi41Ii8+CiAgPCEtLSBJbm5lciBkYXNoZWQgYm9yZGVyIC0tPgogIDxyZWN0IHg9Ijc5IiB5PSI3NyIgd2lkdGg9IjI0MiIgaGVpZ2h0PSIyODQiIHJ4PSIzIiBmaWxsPSJub25lIiBzdHJva2U9IiM5YTcwMzAiCiAgICAgICAgc3Ryb2tlLXdpZHRoPSIxLjIiIHN0cm9rZS1kYXNoYXJyYXk9IjYsNCIvPgoKICA8IS0tIE1hcCB0aXRsZSBjZW50ZXJlZCAtLT4KICA8dGV4dCB4PSIyMDAiIHk9Ijk2IiBmb250LWZhbWlseT0iJ0NvbWljIFNhbnMgTVMnLGN1cnNpdmUiIGZvbnQtc2l6ZT0iMTQiIGZpbGw9IiM0YTI2MDAiCiAgICAgICAgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC13ZWlnaHQ9ImJvbGQiPuKAlCBUSEUgQU1BWk9OIOKAlDwvdGV4dD4KCiAgPCEtLSDilZDilZAgUklWRVIgKHdpbmRpbmcgZG93biBsZWZ0IHNpZGUgb2YgbWFwLCBhdm9pZHMgZ2xvYmUpIOKVkOKVkCAtLT4KICA8IS0tIFJpdmVyIGJvZHkgLS0+CiAgPHBhdGggZD0iTSAxMDAsNzcgUSA5MiwxMTAgMTAwLDE0OCBRIDEwOCwxODIgMTAwLDIxOCBRIDkzLDI1MiAxMDgsMjkwIFEgMTIwLDMyNSAxMDAsMzYyIgogICAgICAgIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzQ0ODhjYyIgc3Ryb2tlLXdpZHRoPSI3IiBvcGFjaXR5PSIwLjU1IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KICA8IS0tIFJpdmVyIGhpZ2hsaWdodCAtLT4KICA8cGF0aCBkPSJNIDEwMCw3NyBRIDkyLDExMCAxMDAsMTQ4IFEgMTA4LDE4MiAxMDAsMjE4IFEgOTMsMjUyIDEwOCwyOTAgUSAxMjAsMzI1IDEwMCwzNjIiCiAgICAgICAgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjODhjY2ZmIiBzdHJva2Utd2lkdGg9IjIuNSIgb3BhY2l0eT0iMC43IiBzdHJva2UtbGluZWNhcD0icm91bmQiLz4KICA8IS0tIFJpdmVyIGxhYmVsIC0tPgogIDx0ZXh0IHg9IjcyIiB5PSIyMjIiIGZvbnQtZmFtaWx5PSInQ29taWMgU2FucyBNUycsY3Vyc2l2ZSIgZm9udC1zaXplPSI3IiBmaWxsPSIjMzM2Njk5IgogICAgICAgIHRyYW5zZm9ybT0icm90YXRlKC04MCw3MiwyMjIpIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBvcGFjaXR5PSIwLjgiPlJpbyBBbWF6b248L3RleHQ+CgogIDwhLS0g4pWQ4pWQIEFNQVpPTiBGT1JFU1QgaW5zaWRlIG1hcCDigJQgdXBwZXItbGVmdCDilZDilZAgLS0+CiAgPGc+CiAgICA8cmVjdCB4PSI4NCIgIHk9IjE1OCIgd2lkdGg9IjQiIGhlaWdodD0iMTYiIGZpbGw9IiM0YTMwMDgiLz4KICAgIDxyZWN0IHg9Ijk4IiAgeT0iMTYyIiB3aWR0aD0iNCIgaGVpZ2h0PSIxNCIgZmlsbD0iIzRhMzAwOCIvPgogICAgPHJlY3QgeD0iMTEyIiB5PSIxNTgiIHdpZHRoPSI0IiBoZWlnaHQ9IjE3IiBmaWxsPSIjNGEzMDA4Ii8+CiAgICA8cmVjdCB4PSIxMjYiIHk9IjE2NCIgd2lkdGg9IjMiIGhlaWdodD0iMTIiIGZpbGw9IiM0YTMwMDgiLz4KICAgIDxwb2x5Z29uIHBvaW50cz0iODYsMTU4ICA3NiwxNzggIDk2LDE3OCIgIGZpbGw9IiMxNDUwMTQiIG9wYWNpdHk9IjAuOCIvPgogICAgPHBvbHlnb24gcG9pbnRzPSI4NiwxNTAgIDc0LDE3MCAgOTgsMTcwIiAgZmlsbD0iIzFhNmExZSIvPgogICAgPHBvbHlnb24gcG9pbnRzPSI4NiwxNDIgIDc1LDE2MCAgOTcsMTYwIiAgZmlsbD0iIzIyODgyOCIvPgogICAgPHBvbHlnb24gcG9pbnRzPSI4NiwxMzQgIDc2LDE1MiAgOTYsMTUyIiAgZmlsbD0iIzJjYTAzMCIvPgogICAgPHBvbHlnb24gcG9pbnRzPSIxMDAsMTYyICA5MCwxODIgMTEwLDE4MiIgZmlsbD0iIzE0NTAxNCIgb3BhY2l0eT0iMC44Ii8+CiAgICA8cG9seWdvbiBwb2ludHM9IjEwMCwxNTMgIDg4LDE3NCAxMTIsMTc0IiBmaWxsPSIjMWE2YTFlIi8+CiAgICA8cG9seWdvbiBwb2ludHM9IjEwMCwxNDQgIDg5LDE2NCAxMTEsMTY0IiBmaWxsPSIjMjI4ODI4Ii8+CiAgICA8cG9seWdvbiBwb2ludHM9IjEwMCwxMzYgIDkwLDE1NCAxMTAsMTU0IiBmaWxsPSIjMmNhMDMwIi8+CiAgICA8cG9seWdvbiBwb2ludHM9IjExNCwxNTggMTA0LDE3OCAxMjQsMTc4IiBmaWxsPSIjMTQ1MDE0IiBvcGFjaXR5PSIwLjgiLz4KICAgIDxwb2x5Z29uIHBvaW50cz0iMTE0LDE0OSAxMDMsMTcwIDEyNSwxNzAiIGZpbGw9IiMxYTZhMWUiLz4KICAgIDxwb2x5Z29uIHBvaW50cz0iMTE0LDE0MCAxMDQsMTYwIDEyNCwxNjAiIGZpbGw9IiMyMjg4MjgiLz4KICAgIDxwb2x5Z29uIHBvaW50cz0iMTE0LDEzMyAxMDUsMTUwIDEyMywxNTAiIGZpbGw9IiMyY2EwMzAiLz4KICAgIDxwb2x5Z29uIHBvaW50cz0iMTI4LDE2NCAxMTgsMTgyIDEzOCwxODIiIGZpbGw9IiMxYTZhMWUiLz4KICAgIDxwb2x5Z29uIHBvaW50cz0iMTI4LDE1NiAxMTgsMTc0IDEzOCwxNzQiIGZpbGw9IiMyMjg4MjgiLz4KICAgIDxyZWN0IHg9Ijc2IiB5PSIxNzYiIHdpZHRoPSI2OCIgaGVpZ2h0PSI2IiBmaWxsPSIjMWE2YTFlIiBvcGFjaXR5PSIwLjYiIHJ4PSIyIi8+CiAgPC9nPgoKICA8IS0tIOKVkOKVkCBBTUFaT04gRk9SRVNUIGluc2lkZSBtYXAg4oCUIHVwcGVyLXJpZ2h0IOKVkOKVkCAtLT4KICA8Zz4KICAgIDxyZWN0IHg9IjI3NCIgeT0iMTU1IiB3aWR0aD0iNCIgaGVpZ2h0PSIxNyIgZmlsbD0iIzRhMzAwOCIvPgogICAgPHJlY3QgeD0iMjg4IiB5PSIxNjAiIHdpZHRoPSI0IiBoZWlnaHQ9IjE0IiBmaWxsPSIjNGEzMDA4Ii8+CiAgICA8cmVjdCB4PSIzMDIiIHk9IjE1NiIgd2lkdGg9IjQiIGhlaWdodD0iMTYiIGZpbGw9IiM0YTMwMDgiLz4KICAgIDxwb2x5Z29uIHBvaW50cz0iMjc2LDE1NSAyNjQsMTc2IDI4OCwxNzYiIGZpbGw9IiMxNDUwMTQiIG9wYWNpdHk9IjAuOCIvPgogICAgPHBvbHlnb24gcG9pbnRzPSIyNzYsMTQ2IDI2MywxNjggMjg5LDE2OCIgZmlsbD0iIzFhNmExZSIvPgogICAgPHBvbHlnb24gcG9pbnRzPSIyNzYsMTM4IDI2NCwxNTggMjg4LDE1OCIgZmlsbD0iIzIyODgyOCIvPgogICAgPHBvbHlnb24gcG9pbnRzPSIyNzYsMTMwIDI2NSwxNDggMjg3LDE0OCIgZmlsbD0iIzJjYTAzMCIvPgogICAgPHBvbHlnb24gcG9pbnRzPSIyOTAsMTYwIDI3OCwxODAgMzAyLDE4MCIgZmlsbD0iIzE0NTAxNCIgb3BhY2l0eT0iMC44Ii8+CiAgICA8cG9seWdvbiBwb2ludHM9IjI5MCwxNTEgMjc3LDE3MiAzMDMsMTcyIiBmaWxsPSIjMWE2YTFlIi8+CiAgICA8cG9seWdvbiBwb2ludHM9IjI5MCwxNDIgMjc4LDE2MiAzMDIsMTYyIiBmaWxsPSIjMjI4ODI4Ii8+CiAgICA8cG9seWdvbiBwb2ludHM9IjMwNCwxNTYgMjkyLDE3NiAzMTYsMTc2IiBmaWxsPSIjMWE2YTFlIi8+CiAgICA8cG9seWdvbiBwb2ludHM9IjMwNCwxNDcgMjkzLDE2OCAzMTUsMTY4IiBmaWxsPSIjMjI4ODI4Ii8+CiAgICA8cmVjdCB4PSIyNjMiIHk9IjE3NCIgd2lkdGg9IjYwIiBoZWlnaHQ9IjYiIGZpbGw9IiMxYTZhMWUiIG9wYWNpdHk9IjAuNiIgcng9IjIiLz4KICA8L2c+CgogIDwhLS0gRG90dGVkIHRyYWlsIHBhdGggb24gbWFwIC0tPgogIDxwYXRoIGQ9Ik0gMTQwLDE3NSBRIDE2NSwyMDAgMTg1LDIzMCBRIDE5NSwyNTAgMjAwLDI3NSIKICAgICAgICBmaWxsPSJub25lIiBzdHJva2U9IiM4YTUwMjAiIHN0cm9rZS13aWR0aD0iMS41IiBzdHJva2UtZGFzaGFycmF5PSI1LDUiIG9wYWNpdHk9IjAuNyIvPgogIDwhLS0gWCBtYXJrcyB0aGUgc3BvdCAobmVhciBnbG9iZSBjZW50ZXIgdG9wLCBhYm92ZSBjeWNsb3BzKSAtLT4KICA8bGluZSB4MT0iMTk2IiB5MT0iMTkzIiB4Mj0iMjA4IiB5Mj0iMjA1IiBzdHJva2U9IiNjYzIyMDAiIHN0cm9rZS13aWR0aD0iMi41IiBzdHJva2UtbGluZWNhcD0icm91bmQiIG9wYWNpdHk9IjAuODUiLz4KICA8bGluZSB4MT0iMjA4IiB5MT0iMTkzIiB4Mj0iMTk2IiB5Mj0iMjA1IiBzdHJva2U9IiNjYzIyMDAiIHN0cm9rZS13aWR0aD0iMi41IiBzdHJva2UtbGluZWNhcD0icm91bmQiIG9wYWNpdHk9IjAuODUiLz4KCiAgPCEtLSBTbWFsbCBjb21wYXNzIHJvc2UgYm90dG9tLXJpZ2h0IG9mIG1hcCAtLT4KICA8ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSgzMDUsIDMzOCkiPgogICAgPGxpbmUgeDE9IjAiIHkxPSItMTIiIHgyPSIwIiB5Mj0iMTIiIHN0cm9rZT0iIzZhNDAxMCIgc3Ryb2tlLXdpZHRoPSIxLjUiLz4KICAgIDxsaW5lIHgxPSItMTIiIHkxPSIwIiB4Mj0iMTIiIHkyPSIwIiBzdHJva2U9IiM2YTQwMTAiIHN0cm9rZS13aWR0aD0iMS41Ii8+CiAgICA8cG9seWdvbiBwb2ludHM9IjAsLTEyIC00LC00IDQsLTQiIGZpbGw9IiNjYzIyMDAiLz4KICAgIDx0ZXh0IHg9IjAiIHk9Ii0xNCIgZm9udC1mYW1pbHk9InNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iNyIgZmlsbD0iIzRhMjgwMCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC13ZWlnaHQ9ImJvbGQiPk48L3RleHQ+CiAgPC9nPgoKICA8IS0tIOKVkOKVkCBDSEVFUlkgU01BTEwgQklMTEJPQVJEUyDigJQgb3V0c2lkZSB0aGUgbWFwIHJlY3RhbmdsZSDilZDilZAgLS0+CgogIDwhLS0gIkRBTkdFUiIgdG9wIGxlZnQgLS0+CiAgPGcgdHJhbnNmb3JtPSJyb3RhdGUoLTUsNTAsNzUpIj4KICAgIDxyZWN0IHg9IjI0IiB5PSI2MCIgd2lkdGg9IjUyIiBoZWlnaHQ9IjIyIiByeD0iMyIgZmlsbD0iI2ZmMzMzMyIgc3Ryb2tlPSIjY2MwMDAwIiBzdHJva2Utd2lkdGg9IjEuMiIvPgogICAgPHRleHQgeD0iNTAiIHk9Ijc1IiBmb250LWZhbWlseT0iJ0FyaWFsIEJsYWNrJyxzYW5zLXNlcmlmIiBmb250LXNpemU9IjkiIGZpbGw9IndoaXRlIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LXdlaWdodD0iOTAwIj5EQU5HRVI8L3RleHQ+CiAgICA8bGluZSB4MT0iNTAiIHkxPSI4MiIgeDI9IjUwIiB5Mj0iMTA4IiBzdHJva2U9IiM2YjRhMWEiIHN0cm9rZS13aWR0aD0iMi41Ii8+CiAgICA8cmVjdCB4PSI0NSIgeT0iMTA3IiB3aWR0aD0iMTAiIGhlaWdodD0iNCIgZmlsbD0iIzhhNmEyYSIgcng9IjEiLz4KICA8L2c+CgogIDwhLS0gIklOU0lHSFQiIGxlZnQgLS0+CiAgPGcgdHJhbnNmb3JtPSJyb3RhdGUoLTcsNDYsMTQwKSI+CiAgICA8cmVjdCB4PSIyMCIgeT0iMTI4IiB3aWR0aD0iNTIiIGhlaWdodD0iMjIiIHJ4PSIzIiBmaWxsPSIjMjJjY2ZmIiBzdHJva2U9IiMwMDk5Y2MiIHN0cm9rZS13aWR0aD0iMS4yIi8+CiAgICA8dGV4dCB4PSI0NiIgeT0iMTQzIiBmb250LWZhbWlseT0iJ0FyaWFsIEJsYWNrJyxzYW5zLXNlcmlmIiBmb250LXNpemU9IjkiIGZpbGw9IndoaXRlIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LXdlaWdodD0iOTAwIj5JTlNJR0hUPC90ZXh0PgogICAgPGxpbmUgeDE9IjQ2IiB5MT0iMTUwIiB4Mj0iNDYiIHkyPSIxNzUiIHN0cm9rZT0iIzZiNGExYSIgc3Ryb2tlLXdpZHRoPSIyLjUiLz4KICAgIDxyZWN0IHg9IjQxIiB5PSIxNzQiIHdpZHRoPSIxMCIgaGVpZ2h0PSI0IiBmaWxsPSIjOGE2YTJhIiByeD0iMSIvPgogIDwvZz4KCiAgPCEtLSAiU0VBUkNIISIgbGVmdCAtLT4KICA8ZyB0cmFuc2Zvcm09InJvdGF0ZSg1LDQ2LDIwOCkiPgogICAgPHJlY3QgeD0iMjAiIHk9IjE5NiIgd2lkdGg9IjUyIiBoZWlnaHQ9IjIyIiByeD0iMyIgZmlsbD0iI2ZmOTkwMCIgc3Ryb2tlPSIjY2M3NzAwIiBzdHJva2Utd2lkdGg9IjEuMiIvPgogICAgPHRleHQgeD0iNDYiIHk9IjIxMSIgZm9udC1mYW1pbHk9IidBcmlhbCBCbGFjaycsc2Fucy1zZXJpZiIgZm9udC1zaXplPSI5IiBmaWxsPSJ3aGl0ZSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC13ZWlnaHQ9IjkwMCI+U0VBUkNIITwvdGV4dD4KICAgIDxsaW5lIHgxPSI0NiIgeTE9IjIxOCIgeDI9IjQ2IiB5Mj0iMjQzIiBzdHJva2U9IiM2YjRhMWEiIHN0cm9rZS13aWR0aD0iMi41Ii8+CiAgICA8cmVjdCB4PSI0MSIgeT0iMjQyIiB3aWR0aD0iMTAiIGhlaWdodD0iNCIgZmlsbD0iIzhhNmEyYSIgcng9IjEiLz4KICA8L2c+CgogIDwhLS0gIk9SIEVMU0UhIiByaWdodCAtLT4KICA8ZyB0cmFuc2Zvcm09InJvdGF0ZSg2LDM2MSwxNTUpIj4KICAgIDxyZWN0IHg9IjMzNyIgeT0iMTQzIiB3aWR0aD0iNTAiIGhlaWdodD0iMjIiIHJ4PSIzIiBmaWxsPSIjODhkZDAwIiBzdHJva2U9IiM1NWFhMDAiIHN0cm9rZS13aWR0aD0iMS4yIi8+CiAgICA8dGV4dCB4PSIzNjIiIHk9IjE1OCIgZm9udC1mYW1pbHk9IidBcmlhbCBCbGFjaycsc2Fucy1zZXJpZiIgZm9udC1zaXplPSI4IiBmaWxsPSIjMWEzMzAwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LXdlaWdodD0iOTAwIj5PUiBFTFNFITwvdGV4dD4KICAgIDxsaW5lIHgxPSIzNjIiIHkxPSIxNjUiIHgyPSIzNjIiIHkyPSIxOTAiIHN0cm9rZT0iIzZiNGExYSIgc3Ryb2tlLXdpZHRoPSIyLjUiLz4KICAgIDxyZWN0IHg9IjM1NyIgeT0iMTg5IiB3aWR0aD0iMTAiIGhlaWdodD0iNCIgZmlsbD0iIzhhNmEyYSIgcng9IjEiLz4KICA8L2c+CgogIDwhLS0gIkNIT09TRSIgYm90dG9tIHJpZ2h0IC0tPgogIDxnIHRyYW5zZm9ybT0icm90YXRlKDUsMzYwLDM4MCkiPgogICAgPHJlY3QgeD0iMzM0IiB5PSIzNjgiIHdpZHRoPSI1MiIgaGVpZ2h0PSIyMiIgcng9IjMiIGZpbGw9IiNmZmRkMDAiIHN0cm9rZT0iI2NjYWEwMCIgc3Ryb2tlLXdpZHRoPSIxLjIiLz4KICAgIDx0ZXh0IHg9IjM2MCIgeT0iMzgzIiBmb250LWZhbWlseT0iJ0FyaWFsIEJsYWNrJyxzYW5zLXNlcmlmIiBmb250LXNpemU9IjkiIGZpbGw9IiMzMzIyMDAiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtd2VpZ2h0PSI5MDAiPkNIT09TRTwvdGV4dD4KICAgIDxsaW5lIHgxPSIzNjAiIHkxPSIzOTAiIHgyPSIzNjAiIHkyPSI0MTUiIHN0cm9rZT0iIzZiNGExYSIgc3Ryb2tlLXdpZHRoPSIyLjUiLz4KICAgIDxyZWN0IHg9IjM1NSIgeT0iNDE0IiB3aWR0aD0iMTAiIGhlaWdodD0iNCIgZmlsbD0iIzhhNmEyYSIgcng9IjEiLz4KICA8L2c+CgogIDwhLS0gIllPVVIgREFEIiBib3R0b20gcmlnaHQgLS0+CiAgPGcgdHJhbnNmb3JtPSJyb3RhdGUoLTQsMzYwLDQxMikiPgogICAgPHJlY3QgeD0iMzM0IiB5PSI0MDAiIHdpZHRoPSI1MiIgaGVpZ2h0PSIyMiIgcng9IjMiIGZpbGw9IiNmZjY2Y2MiIHN0cm9rZT0iI2NjMzM5OSIgc3Ryb2tlLXdpZHRoPSIxLjIiLz4KICAgIDx0ZXh0IHg9IjM2MCIgeT0iNDE1IiBmb250LWZhbWlseT0iJ0FyaWFsIEJsYWNrJyxzYW5zLXNlcmlmIiBmb250LXNpemU9IjgiIGZpbGw9IndoaXRlIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LXdlaWdodD0iOTAwIj5ZT1VSIERBRDwvdGV4dD4KICAgIDxsaW5lIHgxPSIzNjAiIHkxPSI0MjIiIHgyPSIzNjAiIHkyPSI0NDciIHN0cm9rZT0iIzZiNGExYSIgc3Ryb2tlLXdpZHRoPSIyLjUiLz4KICAgIDxyZWN0IHg9IjM1NSIgeT0iNDQ2IiB3aWR0aD0iMTAiIGhlaWdodD0iNCIgZmlsbD0iIzhhNmEyYSIgcng9IjEiLz4KICA8L2c+CgogIDwhLS0gIk9SIEVMU0UhIiBib3R0b20gbGVmdCAtLT4KICA8ZyB0cmFuc2Zvcm09InJvdGF0ZSg3LDQ2LDQwNCkiPgogICAgPHJlY3QgeD0iMjAiIHk9IjM5MiIgd2lkdGg9IjUyIiBoZWlnaHQ9IjIyIiByeD0iMyIgZmlsbD0iI2FhNDRmZiIgc3Ryb2tlPSIjNzcyMmNjIiBzdHJva2Utd2lkdGg9IjEuMiIvPgogICAgPHRleHQgeD0iNDYiIHk9IjQwNyIgZm9udC1mYW1pbHk9IidBcmlhbCBCbGFjaycsc2Fucy1zZXJpZiIgZm9udC1zaXplPSI4IiBmaWxsPSJ3aGl0ZSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC13ZWlnaHQ9IjkwMCI+T1IgRUxTRSE8L3RleHQ+CiAgICA8bGluZSB4MT0iNDYiIHkxPSI0MTQiIHgyPSI0NiIgeTI9IjQzOSIgc3Ryb2tlPSIjNmI0YTFhIiBzdHJva2Utd2lkdGg9IjIuNSIvPgogICAgPHJlY3QgeD0iNDEiIHk9IjQzOCIgd2lkdGg9IjEwIiBoZWlnaHQ9IjQiIGZpbGw9IiM4YTZhMmEiIHJ4PSIxIi8+CiAgPC9nPgoKICA8IS0tIOKVkOKVkCBHTE9CRSDilZDilZAgLS0+CiAgPGNpcmNsZSBjeD0iMjA4IiBjeT0iMjYxIiByPSI5MCIgZmlsbD0icmdiYSgwLDAsMCwwLjEyKSIvPgogIDxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSI0MDAiIGhlaWdodD0iNTIwIiBmaWxsPSJ1cmwoI2RwKSIgY2xpcC1wYXRoPSJ1cmwoI2djKSIvPgogIDxnIGNsaXAtcGF0aD0idXJsKCNnYykiIHN0cm9rZT0iIzIyMiIgc3Ryb2tlLXdpZHRoPSIxIiBvcGFjaXR5PSIwLjQ1Ij4KICAgIDxsaW5lIHgxPSIxMTciIHkxPSIxNzAiIHgyPSIyOTMiIHkyPSIzNDYiLz4KICAgIDxsaW5lIHgxPSIxNDciIHkxPSIxNzAiIHgyPSIyOTMiIHkyPSIzMTYiLz4KICAgIDxsaW5lIHgxPSIxNzciIHkxPSIxNzAiIHgyPSIyOTMiIHkyPSIyODYiLz4KICAgIDxsaW5lIHgxPSIyMDciIHkxPSIxNzAiIHgyPSIyOTMiIHkyPSIyNTYiLz4KICAgIDxsaW5lIHgxPSIyMzciIHkxPSIxNzAiIHgyPSIyOTMiIHkyPSIyMjYiLz4KICAgIDxsaW5lIHgxPSIxMTciIHkxPSIyMDAiIHgyPSIyNzgiIHkyPSIzNjEiLz4KICAgIDxsaW5lIHgxPSIxMTciIHkxPSIyMzAiIHgyPSIyNjMiIHkyPSIzNzYiLz4KICAgIDxsaW5lIHgxPSIxMTciIHkxPSIyNjAiIHgyPSIyNDAiIHkyPSIzODMiLz4KICAgIDxsaW5lIHgxPSIxMTciIHkxPSIyOTAiIHgyPSIyMTIiIHkyPSIzODUiLz4KICAgIDxsaW5lIHgxPSIyOTMiIHkxPSIxNzAiIHgyPSIxMTciIHkyPSIzNDYiLz4KICAgIDxsaW5lIHgxPSIyNjMiIHkxPSIxNzAiIHgyPSIxMTciIHkyPSIzMTYiLz4KICAgIDxsaW5lIHgxPSIyMzMiIHkxPSIxNzAiIHgyPSIxMTciIHkyPSIyODYiLz4KICAgIDxsaW5lIHgxPSIyMDMiIHkxPSIxNzAiIHgyPSIxMTciIHkyPSIyNTYiLz4KICAgIDxsaW5lIHgxPSIxNzMiIHkxPSIxNzAiIHgyPSIxMTciIHkyPSIyMjYiLz4KICAgIDxsaW5lIHgxPSIyOTMiIHkxPSIyMDAiIHgyPSIxMjgiIHkyPSIzNjUiLz4KICAgIDxsaW5lIHgxPSIyOTMiIHkxPSIyMzAiIHgyPSIxNDMiIHkyPSIzODAiLz4KICAgIDxsaW5lIHgxPSIyOTMiIHkxPSIyNjAiIHgyPSIxNjYiIHkyPSIzODciLz4KICAgIDxsaW5lIHgxPSIyOTMiIHkxPSIyOTAiIHgyPSIxOTYiIHkyPSIzODciLz4KICA8L2c+CiAgPGNpcmNsZSBjeD0iMjA1IiBjeT0iMjU4IiByPSI4OCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjMjIyIiBzdHJva2Utd2lkdGg9IjMiLz4KCiAgPCEtLSDilZDilZAgQ1lDTE9QUyBIRUFEIOKVkOKVkCAtLT4KICA8ZWxsaXBzZSBjeD0iMjA1IiBjeT0iMjUyIiByeD0iMzYiIHJ5PSI0MiIgZmlsbD0iI2Q0YzhhOCIgc3Ryb2tlPSIjNTU1IiBzdHJva2Utd2lkdGg9IjIiLz4KICA8cGF0aCBkPSJNMTcyLDIzNiBRMTgwLDIxOCAxOTIsMjI4IFExOTgsMjE0IDIwNSwyMjIgUTIxMiwyMTIgMjE4LDIyNiBRMjI4LDIxNiAyMzgsMjM2IiBmaWxsPSIjOGE2YTNhIiBzdHJva2U9IiM2YTRhMWEiIHN0cm9rZS13aWR0aD0iMS41Ii8+CiAgPGVsbGlwc2UgY3g9IjE3MCIgY3k9IjI1MiIgcng9IjgiIHJ5PSIxMSIgZmlsbD0iI2M4Yjg5OCIgc3Ryb2tlPSIjNTU1IiBzdHJva2Utd2lkdGg9IjEuNSIvPgogIDxlbGxpcHNlIGN4PSIyNDAiIGN5PSIyNTIiIHJ4PSI4IiByeT0iMTEiIGZpbGw9IiNjOGI4OTgiIHN0cm9rZT0iIzU1NSIgc3Ryb2tlLXdpZHRoPSIxLjUiLz4KICA8ZWxsaXBzZSBjeD0iMjA1IiBjeT0iMjQ1IiByeD0iMjAiIHJ5PSIxNCIgZmlsbD0id2hpdGUiIHN0cm9rZT0iIzIyMiIgc3Ryb2tlLXdpZHRoPSIxLjgiLz4KICA8cGF0aCBkPSJNMTgzLDIzMiBRMjA1LDIyNCAyMjcsMjMyIiBmaWxsPSJub25lIiBzdHJva2U9IiM0YTMwMTAiIHN0cm9rZS13aWR0aD0iNCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+CiAgPGNpcmNsZSBjeD0iMjA1IiBjeT0iMjQ3IiByPSI5IiBmaWxsPSIjMmFiMGMwIi8+CiAgPGNpcmNsZSBjeD0iMjA1IiBjeT0iMjQ3IiByPSI0LjUiIGZpbGw9IiMwODA4MTgiLz4KICA8Y2lyY2xlIGN4PSIyMTAiIGN5PSIyNDMiIHI9IjIuNSIgZmlsbD0id2hpdGUiIG9wYWNpdHk9IjAuOSIvPgogIDxwYXRoIGQ9Ik0yMDAsMjY0IFEyMDUsMjc1IDIxMCwyNjQiIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzZhNGEyYSIgc3Ryb2tlLXdpZHRoPSIxLjgiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPgogIDxjaXJjbGUgY3g9IjIwMCIgY3k9IjI3MCIgcj0iMyIgZmlsbD0iI2MwYTA4MCIgc3Ryb2tlPSIjNmE0YTJhIiBzdHJva2Utd2lkdGg9IjEiLz4KICA8Y2lyY2xlIGN4PSIyMTAiIGN5PSIyNzAiIHI9IjMiIGZpbGw9IiNjMGEwODAiIHN0cm9rZT0iIzZhNGEyYSIgc3Ryb2tlLXdpZHRoPSIxIi8+CiAgPHBhdGggZD0iTTE4NSwyODIgUTE5NSwyOTIgMjA1LDI5MyBRMjE1LDI5MiAyMjUsMjgyIiBmaWxsPSJub25lIiBzdHJva2U9IiM0YTJhMTAiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+CgogIDwhLS0g4pWQ4pWQIEJPVFRPTSBURVhUIEJPWCDilZDilZAgLS0+CiAgPHJlY3QgeD0iODYiIHk9IjM3NiIgd2lkdGg9IjIyOCIgaGVpZ2h0PSI3NiIgcng9IjMiIGZpbGw9InJnYmEoMjU1LDI1NSwyNTUsMC44NSkiIHN0cm9rZT0iIzU1NjYzMyIgc3Ryb2tlLXdpZHRoPSIxLjgiIHRyYW5zZm9ybT0icm90YXRlKC0wLjgsMjAwLDQxNCkiLz4KICA8dGV4dCB4PSI5OCIgeT0iMzk1IiBmb250LWZhbWlseT0iJ0NvbWljIFNhbnMgTVMnLGN1cnNpdmUiIGZvbnQtc2l6ZT0iMTIiIGZpbGw9IiMxMTEiIGZvbnQtd2VpZ2h0PSJib2xkIj5DaG9vc2UgdGhlIHJpZ2h0PC90ZXh0PgogIDx0ZXh0IHg9Ijk4IiB5PSI0MTEiIGZvbnQtZmFtaWx5PSInQ29taWMgU2FucyBNUycsY3Vyc2l2ZSIgZm9udC1zaXplPSIxMSIgZmlsbD0iIzExMSI+cGF0aCAgZmluZCB5b3VyIGRhZDwvdGV4dD4KICA8dGV4dCB4PSI5OCIgeT0iNDI2IiBmb250LWZhbWlseT0iJ0NvbWljIFNhbnMgTVMnLGN1cnNpdmUiIGZvbnQtc2l6ZT0iMTEiIGZpbGw9IiMxMTEiPm90aGVyd2lzZSB5b3VyIGpvdXJuZXk8L3RleHQ+CiAgPHRleHQgeD0iOTgiIHk9IjQ0NCIgZm9udC1mYW1pbHk9IidDb21pYyBTYW5zIE1TJyxjdXJzaXZlIiBmb250LXNpemU9IjExIiBmaWxsPSIjY2MxMTExIiBmb250LXdlaWdodD0iYm9sZCI+RU5EUyE8L3RleHQ+CgogIDwhLS0g4pWQ4pWQIERPIE5PVCBSRUFEIOKVkOKVkCAtLT4KICA8ZyB0cmFuc2Zvcm09InJvdGF0ZSgtOTAsNTIsNDYyKSI+CiAgICA8dGV4dCB4PSI1MiIgeT0iNDYyIiBmb250LWZhbWlseT0iJ0NvbWljIFNhbnMgTVMnLGN1cnNpdmUiIGZvbnQtc2l6ZT0iMTEiIGZpbGw9IiM1NTUiPmRvIG5vdCByZWFkPC90ZXh0PgogIDwvZz4KCiAgPCEtLSDilZDilZAgRU5EUyBUUkFHSUNBTExZIHJlY3RhbmdsZSDilZDilZAgLS0+CiAgPGcgdHJhbnNmb3JtPSJyb3RhdGUoLTEuNSwyMDAsNDkyKSI+CiAgICA8cmVjdCB4PSI4OCIgeT0iNDY0IiB3aWR0aD0iMjI0IiBoZWlnaHQ9IjQ4IiByeD0iNCIgZmlsbD0iIzBhMGEyYSIgc3Ryb2tlPSIjY2MxMTExIiBzdHJva2Utd2lkdGg9IjIuNSIvPgogICAgPHJlY3QgeD0iOTIiIHk9IjQ2OCIgd2lkdGg9IjIxNiIgaGVpZ2h0PSI0MCIgcng9IjIiIGZpbGw9Im5vbmUiIHN0cm9rZT0iI2NjMTExMSIgc3Ryb2tlLXdpZHRoPSIwLjgiIG9wYWNpdHk9IjAuNSIvPgogICAgPHRleHQgeD0iMjAwIiB5PSI0ODYiIGZvbnQtZmFtaWx5PSInQXJpYWwgQmxhY2snLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTQiIGZpbGw9IiNmZjIyMjIiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtd2VpZ2h0PSI5MDAiIGxldHRlci1zcGFjaW5nPSIyIj5FTkRTPC90ZXh0PgogICAgPHRleHQgeD0iMjAwIiB5PSI1MDQiIGZvbnQtZmFtaWx5PSInQXJpYWwgQmxhY2snLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIGZpbGw9IiNmZjY2MjIiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtd2VpZ2h0PSI5MDAiIGxldHRlci1zcGFjaW5nPSIxIj5UUkFHSUNBTExZISEhITwvdGV4dD4KICA8L2c+Cgo8L3N2Zz4K
+    next: p-9h816hqjq2w
+  - id: p-9h816hqjq2w
+    title: And it begins
+    text: >+
+      You sit up in you bed.
+
+
+      Warm Sunlight brushes across you Skin.
+
+      As you flick the light switch. Electricity Crackles the air is cool as
+      your eye adjust to the light you notice a note on the bedroom door. You
+      walk towards it.
+
+
+      ~~you~~ It writes and you heave a sigh gone to work early again.
+
+      You put the note in the bin then open the door and step into the dark
+      Hallway.
+
+
+      Darkness envelops you, the air turns thick and cold as you walk down the
+      Hallway floorboards creak under your feet you pass the attic.
+
+
+      Your Mum said you could not go inside. Then you pass your Mum and Dad's
+      bedroom, veer right into the kitchen, grab the eggs from the fridge and
+      start Munching on them.
+
+
+      **"thud"**
+
+
+      Suddenly you hear a sound coming from the attic and everything goes quiet
+      again...
+
+    image: >-
+      data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iNTAwIiB2aWV3Qm94PSIwIDAgNDAwIDUwMCI+CiAgPCEtLSBEb29yIC0tPgogIDxyZWN0IHg9IjYwIiB5PSI0MCIgd2lkdGg9IjI4MCIgaGVpZ2h0PSI0NDAiIHJ4PSI0IiByeT0iNCIgZmlsbD0iIzhCNUUzQyIgc3Ryb2tlPSIjNUMzQTFFIiBzdHJva2Utd2lkdGg9IjMiLz4KICA8IS0tIERvb3IgcGFuZWwgZGV0YWlscyAtLT4KICA8cmVjdCB4PSI4NSIgeT0iNjUiIHdpZHRoPSIxMDUiIGhlaWdodD0iMTQwIiByeD0iMyIgcnk9IjMiIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzVDM0ExRSIgc3Ryb2tlLXdpZHRoPSIyIi8+CiAgPHJlY3QgeD0iMjEwIiB5PSI2NSIgd2lkdGg9IjEwNSIgaGVpZ2h0PSIxNDAiIHJ4PSIzIiByeT0iMyIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjNUMzQTFFIiBzdHJva2Utd2lkdGg9IjIiLz4KICA8cmVjdCB4PSI4NSIgeT0iMjM1IiB3aWR0aD0iMjMwIiBoZWlnaHQ9IjIxMCIgcng9IjMiIHJ5PSIzIiBmaWxsPSJub25lIiBzdHJva2U9IiM1QzNBMUUiIHN0cm9rZS13aWR0aD0iMiIvPgogIDwhLS0gRG9vciBrbm9iIC0tPgogIDxjaXJjbGUgY3g9IjMxMCIgY3k9IjI2MCIgcj0iMTAiIGZpbGw9IiNDOEE5NTEiIHN0cm9rZT0iI0EwNzgzMCIgc3Ryb2tlLXdpZHRoPSIxLjUiLz4KICA8Y2lyY2xlIGN4PSIzMTAiIGN5PSIyNjAiIHI9IjQiIGZpbGw9IiNBMDc4MzAiLz4KCiAgPCEtLSBOb3RlIHBhcGVyIChzbGlnaHQgdGlsdCkgLS0+CiAgPGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMjAwLCAyMTApIHJvdGF0ZSgtMykiPgogICAgPCEtLSBTaGFkb3cgLS0+CiAgICA8cmVjdCB4PSItNzIiIHk9Ii04OCIgd2lkdGg9IjE0OCIgaGVpZ2h0PSIxNzgiIHJ4PSIyIiByeT0iMiIgZmlsbD0icmdiYSgwLDAsMCwwLjE4KSIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoNCw0KSIvPgogICAgPCEtLSBQYXBlciAtLT4KICAgIDxyZWN0IHg9Ii03MiIgeT0iLTg4IiB3aWR0aD0iMTQ4IiBoZWlnaHQ9IjE3OCIgcng9IjIiIHJ5PSIyIiBmaWxsPSIjRkVGQ0U4IiBzdHJva2U9IiNENEM5N0EiIHN0cm9rZS13aWR0aD0iMSIvPgogICAgPCEtLSBUYXBlIHN0cmlwIC0tPgogICAgPHJlY3QgeD0iLTIyIiB5PSItOTYiIHdpZHRoPSI0NCIgaGVpZ2h0PSIxOCIgcng9IjIiIHJ5PSIyIiBmaWxsPSJyZ2JhKDIwMCwyMjAsMjU1LDAuNTUpIiBzdHJva2U9InJnYmEoMTgwLDIwMCwyMzAsMC43KSIgc3Ryb2tlLXdpZHRoPSIwLjgiLz4KCiAgICA8IS0tIFJ1bGVkIGxpbmVzIC0tPgogICAgPGxpbmUgeDE9Ii01OCIgeTE9Ii01MiIgeDI9IjYyIiB5Mj0iLTUyIiBzdHJva2U9IiNDOEQ4RjAiIHN0cm9rZS13aWR0aD0iMC44Ii8+CiAgICA8bGluZSB4MT0iLTU4IiB5MT0iLTMyIiB4Mj0iNjIiIHkyPSItMzIiIHN0cm9rZT0iI0M4RDhGMCIgc3Ryb2tlLXdpZHRoPSIwLjgiLz4KICAgIDxsaW5lIHgxPSItNTgiIHkxPSItMTIiIHgyPSI2MiIgeTI9Ii0xMiIgc3Ryb2tlPSIjQzhEOEYwIiBzdHJva2Utd2lkdGg9IjAuOCIvPgogICAgPGxpbmUgeDE9Ii01OCIgeTE9IjgiICB4Mj0iNjIiIHkyPSI4IiAgc3Ryb2tlPSIjQzhEOEYwIiBzdHJva2Utd2lkdGg9IjAuOCIvPgogICAgPGxpbmUgeDE9Ii01OCIgeTE9IjI4IiB4Mj0iNjIiIHkyPSIyOCIgc3Ryb2tlPSIjQzhEOEYwIiBzdHJva2Utd2lkdGg9IjAuOCIvPgogICAgPGxpbmUgeDE9Ii01OCIgeTE9IjQ4IiB4Mj0iNjIiIHkyPSI0OCIgc3Ryb2tlPSIjQzhEOEYwIiBzdHJva2Utd2lkdGg9IjAuOCIvPgogICAgPGxpbmUgeDE9Ii01OCIgeTE9IjY4IiB4Mj0iNjIiIHkyPSI2OCIgc3Ryb2tlPSIjQzhEOEYwIiBzdHJva2Utd2lkdGg9IjAuOCIvPgoKICAgIDwhLS0gSGFuZHdyaXR0ZW4gdGV4dCAtLT4KICAgIDx0ZXh0IHg9Ii01OCIgeT0iLTU0IiBmb250LWZhbWlseT0iJ1NlZ29lIFNjcmlwdCcsICdDb21pYyBTYW5zIE1TJywgY3Vyc2l2ZSIgZm9udC1zaXplPSIxMi41IiBmaWxsPSIjMmEyYTVhIiBmb250LXN0eWxlPSJpdGFsaWMiPkhhZCB0byBnbyB0bzwvdGV4dD4KICAgIDx0ZXh0IHg9Ii01OCIgeT0iLTM0IiBmb250LWZhbWlseT0iJ1NlZ29lIFNjcmlwdCcsICdDb21pYyBTYW5zIE1TJywgY3Vyc2l2ZSIgZm9udC1zaXplPSIxMi41IiBmaWxsPSIjMmEyYTVhIiBmb250LXN0eWxlPSJpdGFsaWMiPndvcmsgZWFybHkuPC90ZXh0PgogICAgPHRleHQgeD0iLTU4IiB5PSItOCIgZm9udC1mYW1pbHk9IidTZWdvZSBTY3JpcHQnLCAnQ29taWMgU2FucyBNUycsIGN1cnNpdmUiIGZvbnQtc2l6ZT0iMTIuNSIgZmlsbD0iIzJhMmE1YSIgZm9udC1zdHlsZT0iaXRhbGljIj5FZ2dzIGluIHRoZTwvdGV4dD4KICAgIDx0ZXh0IHg9Ii01OCIgeT0iMTQiIGZvbnQtZmFtaWx5PSInU2Vnb2UgU2NyaXB0JywgJ0NvbWljIFNhbnMgTVMnLCBjdXJzaXZlIiBmb250LXNpemU9IjEyLjUiIGZpbGw9IiMyYTJhNWEiIGZvbnQtc3R5bGU9Iml0YWxpYyI+ZnJpZGdlLjwvdGV4dD4KICAgIDx0ZXh0IHg9Ii00NCIgeT0iNTIiIGZvbnQtZmFtaWx5PSInU2Vnb2UgU2NyaXB0JywgJ0NvbWljIFNhbnMgTVMnLCBjdXJzaXZlIiBmb250LXNpemU9IjEzIiBmaWxsPSIjMmEyYTVhIiBmb250LXN0eWxlPSJpdGFsaWMiPi0gbXVtIOKZoTwvdGV4dD4KICA8L2c+Cjwvc3ZnPgo=
+    choices:
+      - text: Explore the Attic
+        next: p-y0lq6x9zsck
+      - text: Ignore the Noise
+        next: p-ymnd2x8056k
+  - id: p-y0lq6x9zsck
+    title: Explore the Attic
+    text: >-
+      Youstop eating and walk to the Attic.
+
+      As you walk up the stairs floorboards creak under your feet. When you
+      reach the top, you creak the door open and enter the room.
+
+
+      Books lining on the shelves, in the middle of the room is a Desk pitted
+      with books and scattered papers, you notice one of the book is lying on
+      the ground.
+
+
+      You pick it up and start flipping through, word line the pages, as you
+      flip through, you notice a note wedged in.
+
+
+      Looking back at the front cover you see the title say "__**The legend of
+      the Amazon Bandana**__"
+
+
+      You take the note, it is a map of the Amazon River, you notice a **X**
+      carefully marked in the corner, 
+
+
+      **it is a treasure Map !!!**, 
+
+
+      The **X** is labelled in your dad's handwriting and it says "Amazon
+      Bandana". At the back of the Map, it says "Stop the evil Cyclops""
+
+
+      You start piecing everything together, your dad was looking for the
+      artefact trying to stop the evil cyclops.
+    choices:
+      - text: You call the police
+        next: p-5m33rplicjo
+      - text: You decide to go yourself
+        next: p-hux41dwj41p
+  - id: p-ymnd2x8056k
+    title: Ignore the noise
+    text: >-
+      You ignore the Sound from the Attic and finish your eggs, go back to your
+      bedroom and start reading your favorite book.
+
+
+      The Story is about an explorer who explores the Amazon. As deeply focused
+      reading the story filled with exiting adventures. the phone rings suddenly
+      sending a jolt up your spine.
+    choices:
+      - text: Answer the phone
+        next: p-hrx6czrsglp
+      - text: Ignore the Phone
+        next: p-txmaeyxt33w
+  - id: p-5m33rplicjo
+    title: Call the police
+    text: |-
+      After your call the police comes to your house.
+
+      As soon as you tell them what you found, they tell you:
+      "We will take it from here."
+
+      They call your mum, and tell her what happened.
+  - id: p-hux41dwj41p
+    title: Go find You Dad on your Own
+    text: >-
+      Your Grab your things:
+
+      - A magnifying Glass
+
+      - A bottle
+
+      - A lunchbox
+
+      - A few old books
+
+      You forget the note.
+
+
+      You leave a note at the Door so that if you do not not make it back, at
+      least your mum will know what happened.
+
+
+      Now, you need to choose how you are going to go there.
+    choices:
+      - text: You take your bike
+        next: p-6tokv76euw4
+      - text: You take the Bus
+        next: p-h2ucbtjf4ik
+  - id: p-hrx6czrsglp
+    title: Answer the phone
+    text: >-
+      Surprisingly it is your friend asking if you woul dlike to come to his
+      house. Of course you say yes.
+
+
+      You go there by bike; it is only a few blocks away. You play video games
+      for five hours when it is time to go home. You get home and there is a
+      knock on the door, you answer to see your mum and you dad.
+
+
+      "They found him says you mum."
+  - id: p-txmaeyxt33w
+    title: Ignore the Phone
+    text: >-
+      It stops ringing, put your book back in the bookshelves.
+
+
+      You are hungry, it is morning tea after all, you go to the kitchen and get
+      a cracker from the pantry.
+
+
+      Suddenly there is knock on the door.
+    choices:
+      - text: You answer the door
+        next: p-8900ifewwws
+      - text: You Ignore the knock
+        next: p-oxsuz56xb7g
+  - id: p-8900ifewwws
+    title: Answer the Door
+    text: >-
+      A man steps in, followed by two other men. 
+
+      He snaps his fingers; the two other men grab you and throw you in a black
+      Van, they drive away.
+
+
+      **You should not have open the door!!!**
+  - id: p-oxsuz56xb7g
+    title: Ignore the Door
+    text: |-
+      A man breaks in.
+
+      You scream as he corners you in the kitchen.
+
+      You wail in pain as he steps on you Rib cage.
+  - id: p-6tokv76euw4
+    title: You take your bike
+    text: >-
+      It is the mountain Bike you got for your birthday.
+
+
+      It is going to be a long ride, so you take a second water bottle. As you
+      bike you pass a lot of houses. At some point you enter farmland, there are
+      cows and horses, goat and even Alpacas.
+
+
+      You come to the edge of the Amazon, you keep biking until you come to a
+      crossroad. A path where you can keep biking. A Narrow Bushy path, you will
+      have to leave you bike.
+    choices:
+      - text: The bike Path
+        next: p-10ams3pyj7v
+      - text: The narrow Bushy Path
+        next: p-1bkpd6wzclo
+  - id: p-h2ucbtjf4ik
+    title: You take the Bus
+    text: >-
+      You leave taking Bus 72, you need to be careful. The next stop is your
+      mum's workplace.
+
+
+      When you enter you find the whole bus full but a single seat at the back.
+      You walk and seat there, the Bus starts moving.
+
+
+      You get to the first Stop hoping your mum did not see you leaving through
+      the security system at your house.
+
+
+      She did see you...
+
+
+      **You are in so much trouble!!!**
+  - id: p-10ams3pyj7v
+    title: The bike Path
+    text: >-
+      You keep riding you Bike, until you reach the police.
+
+
+      They are investigating about your dad, they ask you what you are doing
+      there.
+
+
+      While you are telling your story, they smile at you creepily and say:
+      "Sorry we will have to stop you before you tell anyone."
+
+
+      They grab you by the wrist and throw you in their car.
+  - id: p-1bkpd6wzclo
+    title: The narrow Bushy Path
+    text: >-
+      You Leave your bike at the beginning of the trail, on the side of the
+      road.
+
+
+      You walk through vines thrashing at them when they are in your way. You
+      past animals and finally get to a temple. A brick slides and a Sphinx
+      comes out. He asks you a question.
+    choices:
+      - text: You Choose Answer 1
+        next: p-3gza3radjec
+      - text: You choose Answer 2
+        next: p-b3txldtdl1v
+  - id: p-3gza3radjec
+    title: Answer 1
+    text: >
+      The Door opnes and you step in a room.
+
+
+      You look around and see only crates and a prison cell. In that prison cell
+      sits... **your dad!!!**
+
+       You run towards him,, your footsteps echoing.
+
+      "Hello Buddy" he says.
+
+      "Hi" you respond.
+
+      "Do I free you?" you ask.
+
+      "No tell the police, they will handle it, quick" he answers.
+
+
+      Then suddenly you hear Voice coming from the Hallway.
+    choices:
+      - text: Tell the police
+        next: p-4flo2yrvsyk
+      - text: Hide and wait
+        next: p-fvjwqo0wdvo
+  - id: p-b3txldtdl1v
+    title: Answer 2
+    text: >-
+      The sphinx tells you that you are incorrect and goes back in the temple
+      brick.
+
+
+      The door does not budge...
+
+      You decide to search around the building for any entries.
+
+      You see only bricks until you find an open window. You try to reach it,
+      but it is too high.
+
+      You hear a noise coming from the bushes and turn around, no-one is there.
+
+      You go back to the front of the temple.
+    choices:
+      - text: Go back to the bike path
+        next: p-10ams3pyj7v
+      - text: Take another look
+        next: p-qocf7ymmkdv
+  - id: p-4flo2yrvsyk
+    title: Tell the police
+    text: >-
+      You walk back out the door, your heart thumping.
+
+
+      Adrenalin rushes through you.
+
+
+      You get to your back and ride as fast as you can to the nearest police
+      station.
+
+
+      When you get there, you tell them. They send 4 vehicles and tell you they
+      will handle it. 
+  - id: p-fvjwqo0wdvo
+    title: Hide and wait
+    text: >-
+      You hide behind a crate instead as the voice get closer your heart thumps
+      out. Come two men one skinny and one muscular with... one Eye in the
+      middle...
+
+
+      He says "Tomorrow night, I shall become an immortal cyclops and over the
+      world. MwaHaHaHa!!!!"
+
+
+      You realize he has a bandana on his head.
+
+      You remember that whoever wears the bandana n the full moon will become
+      invincible, if you take the bandana off he will be human again.
+
+
+      You jump out of behind the crate snatch the bandana, free you dad and run
+      away. 
+
+
+      After lots of running away from the two men, you tell the police and they
+      arrest the two men.
+  - id: p-qocf7ymmkdv
+    title: Take another look
+    text: >-
+      You look back to the window and notice a small hook in the ground that you
+      missed before.
+
+
+      You pull the hook and a staircase open in front of you.
+
+      You go down, your footsteps echo in the darkness.
+
+
+      You enter a room at the same time as a man. To your surprise he has a
+      single eye in the middle of his head. He quickly runs towards you and
+      grabs you by the neck.
+cover: >-
+  data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0MDAgNTIwIiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjUyMCI+CiAgPGRlZnM+CiAgICA8cGF0dGVybiBpZD0iZHAiIHg9IjE5MCIgeT0iMjUwIiB3aWR0aD0iMzAiIGhlaWdodD0iMzAiIHBhdHRlcm5Vbml0cz0idXNlclNwYWNlT25Vc2UiPgogICAgICA8cmVjdCB3aWR0aD0iMzAiIGhlaWdodD0iMzAiIGZpbGw9IiNlODkwMmEiLz4KICAgICAgPHBvbHlnb24gcG9pbnRzPSIxNSwwIDMwLDE1IDE1LDMwIDAsMTUiIGZpbGw9IiMyOGI0YzIiLz4KICAgIDwvcGF0dGVybj4KICAgIDxjbGlwUGF0aCBpZD0iZ2MiPgogICAgICA8Y2lyY2xlIGN4PSIyMDUiIGN5PSIyNTgiIHI9Ijg4Ii8+CiAgICA8L2NsaXBQYXRoPgogICAgPGxpbmVhckdyYWRpZW50IGlkPSJwYXBlciIgeDE9IjAiIHkxPSIwIiB4Mj0iMCIgeTI9IjEiPgogICAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjZmVmZWY4Ii8+CiAgICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2Y0ZjRlYyIvPgogICAgPC9saW5lYXJHcmFkaWVudD4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0icGFyY2htZW50IiB4MT0iMCIgeTE9IjAiIHgyPSIxIiB5Mj0iMSI+CiAgICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiNmMGU1YjgiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSI1MCUiIHN0b3AtY29sb3I9IiNlOGQ4OTgiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjZDRjMDcwIi8+CiAgICA8L2xpbmVhckdyYWRpZW50PgogIDwvZGVmcz4KCiAgPCEtLSBQYXBlciAtLT4KICA8cmVjdCB3aWR0aD0iNDAwIiBoZWlnaHQ9IjUyMCIgZmlsbD0idXJsKCNwYXBlcikiLz4KCiAgPCEtLSDilZDilZAgU1RPUlkgVElUTEUg4oCUIGFib3ZlIHRoZSBtYXAsIG5vIHJlY3RhbmdsZSDilZDilZAgLS0+CiAgPHRleHQgeD0iMjAwIiB5PSIyNCIgZm9udC1mYW1pbHk9IidDb21pYyBTYW5zIE1TJyxjdXJzaXZlIiBmb250LXNpemU9IjE1IiBmaWxsPSIjMTExIgogICAgICAgIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtd2VpZ2h0PSJib2xkIiB0cmFuc2Zvcm09InJvdGF0ZSgtMSwyMDAsMjQpIj5UaGUgU2VhcmNoIGluIHRoZSBBbWF6b248L3RleHQ+CiAgPHRleHQgeD0iMjAwIiB5PSI0NCIgZm9udC1mYW1pbHk9IidDb21pYyBTYW5zIE1TJyxjdXJzaXZlIiBmb250LXNpemU9IjEzIiBmaWxsPSIjY2MxMTExIgogICAgICAgIHRleHQtYW5jaG9yPSJtaWRkbGUiIHRyYW5zZm9ybT0icm90YXRlKDEsMjAwLDQ0KSI+WW91IGFyZSBEb29tZWQhPC90ZXh0PgogIDx0ZXh0IHg9IjIwMCIgeT0iNjAiIGZvbnQtZmFtaWx5PSInQ29taWMgU2FucyBNUycsY3Vyc2l2ZSIgZm9udC1zaXplPSIxMCIgZmlsbD0iIzU1NSIKICAgICAgICB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LXN0eWxlPSJpdGFsaWMiPnRoZSBsZWdlbmQgb2YgdGhlIEFtYXpvbiBiYW5kYW5hPC90ZXh0PgoKICA8IS0tIOKVkOKVkCBPUkFOR0UgVkVSVElDQUwgVEVYVCAoZnVsbHkgdmlzaWJsZSwgb3V0c2lkZSBtYXAgZWRnZXMpIOKVkOKVkCAtLT4KICA8ZyBmb250LWZhbWlseT0iJ0FyaWFsIEJsYWNrJywgc2Fucy1zZXJpZiIgZm9udC1zaXplPSI0NiIgZmlsbD0iI2UwNWMwMCIgZm9udC13ZWlnaHQ9IjkwMCIgZm9udC1zdHlsZT0iaXRhbGljIj4KICAgIDx0ZXh0IHg9IjgiICB5PSIxODgiIHRyYW5zZm9ybT0icm90YXRlKC0zLDgsMTg4KSI+ZDwvdGV4dD4KICAgIDx0ZXh0IHg9IjYiICB5PSIyMzYiIHRyYW5zZm9ybT0icm90YXRlKDIsNiwyMzYpIj5hPC90ZXh0PgogICAgPHRleHQgeD0iOSIgIHk9IjI4MyIgdHJhbnNmb3JtPSJyb3RhdGUoLTIsOSwyODMpIj5uPC90ZXh0PgogICAgPHRleHQgeD0iNSIgIHk9IjMzMCIgdHJhbnNmb3JtPSJyb3RhdGUoMyw1LDMzMCkiPmc8L3RleHQ+CiAgICA8dGV4dCB4PSI4IiAgeT0iMzc3IiB0cmFuc2Zvcm09InJvdGF0ZSgtMSw4LDM3NykiPmU8L3RleHQ+CiAgICA8dGV4dCB4PSI3IiAgeT0iNDIyIiB0cmFuc2Zvcm09InJvdGF0ZSgyLDcsNDIyKSI+cjwvdGV4dD4KICA8L2c+CiAgPGcgZm9udC1mYW1pbHk9IidBcmlhbCBCbGFjaycsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iNDAiIGZpbGw9IiNlMDVjMDAiIGZvbnQtd2VpZ2h0PSI5MDAiIGZvbnQtc3R5bGU9Iml0YWxpYyI+CiAgICA8dGV4dCB4PSIzNjIiIHk9IjE3NSIgdHJhbnNmb3JtPSJyb3RhdGUoMywzNjIsMTc1KSI+aTwvdGV4dD4KICAgIDx0ZXh0IHg9IjM1NiIgeT0iMjE4IiB0cmFuc2Zvcm09InJvdGF0ZSgtMiwzNTYsMjE4KSI+bjwvdGV4dD4KICAgIDx0ZXh0IHg9IjM0OCIgeT0iMjYzIiB0cmFuc2Zvcm09InJvdGF0ZSgyLDM0OCwyNjMpIj5zPC90ZXh0PgogICAgPHRleHQgeD0iMzUzIiB5PSIzMDUiIHRyYW5zZm9ybT0icm90YXRlKC0zLDM1MywzMDUpIj5pPC90ZXh0PgogICAgPHRleHQgeD0iMzQ3IiB5PSIzNDgiIHRyYW5zZm9ybT0icm90YXRlKDIsMzQ3LDM0OCkiPmc8L3RleHQ+CiAgICA8dGV4dCB4PSIzNDciIHk9IjM5MCIgdHJhbnNmb3JtPSJyb3RhdGUoLTEsMzQ3LDM5MCkiPmg8L3RleHQ+CiAgICA8dGV4dCB4PSIzNTAiIHk9IjQzMiIgdHJhbnNmb3JtPSJyb3RhdGUoMiwzNTAsNDMyKSI+dDwvdGV4dD4KICA8L2c+CgogIDwhLS0g4pWQ4pWQIE1BUCBSRUNUQU5HTEUgKHRoZSByZWN0YW5nbGUgSVMgdGhlIG1hcCkg4pWQ4pWQIC0tPgogIDwhLS0gT3V0ZXIgc2hhZG93IC0tPgogIDxyZWN0IHg9IjcyIiB5PSI3MCIgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyOTgiIHJ4PSI1IiBmaWxsPSJyZ2JhKDAsMCwwLDAuMTgpIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSg0LDUpIi8+CiAgPCEtLSBNYXAgYm9keSAtLT4KICA8cmVjdCB4PSI3MiIgeT0iNzAiIHdpZHRoPSIyNTYiIGhlaWdodD0iMjk4IiByeD0iNSIgZmlsbD0idXJsKCNwYXJjaG1lbnQpIiBzdHJva2U9IiM3YTUwMTAiIHN0cm9rZS13aWR0aD0iMi41Ii8+CiAgPCEtLSBJbm5lciBkYXNoZWQgYm9yZGVyIC0tPgogIDxyZWN0IHg9Ijc5IiB5PSI3NyIgd2lkdGg9IjI0MiIgaGVpZ2h0PSIyODQiIHJ4PSIzIiBmaWxsPSJub25lIiBzdHJva2U9IiM5YTcwMzAiCiAgICAgICAgc3Ryb2tlLXdpZHRoPSIxLjIiIHN0cm9rZS1kYXNoYXJyYXk9IjYsNCIvPgoKICA8IS0tIE1hcCB0aXRsZSBjZW50ZXJlZCAtLT4KICA8dGV4dCB4PSIyMDAiIHk9Ijk2IiBmb250LWZhbWlseT0iJ0NvbWljIFNhbnMgTVMnLGN1cnNpdmUiIGZvbnQtc2l6ZT0iMTQiIGZpbGw9IiM0YTI2MDAiCiAgICAgICAgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC13ZWlnaHQ9ImJvbGQiPuKAlCBUSEUgQU1BWk9OIOKAlDwvdGV4dD4KCiAgPCEtLSDilZDilZAgUklWRVIgKHdpbmRpbmcgZG93biBsZWZ0IHNpZGUgb2YgbWFwLCBhdm9pZHMgZ2xvYmUpIOKVkOKVkCAtLT4KICA8IS0tIFJpdmVyIGJvZHkgLS0+CiAgPHBhdGggZD0iTSAxMDAsNzcgUSA5MiwxMTAgMTAwLDE0OCBRIDEwOCwxODIgMTAwLDIxOCBRIDkzLDI1MiAxMDgsMjkwIFEgMTIwLDMyNSAxMDAsMzYyIgogICAgICAgIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzQ0ODhjYyIgc3Ryb2tlLXdpZHRoPSI3IiBvcGFjaXR5PSIwLjU1IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KICA8IS0tIFJpdmVyIGhpZ2hsaWdodCAtLT4KICA8cGF0aCBkPSJNIDEwMCw3NyBRIDkyLDExMCAxMDAsMTQ4IFEgMTA4LDE4MiAxMDAsMjE4IFEgOTMsMjUyIDEwOCwyOTAgUSAxMjAsMzI1IDEwMCwzNjIiCiAgICAgICAgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjODhjY2ZmIiBzdHJva2Utd2lkdGg9IjIuNSIgb3BhY2l0eT0iMC43IiBzdHJva2UtbGluZWNhcD0icm91bmQiLz4KICA8IS0tIFJpdmVyIGxhYmVsIC0tPgogIDx0ZXh0IHg9IjcyIiB5PSIyMjIiIGZvbnQtZmFtaWx5PSInQ29taWMgU2FucyBNUycsY3Vyc2l2ZSIgZm9udC1zaXplPSI3IiBmaWxsPSIjMzM2Njk5IgogICAgICAgIHRyYW5zZm9ybT0icm90YXRlKC04MCw3MiwyMjIpIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBvcGFjaXR5PSIwLjgiPlJpbyBBbWF6b248L3RleHQ+CgogIDwhLS0g4pWQ4pWQIEFNQVpPTiBGT1JFU1QgaW5zaWRlIG1hcCDigJQgdXBwZXItbGVmdCDilZDilZAgLS0+CiAgPGc+CiAgICA8cmVjdCB4PSI4NCIgIHk9IjE1OCIgd2lkdGg9IjQiIGhlaWdodD0iMTYiIGZpbGw9IiM0YTMwMDgiLz4KICAgIDxyZWN0IHg9Ijk4IiAgeT0iMTYyIiB3aWR0aD0iNCIgaGVpZ2h0PSIxNCIgZmlsbD0iIzRhMzAwOCIvPgogICAgPHJlY3QgeD0iMTEyIiB5PSIxNTgiIHdpZHRoPSI0IiBoZWlnaHQ9IjE3IiBmaWxsPSIjNGEzMDA4Ii8+CiAgICA8cmVjdCB4PSIxMjYiIHk9IjE2NCIgd2lkdGg9IjMiIGhlaWdodD0iMTIiIGZpbGw9IiM0YTMwMDgiLz4KICAgIDxwb2x5Z29uIHBvaW50cz0iODYsMTU4ICA3NiwxNzggIDk2LDE3OCIgIGZpbGw9IiMxNDUwMTQiIG9wYWNpdHk9IjAuOCIvPgogICAgPHBvbHlnb24gcG9pbnRzPSI4NiwxNTAgIDc0LDE3MCAgOTgsMTcwIiAgZmlsbD0iIzFhNmExZSIvPgogICAgPHBvbHlnb24gcG9pbnRzPSI4NiwxNDIgIDc1LDE2MCAgOTcsMTYwIiAgZmlsbD0iIzIyODgyOCIvPgogICAgPHBvbHlnb24gcG9pbnRzPSI4NiwxMzQgIDc2LDE1MiAgOTYsMTUyIiAgZmlsbD0iIzJjYTAzMCIvPgogICAgPHBvbHlnb24gcG9pbnRzPSIxMDAsMTYyICA5MCwxODIgMTEwLDE4MiIgZmlsbD0iIzE0NTAxNCIgb3BhY2l0eT0iMC44Ii8+CiAgICA8cG9seWdvbiBwb2ludHM9IjEwMCwxNTMgIDg4LDE3NCAxMTIsMTc0IiBmaWxsPSIjMWE2YTFlIi8+CiAgICA8cG9seWdvbiBwb2ludHM9IjEwMCwxNDQgIDg5LDE2NCAxMTEsMTY0IiBmaWxsPSIjMjI4ODI4Ii8+CiAgICA8cG9seWdvbiBwb2ludHM9IjEwMCwxMzYgIDkwLDE1NCAxMTAsMTU0IiBmaWxsPSIjMmNhMDMwIi8+CiAgICA8cG9seWdvbiBwb2ludHM9IjExNCwxNTggMTA0LDE3OCAxMjQsMTc4IiBmaWxsPSIjMTQ1MDE0IiBvcGFjaXR5PSIwLjgiLz4KICAgIDxwb2x5Z29uIHBvaW50cz0iMTE0LDE0OSAxMDMsMTcwIDEyNSwxNzAiIGZpbGw9IiMxYTZhMWUiLz4KICAgIDxwb2x5Z29uIHBvaW50cz0iMTE0LDE0MCAxMDQsMTYwIDEyNCwxNjAiIGZpbGw9IiMyMjg4MjgiLz4KICAgIDxwb2x5Z29uIHBvaW50cz0iMTE0LDEzMyAxMDUsMTUwIDEyMywxNTAiIGZpbGw9IiMyY2EwMzAiLz4KICAgIDxwb2x5Z29uIHBvaW50cz0iMTI4LDE2NCAxMTgsMTgyIDEzOCwxODIiIGZpbGw9IiMxYTZhMWUiLz4KICAgIDxwb2x5Z29uIHBvaW50cz0iMTI4LDE1NiAxMTgsMTc0IDEzOCwxNzQiIGZpbGw9IiMyMjg4MjgiLz4KICAgIDxyZWN0IHg9Ijc2IiB5PSIxNzYiIHdpZHRoPSI2OCIgaGVpZ2h0PSI2IiBmaWxsPSIjMWE2YTFlIiBvcGFjaXR5PSIwLjYiIHJ4PSIyIi8+CiAgPC9nPgoKICA8IS0tIOKVkOKVkCBBTUFaT04gRk9SRVNUIGluc2lkZSBtYXAg4oCUIHVwcGVyLXJpZ2h0IOKVkOKVkCAtLT4KICA8Zz4KICAgIDxyZWN0IHg9IjI3NCIgeT0iMTU1IiB3aWR0aD0iNCIgaGVpZ2h0PSIxNyIgZmlsbD0iIzRhMzAwOCIvPgogICAgPHJlY3QgeD0iMjg4IiB5PSIxNjAiIHdpZHRoPSI0IiBoZWlnaHQ9IjE0IiBmaWxsPSIjNGEzMDA4Ii8+CiAgICA8cmVjdCB4PSIzMDIiIHk9IjE1NiIgd2lkdGg9IjQiIGhlaWdodD0iMTYiIGZpbGw9IiM0YTMwMDgiLz4KICAgIDxwb2x5Z29uIHBvaW50cz0iMjc2LDE1NSAyNjQsMTc2IDI4OCwxNzYiIGZpbGw9IiMxNDUwMTQiIG9wYWNpdHk9IjAuOCIvPgogICAgPHBvbHlnb24gcG9pbnRzPSIyNzYsMTQ2IDI2MywxNjggMjg5LDE2OCIgZmlsbD0iIzFhNmExZSIvPgogICAgPHBvbHlnb24gcG9pbnRzPSIyNzYsMTM4IDI2NCwxNTggMjg4LDE1OCIgZmlsbD0iIzIyODgyOCIvPgogICAgPHBvbHlnb24gcG9pbnRzPSIyNzYsMTMwIDI2NSwxNDggMjg3LDE0OCIgZmlsbD0iIzJjYTAzMCIvPgogICAgPHBvbHlnb24gcG9pbnRzPSIyOTAsMTYwIDI3OCwxODAgMzAyLDE4MCIgZmlsbD0iIzE0NTAxNCIgb3BhY2l0eT0iMC44Ii8+CiAgICA8cG9seWdvbiBwb2ludHM9IjI5MCwxNTEgMjc3LDE3MiAzMDMsMTcyIiBmaWxsPSIjMWE2YTFlIi8+CiAgICA8cG9seWdvbiBwb2ludHM9IjI5MCwxNDIgMjc4LDE2MiAzMDIsMTYyIiBmaWxsPSIjMjI4ODI4Ii8+CiAgICA8cG9seWdvbiBwb2ludHM9IjMwNCwxNTYgMjkyLDE3NiAzMTYsMTc2IiBmaWxsPSIjMWE2YTFlIi8+CiAgICA8cG9seWdvbiBwb2ludHM9IjMwNCwxNDcgMjkzLDE2OCAzMTUsMTY4IiBmaWxsPSIjMjI4ODI4Ii8+CiAgICA8cmVjdCB4PSIyNjMiIHk9IjE3NCIgd2lkdGg9IjYwIiBoZWlnaHQ9IjYiIGZpbGw9IiMxYTZhMWUiIG9wYWNpdHk9IjAuNiIgcng9IjIiLz4KICA8L2c+CgogIDwhLS0gRG90dGVkIHRyYWlsIHBhdGggb24gbWFwIC0tPgogIDxwYXRoIGQ9Ik0gMTQwLDE3NSBRIDE2NSwyMDAgMTg1LDIzMCBRIDE5NSwyNTAgMjAwLDI3NSIKICAgICAgICBmaWxsPSJub25lIiBzdHJva2U9IiM4YTUwMjAiIHN0cm9rZS13aWR0aD0iMS41IiBzdHJva2UtZGFzaGFycmF5PSI1LDUiIG9wYWNpdHk9IjAuNyIvPgogIDwhLS0gWCBtYXJrcyB0aGUgc3BvdCAobmVhciBnbG9iZSBjZW50ZXIgdG9wLCBhYm92ZSBjeWNsb3BzKSAtLT4KICA8bGluZSB4MT0iMTk2IiB5MT0iMTkzIiB4Mj0iMjA4IiB5Mj0iMjA1IiBzdHJva2U9IiNjYzIyMDAiIHN0cm9rZS13aWR0aD0iMi41IiBzdHJva2UtbGluZWNhcD0icm91bmQiIG9wYWNpdHk9IjAuODUiLz4KICA8bGluZSB4MT0iMjA4IiB5MT0iMTkzIiB4Mj0iMTk2IiB5Mj0iMjA1IiBzdHJva2U9IiNjYzIyMDAiIHN0cm9rZS13aWR0aD0iMi41IiBzdHJva2UtbGluZWNhcD0icm91bmQiIG9wYWNpdHk9IjAuODUiLz4KCiAgPCEtLSBTbWFsbCBjb21wYXNzIHJvc2UgYm90dG9tLXJpZ2h0IG9mIG1hcCAtLT4KICA8ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSgzMDUsIDMzOCkiPgogICAgPGxpbmUgeDE9IjAiIHkxPSItMTIiIHgyPSIwIiB5Mj0iMTIiIHN0cm9rZT0iIzZhNDAxMCIgc3Ryb2tlLXdpZHRoPSIxLjUiLz4KICAgIDxsaW5lIHgxPSItMTIiIHkxPSIwIiB4Mj0iMTIiIHkyPSIwIiBzdHJva2U9IiM2YTQwMTAiIHN0cm9rZS13aWR0aD0iMS41Ii8+CiAgICA8cG9seWdvbiBwb2ludHM9IjAsLTEyIC00LC00IDQsLTQiIGZpbGw9IiNjYzIyMDAiLz4KICAgIDx0ZXh0IHg9IjAiIHk9Ii0xNCIgZm9udC1mYW1pbHk9InNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iNyIgZmlsbD0iIzRhMjgwMCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC13ZWlnaHQ9ImJvbGQiPk48L3RleHQ+CiAgPC9nPgoKICA8IS0tIOKVkOKVkCBDSEVFUlkgU01BTEwgQklMTEJPQVJEUyDigJQgb3V0c2lkZSB0aGUgbWFwIHJlY3RhbmdsZSDilZDilZAgLS0+CgogIDwhLS0gIkRBTkdFUiIgdG9wIGxlZnQgLS0+CiAgPGcgdHJhbnNmb3JtPSJyb3RhdGUoLTUsNTAsNzUpIj4KICAgIDxyZWN0IHg9IjI0IiB5PSI2MCIgd2lkdGg9IjUyIiBoZWlnaHQ9IjIyIiByeD0iMyIgZmlsbD0iI2ZmMzMzMyIgc3Ryb2tlPSIjY2MwMDAwIiBzdHJva2Utd2lkdGg9IjEuMiIvPgogICAgPHRleHQgeD0iNTAiIHk9Ijc1IiBmb250LWZhbWlseT0iJ0FyaWFsIEJsYWNrJyxzYW5zLXNlcmlmIiBmb250LXNpemU9IjkiIGZpbGw9IndoaXRlIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LXdlaWdodD0iOTAwIj5EQU5HRVI8L3RleHQ+CiAgICA8bGluZSB4MT0iNTAiIHkxPSI4MiIgeDI9IjUwIiB5Mj0iMTA4IiBzdHJva2U9IiM2YjRhMWEiIHN0cm9rZS13aWR0aD0iMi41Ii8+CiAgICA8cmVjdCB4PSI0NSIgeT0iMTA3IiB3aWR0aD0iMTAiIGhlaWdodD0iNCIgZmlsbD0iIzhhNmEyYSIgcng9IjEiLz4KICA8L2c+CgogIDwhLS0gIklOU0lHSFQiIGxlZnQgLS0+CiAgPGcgdHJhbnNmb3JtPSJyb3RhdGUoLTcsNDYsMTQwKSI+CiAgICA8cmVjdCB4PSIyMCIgeT0iMTI4IiB3aWR0aD0iNTIiIGhlaWdodD0iMjIiIHJ4PSIzIiBmaWxsPSIjMjJjY2ZmIiBzdHJva2U9IiMwMDk5Y2MiIHN0cm9rZS13aWR0aD0iMS4yIi8+CiAgICA8dGV4dCB4PSI0NiIgeT0iMTQzIiBmb250LWZhbWlseT0iJ0FyaWFsIEJsYWNrJyxzYW5zLXNlcmlmIiBmb250LXNpemU9IjkiIGZpbGw9IndoaXRlIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LXdlaWdodD0iOTAwIj5JTlNJR0hUPC90ZXh0PgogICAgPGxpbmUgeDE9IjQ2IiB5MT0iMTUwIiB4Mj0iNDYiIHkyPSIxNzUiIHN0cm9rZT0iIzZiNGExYSIgc3Ryb2tlLXdpZHRoPSIyLjUiLz4KICAgIDxyZWN0IHg9IjQxIiB5PSIxNzQiIHdpZHRoPSIxMCIgaGVpZ2h0PSI0IiBmaWxsPSIjOGE2YTJhIiByeD0iMSIvPgogIDwvZz4KCiAgPCEtLSAiU0VBUkNIISIgbGVmdCAtLT4KICA8ZyB0cmFuc2Zvcm09InJvdGF0ZSg1LDQ2LDIwOCkiPgogICAgPHJlY3QgeD0iMjAiIHk9IjE5NiIgd2lkdGg9IjUyIiBoZWlnaHQ9IjIyIiByeD0iMyIgZmlsbD0iI2ZmOTkwMCIgc3Ryb2tlPSIjY2M3NzAwIiBzdHJva2Utd2lkdGg9IjEuMiIvPgogICAgPHRleHQgeD0iNDYiIHk9IjIxMSIgZm9udC1mYW1pbHk9IidBcmlhbCBCbGFjaycsc2Fucy1zZXJpZiIgZm9udC1zaXplPSI5IiBmaWxsPSJ3aGl0ZSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC13ZWlnaHQ9IjkwMCI+U0VBUkNIITwvdGV4dD4KICAgIDxsaW5lIHgxPSI0NiIgeTE9IjIxOCIgeDI9IjQ2IiB5Mj0iMjQzIiBzdHJva2U9IiM2YjRhMWEiIHN0cm9rZS13aWR0aD0iMi41Ii8+CiAgICA8cmVjdCB4PSI0MSIgeT0iMjQyIiB3aWR0aD0iMTAiIGhlaWdodD0iNCIgZmlsbD0iIzhhNmEyYSIgcng9IjEiLz4KICA8L2c+CgogIDwhLS0gIk9SIEVMU0UhIiByaWdodCAtLT4KICA8ZyB0cmFuc2Zvcm09InJvdGF0ZSg2LDM2MSwxNTUpIj4KICAgIDxyZWN0IHg9IjMzNyIgeT0iMTQzIiB3aWR0aD0iNTAiIGhlaWdodD0iMjIiIHJ4PSIzIiBmaWxsPSIjODhkZDAwIiBzdHJva2U9IiM1NWFhMDAiIHN0cm9rZS13aWR0aD0iMS4yIi8+CiAgICA8dGV4dCB4PSIzNjIiIHk9IjE1OCIgZm9udC1mYW1pbHk9IidBcmlhbCBCbGFjaycsc2Fucy1zZXJpZiIgZm9udC1zaXplPSI4IiBmaWxsPSIjMWEzMzAwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LXdlaWdodD0iOTAwIj5PUiBFTFNFITwvdGV4dD4KICAgIDxsaW5lIHgxPSIzNjIiIHkxPSIxNjUiIHgyPSIzNjIiIHkyPSIxOTAiIHN0cm9rZT0iIzZiNGExYSIgc3Ryb2tlLXdpZHRoPSIyLjUiLz4KICAgIDxyZWN0IHg9IjM1NyIgeT0iMTg5IiB3aWR0aD0iMTAiIGhlaWdodD0iNCIgZmlsbD0iIzhhNmEyYSIgcng9IjEiLz4KICA8L2c+CgogIDwhLS0gIkNIT09TRSIgYm90dG9tIHJpZ2h0IC0tPgogIDxnIHRyYW5zZm9ybT0icm90YXRlKDUsMzYwLDM4MCkiPgogICAgPHJlY3QgeD0iMzM0IiB5PSIzNjgiIHdpZHRoPSI1MiIgaGVpZ2h0PSIyMiIgcng9IjMiIGZpbGw9IiNmZmRkMDAiIHN0cm9rZT0iI2NjYWEwMCIgc3Ryb2tlLXdpZHRoPSIxLjIiLz4KICAgIDx0ZXh0IHg9IjM2MCIgeT0iMzgzIiBmb250LWZhbWlseT0iJ0FyaWFsIEJsYWNrJyxzYW5zLXNlcmlmIiBmb250LXNpemU9IjkiIGZpbGw9IiMzMzIyMDAiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtd2VpZ2h0PSI5MDAiPkNIT09TRTwvdGV4dD4KICAgIDxsaW5lIHgxPSIzNjAiIHkxPSIzOTAiIHgyPSIzNjAiIHkyPSI0MTUiIHN0cm9rZT0iIzZiNGExYSIgc3Ryb2tlLXdpZHRoPSIyLjUiLz4KICAgIDxyZWN0IHg9IjM1NSIgeT0iNDE0IiB3aWR0aD0iMTAiIGhlaWdodD0iNCIgZmlsbD0iIzhhNmEyYSIgcng9IjEiLz4KICA8L2c+CgogIDwhLS0gIllPVVIgREFEIiBib3R0b20gcmlnaHQgLS0+CiAgPGcgdHJhbnNmb3JtPSJyb3RhdGUoLTQsMzYwLDQxMikiPgogICAgPHJlY3QgeD0iMzM0IiB5PSI0MDAiIHdpZHRoPSI1MiIgaGVpZ2h0PSIyMiIgcng9IjMiIGZpbGw9IiNmZjY2Y2MiIHN0cm9rZT0iI2NjMzM5OSIgc3Ryb2tlLXdpZHRoPSIxLjIiLz4KICAgIDx0ZXh0IHg9IjM2MCIgeT0iNDE1IiBmb250LWZhbWlseT0iJ0FyaWFsIEJsYWNrJyxzYW5zLXNlcmlmIiBmb250LXNpemU9IjgiIGZpbGw9IndoaXRlIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LXdlaWdodD0iOTAwIj5ZT1VSIERBRDwvdGV4dD4KICAgIDxsaW5lIHgxPSIzNjAiIHkxPSI0MjIiIHgyPSIzNjAiIHkyPSI0NDciIHN0cm9rZT0iIzZiNGExYSIgc3Ryb2tlLXdpZHRoPSIyLjUiLz4KICAgIDxyZWN0IHg9IjM1NSIgeT0iNDQ2IiB3aWR0aD0iMTAiIGhlaWdodD0iNCIgZmlsbD0iIzhhNmEyYSIgcng9IjEiLz4KICA8L2c+CgogIDwhLS0gIk9SIEVMU0UhIiBib3R0b20gbGVmdCAtLT4KICA8ZyB0cmFuc2Zvcm09InJvdGF0ZSg3LDQ2LDQwNCkiPgogICAgPHJlY3QgeD0iMjAiIHk9IjM5MiIgd2lkdGg9IjUyIiBoZWlnaHQ9IjIyIiByeD0iMyIgZmlsbD0iI2FhNDRmZiIgc3Ryb2tlPSIjNzcyMmNjIiBzdHJva2Utd2lkdGg9IjEuMiIvPgogICAgPHRleHQgeD0iNDYiIHk9IjQwNyIgZm9udC1mYW1pbHk9IidBcmlhbCBCbGFjaycsc2Fucy1zZXJpZiIgZm9udC1zaXplPSI4IiBmaWxsPSJ3aGl0ZSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC13ZWlnaHQ9IjkwMCI+T1IgRUxTRSE8L3RleHQ+CiAgICA8bGluZSB4MT0iNDYiIHkxPSI0MTQiIHgyPSI0NiIgeTI9IjQzOSIgc3Ryb2tlPSIjNmI0YTFhIiBzdHJva2Utd2lkdGg9IjIuNSIvPgogICAgPHJlY3QgeD0iNDEiIHk9IjQzOCIgd2lkdGg9IjEwIiBoZWlnaHQ9IjQiIGZpbGw9IiM4YTZhMmEiIHJ4PSIxIi8+CiAgPC9nPgoKICA8IS0tIOKVkOKVkCBHTE9CRSDilZDilZAgLS0+CiAgPGNpcmNsZSBjeD0iMjA4IiBjeT0iMjYxIiByPSI5MCIgZmlsbD0icmdiYSgwLDAsMCwwLjEyKSIvPgogIDxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSI0MDAiIGhlaWdodD0iNTIwIiBmaWxsPSJ1cmwoI2RwKSIgY2xpcC1wYXRoPSJ1cmwoI2djKSIvPgogIDxnIGNsaXAtcGF0aD0idXJsKCNnYykiIHN0cm9rZT0iIzIyMiIgc3Ryb2tlLXdpZHRoPSIxIiBvcGFjaXR5PSIwLjQ1Ij4KICAgIDxsaW5lIHgxPSIxMTciIHkxPSIxNzAiIHgyPSIyOTMiIHkyPSIzNDYiLz4KICAgIDxsaW5lIHgxPSIxNDciIHkxPSIxNzAiIHgyPSIyOTMiIHkyPSIzMTYiLz4KICAgIDxsaW5lIHgxPSIxNzciIHkxPSIxNzAiIHgyPSIyOTMiIHkyPSIyODYiLz4KICAgIDxsaW5lIHgxPSIyMDciIHkxPSIxNzAiIHgyPSIyOTMiIHkyPSIyNTYiLz4KICAgIDxsaW5lIHgxPSIyMzciIHkxPSIxNzAiIHgyPSIyOTMiIHkyPSIyMjYiLz4KICAgIDxsaW5lIHgxPSIxMTciIHkxPSIyMDAiIHgyPSIyNzgiIHkyPSIzNjEiLz4KICAgIDxsaW5lIHgxPSIxMTciIHkxPSIyMzAiIHgyPSIyNjMiIHkyPSIzNzYiLz4KICAgIDxsaW5lIHgxPSIxMTciIHkxPSIyNjAiIHgyPSIyNDAiIHkyPSIzODMiLz4KICAgIDxsaW5lIHgxPSIxMTciIHkxPSIyOTAiIHgyPSIyMTIiIHkyPSIzODUiLz4KICAgIDxsaW5lIHgxPSIyOTMiIHkxPSIxNzAiIHgyPSIxMTciIHkyPSIzNDYiLz4KICAgIDxsaW5lIHgxPSIyNjMiIHkxPSIxNzAiIHgyPSIxMTciIHkyPSIzMTYiLz4KICAgIDxsaW5lIHgxPSIyMzMiIHkxPSIxNzAiIHgyPSIxMTciIHkyPSIyODYiLz4KICAgIDxsaW5lIHgxPSIyMDMiIHkxPSIxNzAiIHgyPSIxMTciIHkyPSIyNTYiLz4KICAgIDxsaW5lIHgxPSIxNzMiIHkxPSIxNzAiIHgyPSIxMTciIHkyPSIyMjYiLz4KICAgIDxsaW5lIHgxPSIyOTMiIHkxPSIyMDAiIHgyPSIxMjgiIHkyPSIzNjUiLz4KICAgIDxsaW5lIHgxPSIyOTMiIHkxPSIyMzAiIHgyPSIxNDMiIHkyPSIzODAiLz4KICAgIDxsaW5lIHgxPSIyOTMiIHkxPSIyNjAiIHgyPSIxNjYiIHkyPSIzODciLz4KICAgIDxsaW5lIHgxPSIyOTMiIHkxPSIyOTAiIHgyPSIxOTYiIHkyPSIzODciLz4KICA8L2c+CiAgPGNpcmNsZSBjeD0iMjA1IiBjeT0iMjU4IiByPSI4OCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjMjIyIiBzdHJva2Utd2lkdGg9IjMiLz4KCiAgPCEtLSDilZDilZAgQ1lDTE9QUyBIRUFEIOKVkOKVkCAtLT4KICA8ZWxsaXBzZSBjeD0iMjA1IiBjeT0iMjUyIiByeD0iMzYiIHJ5PSI0MiIgZmlsbD0iI2Q0YzhhOCIgc3Ryb2tlPSIjNTU1IiBzdHJva2Utd2lkdGg9IjIiLz4KICA8cGF0aCBkPSJNMTcyLDIzNiBRMTgwLDIxOCAxOTIsMjI4IFExOTgsMjE0IDIwNSwyMjIgUTIxMiwyMTIgMjE4LDIyNiBRMjI4LDIxNiAyMzgsMjM2IiBmaWxsPSIjOGE2YTNhIiBzdHJva2U9IiM2YTRhMWEiIHN0cm9rZS13aWR0aD0iMS41Ii8+CiAgPGVsbGlwc2UgY3g9IjE3MCIgY3k9IjI1MiIgcng9IjgiIHJ5PSIxMSIgZmlsbD0iI2M4Yjg5OCIgc3Ryb2tlPSIjNTU1IiBzdHJva2Utd2lkdGg9IjEuNSIvPgogIDxlbGxpcHNlIGN4PSIyNDAiIGN5PSIyNTIiIHJ4PSI4IiByeT0iMTEiIGZpbGw9IiNjOGI4OTgiIHN0cm9rZT0iIzU1NSIgc3Ryb2tlLXdpZHRoPSIxLjUiLz4KICA8ZWxsaXBzZSBjeD0iMjA1IiBjeT0iMjQ1IiByeD0iMjAiIHJ5PSIxNCIgZmlsbD0id2hpdGUiIHN0cm9rZT0iIzIyMiIgc3Ryb2tlLXdpZHRoPSIxLjgiLz4KICA8cGF0aCBkPSJNMTgzLDIzMiBRMjA1LDIyNCAyMjcsMjMyIiBmaWxsPSJub25lIiBzdHJva2U9IiM0YTMwMTAiIHN0cm9rZS13aWR0aD0iNCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+CiAgPGNpcmNsZSBjeD0iMjA1IiBjeT0iMjQ3IiByPSI5IiBmaWxsPSIjMmFiMGMwIi8+CiAgPGNpcmNsZSBjeD0iMjA1IiBjeT0iMjQ3IiByPSI0LjUiIGZpbGw9IiMwODA4MTgiLz4KICA8Y2lyY2xlIGN4PSIyMTAiIGN5PSIyNDMiIHI9IjIuNSIgZmlsbD0id2hpdGUiIG9wYWNpdHk9IjAuOSIvPgogIDxwYXRoIGQ9Ik0yMDAsMjY0IFEyMDUsMjc1IDIxMCwyNjQiIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzZhNGEyYSIgc3Ryb2tlLXdpZHRoPSIxLjgiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPgogIDxjaXJjbGUgY3g9IjIwMCIgY3k9IjI3MCIgcj0iMyIgZmlsbD0iI2MwYTA4MCIgc3Ryb2tlPSIjNmE0YTJhIiBzdHJva2Utd2lkdGg9IjEiLz4KICA8Y2lyY2xlIGN4PSIyMTAiIGN5PSIyNzAiIHI9IjMiIGZpbGw9IiNjMGEwODAiIHN0cm9rZT0iIzZhNGEyYSIgc3Ryb2tlLXdpZHRoPSIxIi8+CiAgPHBhdGggZD0iTTE4NSwyODIgUTE5NSwyOTIgMjA1LDI5MyBRMjE1LDI5MiAyMjUsMjgyIiBmaWxsPSJub25lIiBzdHJva2U9IiM0YTJhMTAiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+CgogIDwhLS0g4pWQ4pWQIEJPVFRPTSBURVhUIEJPWCDilZDilZAgLS0+CiAgPHJlY3QgeD0iODYiIHk9IjM3NiIgd2lkdGg9IjIyOCIgaGVpZ2h0PSI3NiIgcng9IjMiIGZpbGw9InJnYmEoMjU1LDI1NSwyNTUsMC44NSkiIHN0cm9rZT0iIzU1NjYzMyIgc3Ryb2tlLXdpZHRoPSIxLjgiIHRyYW5zZm9ybT0icm90YXRlKC0wLjgsMjAwLDQxNCkiLz4KICA8dGV4dCB4PSI5OCIgeT0iMzk1IiBmb250LWZhbWlseT0iJ0NvbWljIFNhbnMgTVMnLGN1cnNpdmUiIGZvbnQtc2l6ZT0iMTIiIGZpbGw9IiMxMTEiIGZvbnQtd2VpZ2h0PSJib2xkIj5DaG9vc2UgdGhlIHJpZ2h0PC90ZXh0PgogIDx0ZXh0IHg9Ijk4IiB5PSI0MTEiIGZvbnQtZmFtaWx5PSInQ29taWMgU2FucyBNUycsY3Vyc2l2ZSIgZm9udC1zaXplPSIxMSIgZmlsbD0iIzExMSI+cGF0aCAgZmluZCB5b3VyIGRhZDwvdGV4dD4KICA8dGV4dCB4PSI5OCIgeT0iNDI2IiBmb250LWZhbWlseT0iJ0NvbWljIFNhbnMgTVMnLGN1cnNpdmUiIGZvbnQtc2l6ZT0iMTEiIGZpbGw9IiMxMTEiPm90aGVyd2lzZSB5b3VyIGpvdXJuZXk8L3RleHQ+CiAgPHRleHQgeD0iOTgiIHk9IjQ0NCIgZm9udC1mYW1pbHk9IidDb21pYyBTYW5zIE1TJyxjdXJzaXZlIiBmb250LXNpemU9IjExIiBmaWxsPSIjY2MxMTExIiBmb250LXdlaWdodD0iYm9sZCI+RU5EUyE8L3RleHQ+CgogIDwhLS0g4pWQ4pWQIERPIE5PVCBSRUFEIOKVkOKVkCAtLT4KICA8ZyB0cmFuc2Zvcm09InJvdGF0ZSgtOTAsNTIsNDYyKSI+CiAgICA8dGV4dCB4PSI1MiIgeT0iNDYyIiBmb250LWZhbWlseT0iJ0NvbWljIFNhbnMgTVMnLGN1cnNpdmUiIGZvbnQtc2l6ZT0iMTEiIGZpbGw9IiM1NTUiPmRvIG5vdCByZWFkPC90ZXh0PgogIDwvZz4KCiAgPCEtLSDilZDilZAgRU5EUyBUUkFHSUNBTExZIHJlY3RhbmdsZSDilZDilZAgLS0+CiAgPGcgdHJhbnNmb3JtPSJyb3RhdGUoLTEuNSwyMDAsNDkyKSI+CiAgICA8cmVjdCB4PSI4OCIgeT0iNDY0IiB3aWR0aD0iMjI0IiBoZWlnaHQ9IjQ4IiByeD0iNCIgZmlsbD0iIzBhMGEyYSIgc3Ryb2tlPSIjY2MxMTExIiBzdHJva2Utd2lkdGg9IjIuNSIvPgogICAgPHJlY3QgeD0iOTIiIHk9IjQ2OCIgd2lkdGg9IjIxNiIgaGVpZ2h0PSI0MCIgcng9IjIiIGZpbGw9Im5vbmUiIHN0cm9rZT0iI2NjMTExMSIgc3Ryb2tlLXdpZHRoPSIwLjgiIG9wYWNpdHk9IjAuNSIvPgogICAgPHRleHQgeD0iMjAwIiB5PSI0ODYiIGZvbnQtZmFtaWx5PSInQXJpYWwgQmxhY2snLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTQiIGZpbGw9IiNmZjIyMjIiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtd2VpZ2h0PSI5MDAiIGxldHRlci1zcGFjaW5nPSIyIj5FTkRTPC90ZXh0PgogICAgPHRleHQgeD0iMjAwIiB5PSI1MDQiIGZvbnQtZmFtaWx5PSInQXJpYWwgQmxhY2snLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIGZpbGw9IiNmZjY2MjIiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtd2VpZ2h0PSI5MDAiIGxldHRlci1zcGFjaW5nPSIxIj5UUkFHSUNBTExZISEhITwvdGV4dD4KICA8L2c+Cgo8L3N2Zz4K

@@ -77,7 +77,15 @@ function makeDownloadBtn(story) {
   btn.className = 'story-download-btn';
   btn.title = 'Download YAML';
   btn.textContent = '⬇️';
-  btn.addEventListener('click', e => { e.stopPropagation(); downloadStory(story); });
+  btn.addEventListener('click', e => {
+    e.stopPropagation();
+    if (story.password && story.lockReading) {
+      const input = prompt('Enter password to download this story:');
+      if (input === null) return;
+      if (input !== String(story.password)) { alert('Incorrect password.'); return; }
+    }
+    downloadStory(story);
+  });
   return btn;
 }
 
@@ -167,6 +175,12 @@ function setReaderMode(active) {
 }
 
 function openStory(story, filename) {
+  if (story.password && story.lockReading) {
+    const input = prompt('Enter password to read this story:');
+    if (input === null) return;
+    if (input !== String(story.password)) { alert('Incorrect password.'); return; }
+  }
+
   currentStory = story;
   currentPages = new Map(story.pages.map(p => [p.id, p]));
 
@@ -503,6 +517,8 @@ function syncDraftMeta() {
   if (titleEl && draftStory) draftStory.title       = titleEl.value;
   if (descEl  && draftStory) draftStory.description = descEl.value;
   if (pwEl    && draftStory) draftStory.password    = pwEl.value.trim() || undefined;
+  const lockEl = document.getElementById('writer-lock-reading');
+  if (lockEl  && draftStory) draftStory.lockReading = lockEl.checked || undefined;
 }
 
 function getPageOptions(excludeId) {
@@ -865,6 +881,7 @@ function openWriter() {
   document.getElementById('writer-title-input').value    = '';
   document.getElementById('writer-desc-input').value     = '';
   document.getElementById('writer-password-input').value = '';
+  document.getElementById('writer-lock-reading').checked = false;
   renderCoverPreview();
 
   renderPageList();
@@ -877,10 +894,11 @@ function loadStoryIntoWriter(story) {
   setHeaderControls(false);
 
   draftStory = {
-    _localId:    story._localId   || undefined,
+    _localId:    story._localId    || undefined,
     title:       story.title       || '',
     description: story.description || '',
     password:    story.password    || undefined,
+    lockReading: story.lockReading || undefined,
     start:       story.start       || story.pages[0]?.id || 'start',
     pages:       story.pages.map(p => ({ ...p })),
   };
@@ -889,6 +907,7 @@ function loadStoryIntoWriter(story) {
   document.getElementById('writer-title-input').value    = draftStory.title;
   document.getElementById('writer-desc-input').value     = draftStory.description;
   document.getElementById('writer-password-input').value = story.password || '';
+  document.getElementById('writer-lock-reading').checked = !!story.lockReading;
   renderCoverPreview();
 
   renderPageList();
@@ -988,15 +1007,7 @@ function renderLocalStoryCard(story) {
 
   card.appendChild(info);
 
-  card.addEventListener('click', () => {
-    currentStory = story;
-    currentPages = new Map(story.pages.map(p => [p.id, p]));
-    storyTitle.textContent = story.title || 'My Story';
-    storyList.style.display = 'none';
-    storyReader.style.display = 'block';
-    setReaderMode(true);
-    renderPage(story.start);
-  });
+  card.addEventListener('click', () => openStory(story, null));
 
   const editBtn = document.createElement('button');
   editBtn.className = 'story-edit-btn';

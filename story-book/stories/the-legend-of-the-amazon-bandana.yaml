@@ -2,6 +2,8 @@ title: The Legend of the Amazon bandana
 description: >-
   The Search in the amazon, Choose the right path, find your dad, otherwise your
   journey ENDS
+password: '0106'
+lockReading: true
 start: p-7kasuru2hru
 pages:
   - id: p-7kasuru2hru

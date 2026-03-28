@@ -452,7 +452,17 @@
 .writer-desc-input:focus { border-color: #6b73ff; }
 
 .writer-password-input {
-  margin-bottom: 12px;
+  margin-bottom: 6px;
+}
+
+.writer-lock-label {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.82rem;
+  color: #666;
+  cursor: pointer;
+  margin-bottom: 4px;
 }
 
 /* ── Writer: two-panel layout ───────────────────────────── */
